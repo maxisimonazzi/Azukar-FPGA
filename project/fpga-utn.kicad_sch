@@ -1,0 +1,64 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fadb8841-cd7a-4174-937d-7c393e857c90")
+	(paper "A4")
+	(lib_symbols)
+	(text "Aqui se inicia nuestro proyecto final"
+		(exclude_from_sim no)
+		(at 150.876 23.114 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "fd698abc-1a7f-4440-93e7-56ee8ffaf67f")
+	)
+	(sheet
+		(at 30.48 46.99)
+		(size 63.5 44.45)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "addbb95a-5ecf-43db-ab5f-45b593a9e920")
+		(property "Sheetname" "Power Supply"
+			(at 30.48 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 30.48 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "fpga-utn"
+				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

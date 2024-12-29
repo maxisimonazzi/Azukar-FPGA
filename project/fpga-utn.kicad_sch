@@ -5,6 +5,46 @@
 	(uuid "fadb8841-cd7a-4174-937d-7c393e857c90")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 97.79 85.09) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299ea214-9c60-4d41-bd0a-b038afcdff28")
+	)
+	(wire
+		(pts
+			(xy 97.79 58.42) (xy 119.38 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39428b9c-757d-43da-8baa-40e5917f35da")
+	)
+	(wire
+		(pts
+			(xy 97.79 71.12) (xy 119.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69275de8-d138-46ed-8a7e-9a07a5ea77d8")
+	)
+	(wire
+		(pts
+			(xy 97.79 53.34) (xy 119.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd202ca-3537-480f-9218-764f44354b60")
+	)
 	(text "Basado en LDO"
 		(exclude_from_sim no)
 		(at 66.548 69.85 0)
@@ -26,6 +66,88 @@
 			)
 		)
 		(uuid "fd698abc-1a7f-4440-93e7-56ee8ffaf67f")
+	)
+	(sheet
+		(at 119.38 45.085)
+		(size 66.04 48.895)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8407417e-b7fd-4165-964b-a68bb857b9a8")
+		(property "Sheetname" "USB-FTDI"
+			(at 119.38 44.3734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FTDI.kicad_sch"
+			(at 119.38 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 119.38 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3344183d-0cdd-4b5d-9593-9510934317fa")
+		)
+		(pin "3V3" input
+			(at 119.38 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea25843d-c72f-4f0b-9ac6-0c2d1e4c39e9")
+		)
+		(pin "GND" input
+			(at 119.38 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8cd94e9e-c5d5-426d-97c3-a05590b2b33b")
+		)
+		(pin "D+" bidirectional
+			(at 119.38 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2276408d-6fa3-45f2-b5a4-9a7598bae1d3")
+		)
+		(instances
+			(project "fpga-utn"
+				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
+					(page "3")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 34.29 46.99)

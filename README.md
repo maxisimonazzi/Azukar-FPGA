@@ -1,1 +1,0 @@
-Placa entrenadora FPGA (Nombre a definir)

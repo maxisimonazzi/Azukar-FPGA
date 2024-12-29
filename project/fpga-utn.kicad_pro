@@ -390,6 +390,10 @@
     [
       "addbb95a-5ecf-43db-ab5f-45b593a9e920",
       "Power Supply"
+    ],
+    [
+      "8407417e-b7fd-4165-964b-a68bb857b9a8",
+      "USB-FTDI"
     ]
   ],
   "text_variables": {}

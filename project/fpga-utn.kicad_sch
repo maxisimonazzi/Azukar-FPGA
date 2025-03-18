@@ -450,7 +450,7 @@
 	)
 	(sheet
 		(at 115.57 92.71)
-		(size 67.31 38.1)
+		(size 60.96 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -470,7 +470,7 @@
 			)
 		)
 		(property "Sheetfile" "memorias.kicad_sch"
-			(at 115.57 131.3946 0)
+			(at 115.57 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)

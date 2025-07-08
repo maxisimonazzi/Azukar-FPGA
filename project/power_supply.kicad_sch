@@ -114,8 +114,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J1"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -123,14 +123,14 @@
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_16P"
-				(at 0 19.685 0)
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "libraries:AMPHENOL_GSB1C41110SSHR"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -508,24 +508,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 15.24 15.24 180)
 					(length 5.08)
 					(name "VBUS"
@@ -616,24 +598,6 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08) hide
 					(name "GND"
@@ -644,24 +608,6 @@
 						)
 					)
 					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -752,24 +698,6 @@
 						)
 					)
 					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3884,7 +3812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 229.362 85.09 90)
 			(effects
 				(font
@@ -4153,7 +4081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 139.3952 88.9 0)
 			(effects
 				(font
@@ -4284,7 +4212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 177.8 77.978 90)
 			(effects
 				(font
@@ -4354,7 +4282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 154.94 73.66 0)
 			(effects
 				(font
@@ -4482,7 +4410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "libraries:AMPHENOL_GSB1C41110SSHR"
 			(at 53.34 91.44 0)
 			(effects
 				(font
@@ -4515,9 +4443,6 @@
 		(pin "B7"
 			(uuid "ea23bf99-d595-4808-a9fa-70c53cdfcc76")
 		)
-		(pin "B12"
-			(uuid "a1a36787-ae21-49c5-be0e-9c2387a2ebe4")
-		)
 		(pin "B4"
 			(uuid "938fb77a-7e76-41cb-8c5e-19d9cf609eec")
 		)
@@ -4533,26 +4458,17 @@
 		(pin "S1"
 			(uuid "3630fc23-39cd-4add-801e-a5ec6e3b9ef4")
 		)
-		(pin "B9"
-			(uuid "d6fafcfa-afc8-4ff9-9ab8-05c5566fbff3")
-		)
 		(pin "A1"
 			(uuid "a0409df0-28fd-4e77-8929-02f2846b51bf")
 		)
 		(pin "A8"
 			(uuid "8fa5ac90-d8ff-4123-9053-9e29edc13b0e")
 		)
-		(pin "A12"
-			(uuid "be5b6d40-a7a3-4851-9327-bd9886cb90f7")
-		)
 		(pin "A4"
 			(uuid "49363a1f-b66f-4027-9aff-6611d4cd407e")
 		)
 		(pin "A7"
 			(uuid "d99e56a4-1026-4a4f-b672-40bc1309f10d")
-		)
-		(pin "A9"
-			(uuid "b752921e-b44b-47f1-ad21-e5c05cbb3c9f")
 		)
 		(pin "A6"
 			(uuid "6e75790a-f860-4242-bf30-40565fbec4d9")
@@ -4596,7 +4512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 199.0852 88.9 0)
 			(effects
 				(font
@@ -4729,7 +4645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 127.9652 88.9 0)
 			(effects
 				(font
@@ -4862,7 +4778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 203.2 72.39 0)
 			(effects
 				(font
@@ -5122,7 +5038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 183.8452 88.9 0)
 			(effects
 				(font
@@ -5254,7 +5170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 69.85 83.058 90)
 			(effects
 				(font
@@ -5322,7 +5238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 120.65 77.978 90)
 			(effects
 				(font
@@ -5463,7 +5379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 221.9452 88.9 0)
 			(effects
 				(font
@@ -5596,7 +5512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "libraries:WL-SMTW_3528"
 			(at 149.86 88.9 0)
 			(effects
 				(font
@@ -5666,7 +5582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 173.6852 88.9 0)
 			(effects
 				(font
@@ -5863,7 +5779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 148.082 81.28 90)
 			(effects
 				(font
@@ -5933,7 +5849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 115.2652 88.9 0)
 			(effects
 				(font
@@ -6203,7 +6119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 69.85 85.598 90)
 			(effects
 				(font
@@ -6403,7 +6319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 255.27 73.66 0)
 			(effects
 				(font
@@ -6532,7 +6448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
 			(at 87.63 97.79 0)
 			(effects
 				(font
@@ -6554,6 +6470,69 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nombre de la hoja de datos" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabricante" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hoja de datos del vendedor" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del fabricante (Order Code)" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link del vendedor" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tecnología" ""
 			(at 86.36 91.44 0)
 			(effects
 				(font
@@ -6680,7 +6659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 236.22 77.978 90)
 			(effects
 				(font
@@ -6815,7 +6794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 167.64 95.25 0)
 			(effects
 				(font

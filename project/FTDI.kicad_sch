@@ -4443,7 +4443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 135.89 148.59 0)
 			(effects
 				(font
@@ -4703,7 +4703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 249.8852 50.8 0)
 			(effects
 				(font
@@ -4772,7 +4772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 227.0252 50.8 0)
 			(effects
 				(font
@@ -4904,7 +4904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 216.8652 101.6 0)
 			(effects
 				(font
@@ -4973,7 +4973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 219.4052 147.32 0)
 			(effects
 				(font
@@ -5295,7 +5295,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 69.342 111.76 90)
 			(effects
 				(font
@@ -5429,7 +5429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 239.7252 101.6 0)
 			(effects
 				(font
@@ -5497,7 +5497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 240.03 43.688 90)
 			(effects
 				(font
@@ -5696,7 +5696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 227.0252 147.32 0)
 			(effects
 				(font
@@ -5828,7 +5828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 66.04 86.868 90)
 			(effects
 				(font
@@ -5897,7 +5897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 232.1052 101.6 0)
 			(effects
 				(font
@@ -5964,7 +5964,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 66.04 91.948 90)
 			(effects
 				(font
@@ -6098,7 +6098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 234.6452 147.32 0)
 			(effects
 				(font
@@ -6165,7 +6165,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 65.532 111.76 90)
 			(effects
 				(font
@@ -6234,7 +6234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 261.3152 50.8 0)
 			(effects
 				(font
@@ -6431,7 +6431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 205.74 43.688 90)
 			(effects
 				(font
@@ -6565,7 +6565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 67.0052 64.77 0)
 			(effects
 				(font
@@ -6896,7 +6896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 224.4852 101.6 0)
 			(effects
 				(font
@@ -7030,7 +7030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 39.0652 139.7 0)
 			(effects
 				(font
@@ -7227,7 +7227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 214.3252 50.8 0)
 			(effects
 				(font
@@ -7425,7 +7425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECS-3225MV-120-BN-TR:OSC_ECS-3225MV-120-BN-TR"
+		(property "Footprint" "libraries:OSC_ECS-3225MV-120-BN-TR"
 			(at 45.212 157.988 0)
 			(effects
 				(font
@@ -7530,6 +7530,69 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Nombre de la hoja de datos" ""
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabricante" ""
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hoja de datos del vendedor" ""
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del fabricante (Order Code)" ""
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link del vendedor" ""
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" ""
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tecnología" ""
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

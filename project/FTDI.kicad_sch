@@ -6285,7 +6285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 240.03 43.688 90)
 			(effects
 				(font
@@ -8062,7 +8062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 205.74 43.688 90)
 			(effects
 				(font

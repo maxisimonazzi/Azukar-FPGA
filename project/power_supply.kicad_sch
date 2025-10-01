@@ -4500,7 +4500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 177.8 77.978 90)
 			(effects
 				(font
@@ -4842,7 +4842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:AMPHENOL_GSB1C41110SSHR"
+		(property "Footprint" "GSB1C41110SSHR:GSB1C41110SSHR"
 			(at 53.34 91.44 0)
 			(effects
 				(font
@@ -4933,6 +4933,69 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nombre de la hoja de datos" ""
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabricante" ""
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hoja de datos del vendedor" ""
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del fabricante (Order Code)" ""
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link del vendedor" ""
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" ""
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tecnología" ""
 			(at 49.53 91.44 0)
 			(effects
 				(font
@@ -6114,7 +6177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 120.65 77.978 90)
 			(effects
 				(font
@@ -6594,7 +6657,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 152.654 90.424 90)
 			(effects
 				(font
@@ -6604,7 +6667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "libraries:WL-SMTW_3528"
+		(property "Footprint" "150141RS73100(LED):LEDM3528X210N"
 			(at 149.86 88.9 0)
 			(effects
 				(font
@@ -8327,7 +8390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 236.22 77.978 90)
 			(effects
 				(font

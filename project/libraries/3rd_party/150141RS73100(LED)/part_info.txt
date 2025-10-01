@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=150141RS73100
+PartCategory=LED
+PackageCategory=LED Moulded
+PinCount=2
+Version=1.1
+Released=2017-11-02 11:53:19
+Downloaded=2025-10-01 23:24:06
+3D=Y

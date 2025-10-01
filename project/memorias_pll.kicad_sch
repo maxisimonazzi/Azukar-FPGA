@@ -6708,7 +6708,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Red"
 			(at 141.986 153.162 0)
 			(effects
 				(font
@@ -6716,7 +6716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:WL-SMTW_3528"
+		(property "Footprint" "150141RS73100(LED):LEDM3528X210N"
 			(at 143.51 148.59 0)
 			(effects
 				(font
@@ -10359,7 +10359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 128.27 142.24 0)
 			(effects
 				(font

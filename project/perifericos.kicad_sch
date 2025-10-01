@@ -3877,6 +3877,224 @@
 				)
 			)
 		)
+		(symbol "SW_Push_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW7"
+				(at 1.2701 -1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at -1.2699 -1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Availability" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MP" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -9726,7 +9944,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 139.7 54.9274 90)
 			(effects
 				(font
@@ -9736,7 +9954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "150141RS73100(LED):LEDM3528X210N"
 			(at 135.89 52.07 0)
 			(effects
 				(font
@@ -12151,7 +12369,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Red"
 			(at 162.56 54.9274 90)
 			(effects
 				(font
@@ -12161,7 +12379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "150141RS73100(LED):LEDM3528X210N"
 			(at 158.75 52.07 0)
 			(effects
 				(font
@@ -12480,6 +12698,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_1")
 		(lib_id "Switch:SW_Push")
 		(at 245.11 101.6 90)
 		(unit 1)
@@ -12507,7 +12726,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TS04_66_75_BK_100_SMT:SW_TS04-66-75-BK-100-SMT"
 			(at 240.03 101.6 0)
 			(effects
 				(font
@@ -12526,7 +12745,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 245.11 101.6 0)
+			(at 249.428 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13523,7 +13742,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TS04_66_75_BK_100_SMT:SW_TS04-66-75-BK-100-SMT"
 			(at 220.98 101.6 0)
 			(effects
 				(font
@@ -16389,7 +16608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TS04_66_75_BK_100_SMT:SW_TS04-66-75-BK-100-SMT"
 			(at 163.83 101.6 0)
 			(effects
 				(font
@@ -16531,7 +16750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TS04_66_75_BK_100_SMT:SW_TS04-66-75-BK-100-SMT"
 			(at 201.93 101.6 0)
 			(effects
 				(font
@@ -17069,7 +17288,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TS04_66_75_BK_100_SMT:SW_TS04-66-75-BK-100-SMT"
 			(at 144.78 101.6 0)
 			(effects
 				(font
@@ -17201,7 +17420,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Red"
 			(at 158.75 54.9274 90)
 			(effects
 				(font
@@ -17211,7 +17430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "150141RS73100(LED):LEDM3528X210N"
 			(at 154.94 52.07 0)
 			(effects
 				(font
@@ -17956,7 +18175,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 147.32 54.9274 90)
 			(effects
 				(font
@@ -17966,7 +18185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "150141RS73100(LED):LEDM3528X210N"
 			(at 143.51 52.07 0)
 			(effects
 				(font
@@ -18302,7 +18521,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Red"
 			(at 151.13 54.9274 90)
 			(effects
 				(font
@@ -18312,7 +18531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "150141RS73100(LED):LEDM3528X210N"
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -18454,7 +18673,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TS04_66_75_BK_100_SMT:SW_TS04-66-75-BK-100-SMT"
 			(at 182.88 101.6 0)
 			(effects
 				(font
@@ -19124,7 +19343,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 135.89 54.9274 90)
 			(effects
 				(font
@@ -19134,7 +19353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "150141RS73100(LED):LEDM3528X210N"
 			(at 132.08 52.07 0)
 			(effects
 				(font
@@ -19987,7 +20206,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 143.51 54.9274 90)
 			(effects
 				(font
@@ -19997,7 +20216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "150141RS73100(LED):LEDM3528X210N"
 			(at 139.7 52.07 0)
 			(effects
 				(font
@@ -22055,7 +22274,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TS04_66_75_BK_100_SMT:SW_TS04-66-75-BK-100-SMT"
 			(at 125.73 101.6 0)
 			(effects
 				(font
@@ -22329,7 +22548,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Red"
 			(at 154.94 54.9274 90)
 			(effects
 				(font
@@ -22339,7 +22558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "150141RS73100(LED):LEDM3528X210N"
 			(at 151.13 52.07 0)
 			(effects
 				(font
@@ -24818,7 +25037,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TS04_66_75_BK_100_SMT:SW_TS04-66-75-BK-100-SMT"
 			(at 259.08 101.6 0)
 			(effects
 				(font

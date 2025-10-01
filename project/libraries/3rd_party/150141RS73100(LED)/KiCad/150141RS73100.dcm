@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 150141RS73100
+D LED,Wurth Elektronik,150141RS73100 Wurth Elektronik 150141RS73100, WL-SMTW Series Red LED, 625 nm 3528 (1411), Round Lens SMD package
+K
+F http://katalog.we-online.de/led/datasheet/150141RS73100.pdf
+$ENDCMP
+#
+#End Doc Library

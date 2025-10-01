@@ -1,1 +1,1 @@
-Placa entrenadora FPGA (Nombre a definir)
+Placa entrenadora FRT-FPGA

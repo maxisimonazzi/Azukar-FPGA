@@ -341,4 +341,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "0644b38f-84b0-46e1-8d57-917d7c7a83d7")
 	)
+	(model "${KIPRJMOD}/libraries/3rd_party/2x10HEADER/FTS-110-01-L-DV-TR/FTS-110-01-L-DV-TR.stp"
+		(offset
+			(xyz 0 0 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

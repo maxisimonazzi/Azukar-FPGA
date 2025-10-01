@@ -1,0 +1,1 @@
+#TODO agregar pinout de todos los componentes

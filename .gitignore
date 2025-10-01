@@ -1,3 +1,5 @@
 /project/fpga-utn-backups
 /otras_placas
 /extras
+*.bak
+*.tmp

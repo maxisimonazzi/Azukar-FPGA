@@ -1,0 +1,9 @@
+Manufacturer=FTDI Chip
+PartNumber=FT2232HL-TRAY
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=64
+Version=1.1
+Released=2020-07-26 12:19:43
+Downloaded=2025-09-29 15:42:31
+3D=Y

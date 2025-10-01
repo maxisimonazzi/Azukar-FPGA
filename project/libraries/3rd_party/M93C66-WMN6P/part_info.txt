@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=M93C66-WMN6P
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=3.1
+Released=2015-04-16 09:48:08
+Downloaded=2025-09-29 15:42:49
+3D=Y

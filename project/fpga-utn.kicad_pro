@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.15,
-          "width": 0.6
+          "height": 2.794,
+          "width": 0.7366
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -691,11 +691,11 @@
     ],
     [
       "ddcff421-4d86-4360-8de5-a56571f2fa29",
-      "Memorias"
+      "Memorias y PLL"
     ],
     [
       "4f5cf70b-0d7b-4ae8-aaf1-c3143c29443f",
-      "FPGA"
+      "Perifericos"
     ]
   ],
   "text_variables": {}

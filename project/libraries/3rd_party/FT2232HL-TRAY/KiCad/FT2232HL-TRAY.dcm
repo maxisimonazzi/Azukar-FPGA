@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FT2232HL-TRAY
+D USB Interface IC USB HS to Dual UART/ FIFO/SPI/JTAG/I2C
+K
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
+$ENDCMP
+#
+#End Doc Library

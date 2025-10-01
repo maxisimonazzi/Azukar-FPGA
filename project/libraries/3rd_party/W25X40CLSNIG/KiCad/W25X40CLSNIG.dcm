@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W25X40CLSNIG
+D 4Mb Serial NOR Flash 104MHz SOP8
+K
+F https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25X40CLSNIG&type=datasheet
+$ENDCMP
+#
+#End Doc Library

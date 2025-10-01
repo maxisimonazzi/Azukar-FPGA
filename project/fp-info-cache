@@ -1,4 +1,4 @@
-23747064906408747
+23747086940766144
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56650,6 +56650,27 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ECS-3225MVQ-1000-CN-TR
+ECS3225MVQ1000CNTR
+ECS-3225MVQ-1000-CN-TR-2
+Crystal or Oscillator
+0
+4
+4
+ECS_3225MV_120_CN_TR
+OSC_ECS-3225MV-120-CN-TR
+
+
+0
+4
+4
+FRT-FPGA
+Header 2x10 SMD
+
+
+0
+20
+20
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -96624,27 +96645,6 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
-0
-2
-2
-libraries
-AMPHENOL_GSB1C41110SSHR
-
-
-0
-16
-16
-libraries
-OSC_ECS-3225MV-120-BN-TR
-
-
-0
-4
-4
-libraries
-WL-SMTW_3528
-
-
 0
 2
 2

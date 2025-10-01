@@ -1,0 +1,9 @@
+Manufacturer=ECS
+PartNumber=ECS-3225MVQ-1000-CN-TR
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2020-11-24 11:20:13
+Downloaded=2025-09-29 15:37:17
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M93C66-WMN6P
+D M93C66-WMN6P, Serial EEPROM Memory 4kbit, Serial-Microwire, 200ns 2.5 to 5.5V, 8-Pin SOIC
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1495743.pdf
+$ENDCMP
+#
+#End Doc Library

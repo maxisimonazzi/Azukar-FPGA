@@ -114,8 +114,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at 0 22.86 0)
+			(property "Reference" "J"
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -123,14 +123,14 @@
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_16P"
-				(at 0 20.32 0)
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "libraries:AMPHENOL_GSB1C41110SSHR"
+			(property "Footprint" ""
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -508,6 +508,24 @@
 					)
 				)
 				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 15.24 15.24 180)
 					(length 5.08)
 					(name "VBUS"
@@ -598,6 +616,24 @@
 					)
 				)
 				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08) hide
 					(name "GND"
@@ -608,6 +644,24 @@
 						)
 					)
 					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -698,6 +752,24 @@
 						)
 					)
 					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4263,7 +4335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2da63aa9-d766-4251-ae38-2f41241552e0")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 146.558 68.072 0)
 			(effects
 				(font
@@ -4378,7 +4450,7 @@
 		(instances
 			(project "fpga-utn"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4475,6 +4547,18 @@
 		)
 		(pin "B1"
 			(uuid "1352b9af-e702-437b-bf4b-91fa7c7e7c09")
+		)
+		(pin "A12"
+			(uuid "13dc9fc4-782a-4ac3-9eaa-c6e72c6bb8e6")
+		)
+		(pin "A9"
+			(uuid "936f8e60-7d79-453e-a0c9-b3f53a084b89")
+		)
+		(pin "B12"
+			(uuid "720ebf49-ed17-43a1-98df-75ba2a92e6c5")
+		)
+		(pin "B9"
+			(uuid "908365cf-9c4f-4a55-9f2e-abd6cf204de4")
 		)
 		(instances
 			(project "fpga-utn"
@@ -4759,7 +4843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67128273-24a5-4845-828e-0070360a2e2d")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 194.818 66.802 0)
 			(effects
 				(font
@@ -4874,7 +4958,7 @@
 		(instances
 			(project "fpga-utn"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6448,7 +6532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 87.63 97.79 0)
 			(effects
 				(font

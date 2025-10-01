@@ -512,15 +512,15 @@
 				)
 			)
 		)
-		(symbol "ECS-3225MV-120-BN-TR:ECS-3225MV-120-BN-TR"
+		(symbol "ECS-3225MV-120-CN-TR:ECS-3225MV-120-CN-TR"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "X"
-				(at -2.794 5.842 0)
+			(property "Reference" "Y"
+				(at -2.8364 9.4203 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -528,8 +528,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ECS-3225MV-120-BN-TR"
-				(at -15.0127 -12.977 0)
+			(property "Value" "ECS-3225MV-120-CN-TR"
+				(at -7.366 -10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -537,8 +537,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ECS-3225MV-120-BN-TR:OSC_ECS-3225MV-120-BN-TR"
-				(at -0.508 -24.638 0)
+			(property "Footprint" "ECS-3225MV-120-CN-TR:OSC_ECS-3225MV-120-CN-TR"
+				(at 5.842 -15.494 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -548,7 +548,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -557,7 +557,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -565,90 +565,10 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "ECS Inc."
-				(at -2.54 -28.194 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            12 MHz XO (Standard) HCMOS Oscillator 1.62V ~ 3.63V Enable/Disable 4-SMD, No Lead\n                        \n"
-				(at -12.954 10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "ECS-3225MV-0-4 ECS"
-				(at 0.762 -37.084 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0.508 -40.64 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-3225MV-120-BN-TR/ECS/view-part/?ref=snap"
-				(at -6.858 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "ECS-3225MV-120-BN-TR"
-				(at -1.524 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0.508 -34.29 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/ECS-3225MV-120-BN-TR/ECS/view-part/?ref=eda"
-				(at -9.398 -17.018 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "ECS-3225MV-120-BN-TR_0_0"
+			(symbol "ECS-3225MV-120-CN-TR_0_0"
 				(rectangle
-					(start -2.54 5.08)
-					(end 15.24 -10.16)
+					(start -2.54 6.35)
+					(end 15.24 -7.62)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -658,7 +578,7 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -7.62 180)
+					(at 20.32 -5.08 180)
 					(length 5.08)
 					(name "TRI-STATE"
 						(effects
@@ -676,7 +596,7 @@
 					)
 				)
 				(pin power_in line
-					(at -7.62 -7.62 0)
+					(at -7.62 -5.08 0)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -694,7 +614,7 @@
 					)
 				)
 				(pin output line
-					(at 20.32 2.54 180)
+					(at 20.32 3.81 180)
 					(length 5.08)
 					(name "OUTPUT"
 						(effects
@@ -712,7 +632,7 @@
 					)
 				)
 				(pin input line
-					(at -7.62 2.54 0)
+					(at -7.62 3.81 0)
 					(length 5.08)
 					(name "VDD"
 						(effects
@@ -2316,12 +2236,6 @@
 		(uuid "0d9a8fbd-22fc-4eeb-a2a6-96b0512430b1")
 	)
 	(junction
-		(at 38.1 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d86bed3-0c2c-4d5c-bfe9-af0628fbfbcf")
-	)
-	(junction
 		(at 67.31 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2338,6 +2252,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2df3b23f-ae64-413e-b110-db17369a7818")
+	)
+	(junction
+		(at 35.56 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2faaf5be-c80b-4403-96d8-37d43cd56e5b")
 	)
 	(junction
 		(at 101.6 36.83)
@@ -2424,6 +2344,12 @@
 		(uuid "90406619-a14e-4637-a2c5-c69202dac5ca")
 	)
 	(junction
+		(at 68.58 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93266bd2-628f-4bde-867b-f7442405d52a")
+	)
+	(junction
 		(at 223.52 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2470,6 +2396,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3541e4f-1f94-495e-87fb-e526734c6fe6")
+	)
+	(junction
+		(at 35.56 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c120de52-aede-4fef-8a27-38fd9fa1358d")
 	)
 	(junction
 		(at 238.76 102.87)
@@ -2785,7 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 130.81) (xy 73.66 130.81)
+			(xy 67.31 130.81) (xy 68.58 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2932,16 +2864,6 @@
 			(type default)
 		)
 		(uuid "3c1b6f6f-75e5-4fc6-9ed7-8dfd16eef23e")
-	)
-	(wire
-		(pts
-			(xy 66.04 138.43) (xy 66.04 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41523d8d-6b57-4417-81ce-d1fe2f96c587")
 	)
 	(wire
 		(pts
@@ -3102,6 +3024,16 @@
 			(type default)
 		)
 		(uuid "607beebf-a999-448b-9acc-ad61ad1d979f")
+	)
+	(wire
+		(pts
+			(xy 68.58 139.7) (xy 68.58 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a7c987-33f6-40c7-85cb-e1f2f7133981")
 	)
 	(wire
 		(pts
@@ -3315,6 +3247,26 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 139.7) (xy 68.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd9e58b-fe63-40f8-bc47-99ebf7713278")
+	)
+	(wire
+		(pts
+			(xy 35.56 139.7) (xy 39.37 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0f59f3-bc6e-43c0-9a76-8bc88e1fbfdb")
+	)
+	(wire
+		(pts
 			(xy 231.14 102.87) (xy 238.76 102.87)
 		)
 		(stroke
@@ -3392,6 +3344,16 @@
 			(type default)
 		)
 		(uuid "970e12a3-2199-429f-9eff-ad739a340839")
+	)
+	(wire
+		(pts
+			(xy 68.58 129.54) (xy 68.58 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f2d834-419b-472b-8d29-267d5a642afe")
 	)
 	(wire
 		(pts
@@ -3485,6 +3447,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 130.81) (xy 35.56 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70aba40-ae01-4beb-bf4f-7b344924d30f")
+	)
+	(wire
+		(pts
 			(xy 85.09 40.64) (xy 93.98 40.64)
 		)
 		(stroke
@@ -3522,16 +3494,6 @@
 			(type default)
 		)
 		(uuid "b989972d-c0c8-4047-990c-07855f1d93df")
-	)
-	(wire
-		(pts
-			(xy 38.1 139.7) (xy 38.1 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a1a100-f634-475a-bf89-fbc6e7d5c15b")
 	)
 	(wire
 		(pts
@@ -3665,7 +3627,27 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 129.54) (xy 38.1 130.81)
+			(xy 35.56 139.7) (xy 35.56 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8037e5-c5d1-4fa8-bc84-968305a32199")
+	)
+	(wire
+		(pts
+			(xy 35.56 130.81) (xy 39.37 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd964dc-6602-4bb6-886d-9da7bcd443d6")
+	)
+	(wire
+		(pts
+			(xy 35.56 128.27) (xy 35.56 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3692,16 +3674,6 @@
 			(type default)
 		)
 		(uuid "d18cb056-5a68-4c1d-85d6-ca26fb74e0a8")
-	)
-	(wire
-		(pts
-			(xy 38.1 130.81) (xy 38.1 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3869a20-69aa-42eb-b3f8-8bdffa08f86f")
 	)
 	(wire
 		(pts
@@ -3885,6 +3857,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 130.81) (xy 73.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efaf4ade-f910-4d6e-a324-06d5a6ee7410")
+	)
+	(wire
+		(pts
 			(xy 223.52 92.71) (xy 223.52 93.98)
 		)
 		(stroke
@@ -3966,8 +3948,8 @@
 		(uuid 2cbd256b-6371-47f7-a667-891d63a86e2d)
 	)
 	(rectangle
-		(start 209.55 130.81)
-		(end 245.11 157.48)
+		(start 210.82 127)
+		(end 240.03 157.48)
 		(stroke
 			(width 0.25)
 			(type dash)
@@ -3978,8 +3960,8 @@
 		(uuid 5212c28f-afab-4c37-8657-e251365c43a2)
 	)
 	(rectangle
-		(start 210.82 85.09)
-		(end 246.38 111.76)
+		(start 210.82 82.55)
+		(end 245.11 111.76)
 		(stroke
 			(width 0.25)
 			(type dash)
@@ -3989,9 +3971,9 @@
 		)
 		(uuid 9310eb88-cd9e-4fb8-b4c1-28a50ea23ee6)
 	)
-	(text "Filtrado de alimentación FT2232H\n(colocar los capacitores tan cerca como se puede de VPHY y VPLL segun corresponda)\n"
+	(text "Filtrado de alimentación FT2232H\n"
 		(exclude_from_sim no)
-		(at 186.69 24.13 0)
+		(at 187.96 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4011,17 +3993,6 @@
 		)
 		(uuid "312c2b06-6ff8-46be-968a-4c05fbd32b2d")
 	)
-	(text "En este TP podemos ver si el\nFT2232H esta suspendido o no."
-		(exclude_from_sim no)
-		(at 137.16 148.844 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "60da657d-3f1b-4e21-bcbb-ce8e0e4873d4")
-	)
 	(text "Canal B utilizado\ncomo Virtual UART"
 		(exclude_from_sim no)
 		(at 152.4 106.426 0)
@@ -4033,9 +4004,9 @@
 		)
 		(uuid "c482be60-ad49-4ff0-871a-47407473326c")
 	)
-	(text "Desacople FT2232H: VCORE\n(Colocar cada capacitores tan cerca\nde cada pin VCCIO como se pueda)"
+	(text "Desacople FT2232H: VCORE"
 		(exclude_from_sim no)
-		(at 209.296 127.254 0)
+		(at 212.344 130.048 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4055,9 +4026,9 @@
 		)
 		(uuid "f2556279-1ee8-478d-817e-0f752e277ff2")
 	)
-	(text "Desacople FT2232H: VCCIO\n(Colocar cada capacitores tan cerca\nde cada pin VCCIO como se pueda)"
+	(text "Desacople FT2232H: VCCIO"
 		(exclude_from_sim no)
-		(at 210.82 80.772 0)
+		(at 212.09 84.582 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4243,7 +4214,7 @@
 		(uuid "848a7a84-0fde-4a2d-831b-3a889ffc89a2")
 	)
 	(hierarchical_label "GND"
-		(shape output)
+		(shape input)
 		(at 243.84 54.61 270)
 		(fields_autoplaced yes)
 		(effects
@@ -4404,7 +4375,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b50eb32f-10eb-4ca8-b2c8-91e5ff18c04e")
+			(uuid "ba9fb672-2e53-4b67-aa61-5a480c5bb7df")
 		)
 		(instances
 			(project ""
@@ -4534,7 +4505,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "79b58f18-09a5-4b3d-bb53-9fc022beaa42")
+			(uuid "1e6e183b-5aed-42cc-9a72-53de881a3616")
 		)
 		(instances
 			(project ""
@@ -4599,7 +4570,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d537622-eeed-4094-b0c9-5d7c8a94fa26")
+			(uuid "165b24b9-825a-406a-a01c-9d83158bf31b")
 		)
 		(instances
 			(project "fpga-utn"
@@ -4665,7 +4636,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5db2ee4a-defc-4cf2-9e42-644bc2723ce8")
+			(uuid "67fddbce-309a-4020-9084-a685855a958e")
 		)
 		(instances
 			(project "fpga-utn"
@@ -4731,10 +4702,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b5923590-7183-47b0-8e73-b698bd43dcd3")
+			(uuid "f5b0b2d9-eb14-40cb-b807-c99ed5bd8a5e")
 		)
 		(pin "1"
-			(uuid "89dc3f46-809f-43d3-9cf7-285725478153")
+			(uuid "cb38c495-14bd-480b-bf2d-7ffd6ec734bb")
 		)
 		(instances
 			(project "fpga-utn"
@@ -4863,10 +4834,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "82476080-2b39-46cc-b49f-8e55bbebfe97")
+			(uuid "f3cf9f9e-794f-49b0-a8f6-9c70c379a4e3")
 		)
 		(pin "1"
-			(uuid "21283260-598a-472b-ba0a-e9210a627357")
+			(uuid "3eddcbcb-7fba-4b35-af4c-9a4aa9e5014f")
 		)
 		(instances
 			(project "fpga-utn"
@@ -4896,7 +4867,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 216.662 101.6 0)
+			(at 216.154 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,10 +4903,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2a297ffb-7bc6-4e13-ba46-3fd7dff00ad4")
+			(uuid "fa7d7f08-81ef-43c1-b7f3-96d5ec64099f")
 		)
 		(pin "1"
-			(uuid "b699eda6-cc54-4014-be7e-e3f7d29341f3")
+			(uuid "fbaaf261-f523-4f60-bc48-1ed256755383")
 		)
 		(instances
 			(project "fpga-utn"
@@ -5001,10 +4972,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "904236a5-a2f0-4653-ba70-178de420678c")
+			(uuid "21b49bd1-fcf7-4606-be51-23c09b71732e")
 		)
 		(pin "1"
-			(uuid "7654c327-d696-40c1-a5cd-5c9a4cfa0e86")
+			(uuid "a17468fe-6320-4f29-ac97-af7c17b414b3")
 		)
 		(instances
 			(project "fpga-utn"
@@ -5070,196 +5041,196 @@
 			)
 		)
 		(pin "49"
-			(uuid "6cc146ad-feaa-4293-b2fa-f8cd11c608b3")
+			(uuid "ab9e60ce-1f64-408c-aa4b-a908fa07ccdb")
 		)
 		(pin "2"
-			(uuid "8f56f956-dec0-4ccc-83a3-63e45984659c")
+			(uuid "f8bc1f84-1c91-4593-ab3c-92033d98f81c")
 		)
 		(pin "25"
-			(uuid "61c1f108-2456-4c05-89cd-5487c4b5f2b9")
+			(uuid "45d782e2-98c6-4b50-810c-03ec3e06bee4")
 		)
 		(pin "11"
-			(uuid "325e5908-3fd1-4f5d-8ef9-ce4f195a9887")
+			(uuid "13e6213d-834d-422e-8d70-f241a0a46ef1")
 		)
 		(pin "10"
-			(uuid "1c1a6a6a-55e0-46c6-8ef7-1fca7ded3246")
+			(uuid "97069256-68cb-4515-903c-912b307e9a38")
 		)
 		(pin "14"
-			(uuid "ede63716-cb59-42ab-90e7-2fb3fac331a3")
+			(uuid "f63decd3-e07f-47d3-be31-5a5e6c4a93c9")
 		)
 		(pin "16"
-			(uuid "11909b20-0a42-4885-8e8b-1bcf3caaa79e")
+			(uuid "5ebf319f-95e1-4e83-a144-6e1ec039a713")
 		)
 		(pin "17"
-			(uuid "2265c794-a752-4ca5-82e0-07af9d53ffc4")
+			(uuid "18cb7617-b520-4d62-9df9-361971af61c2")
 		)
 		(pin "19"
-			(uuid "e38547ed-27a2-4e52-b49c-5aca7183148b")
+			(uuid "0b4ffe7b-6801-4e5d-ac52-8a3f33314833")
 		)
 		(pin "21"
-			(uuid "a777a496-606e-442c-b2bd-68c7d1da081d")
+			(uuid "3905b667-4724-4c93-b051-f866d0374251")
 		)
 		(pin "22"
-			(uuid "48cfe9c0-3c0c-40aa-b7a5-7bc876fea244")
+			(uuid "396fc7a4-b69f-453e-9785-6b91c4b5ce6a")
 		)
 		(pin "20"
-			(uuid "bdfb5a44-eb4d-433b-8f3c-f01982a9c768")
+			(uuid "95d04793-8df8-46b1-b169-2237e692c657")
 		)
 		(pin "23"
-			(uuid "bf605207-565c-495a-8d6a-32b4ef9b9412")
+			(uuid "732feb3e-be34-43ef-bc90-6a40186d0079")
 		)
 		(pin "15"
-			(uuid "07e20661-0225-4097-addd-208c8bb4d011")
+			(uuid "2d2646db-9f96-40b8-8c49-b65ab6cb5694")
 		)
 		(pin "24"
-			(uuid "d595c3eb-7279-4cdd-b313-02b75cbb520c")
+			(uuid "8f1b1b90-e6d3-4ed8-af0f-d625d7cced1d")
 		)
 		(pin "12"
-			(uuid "70cc1123-634f-4987-818a-2e38094ed077")
+			(uuid "0a1617f8-4d30-416e-bec0-31f182e186e0")
 		)
 		(pin "13"
-			(uuid "d90112ec-49ae-44a8-9363-c20b9ca546ae")
+			(uuid "259a106f-3681-4f15-9928-ccf4927649f4")
 		)
 		(pin "18"
-			(uuid "08ae16fd-69e9-4bb9-8dbb-db5cb3889316")
+			(uuid "0557e960-bfc9-4c77-8676-3de64ede63a0")
 		)
 		(pin "1"
-			(uuid "872d86a0-82f7-473a-9b82-c68bf018ca94")
+			(uuid "284c4331-a174-46a7-a909-6607ddfe044d")
 		)
 		(pin "26"
-			(uuid "5dea8bf8-ec72-43f3-bb58-9a4137c3fe00")
+			(uuid "95d625d2-2ed5-4e65-8c2e-03d0d73e6241")
 		)
 		(pin "27"
-			(uuid "f95918a3-3dbb-49fa-abdc-79643d6bb8c2")
+			(uuid "19197b32-3d86-4c1a-99a9-310318e32dea")
 		)
 		(pin "28"
-			(uuid "f35f8d85-d7e4-4bd4-bf2c-2b8d5cf89d06")
+			(uuid "b533b056-a562-4783-a101-9be7a93b55da")
 		)
 		(pin "3"
-			(uuid "f6b048c3-f15f-46b6-b70e-bc5ff24c828a")
+			(uuid "903dd56d-7647-48de-8a17-3a2adb89e3e7")
 		)
 		(pin "31"
-			(uuid "b86e608c-c5e0-4c8c-a8e4-1afa741420b9")
+			(uuid "242f57dd-1d90-4518-b862-051688c7bffc")
 		)
 		(pin "30"
-			(uuid "dd9803a1-1cd7-43eb-8b1e-f0ee23dbbc9d")
+			(uuid "066d49dc-ad22-4581-b64d-11cd2486dc76")
 		)
 		(pin "32"
-			(uuid "de10281d-9288-4e15-8712-d8c3d95ac005")
+			(uuid "5b7fac16-d7ac-4f08-9f1e-07c6cf0e661a")
 		)
 		(pin "33"
-			(uuid "7cca6193-ab16-4947-90a8-2cc842cbeed8")
+			(uuid "8cb0f06b-6924-472d-a0a7-ad1bafd4b6d9")
 		)
 		(pin "34"
-			(uuid "3062fd21-71ae-43c9-a67c-e4db014085dd")
+			(uuid "5b92a589-ded6-48ef-83c3-84a01abf22e4")
 		)
 		(pin "35"
-			(uuid "a772d24c-82f9-4bf3-83a9-6a341c35f3a8")
+			(uuid "ebd1e909-2c53-45f3-abda-a1a8c7939e9b")
 		)
 		(pin "29"
-			(uuid "1d3bf3f2-93ee-499f-962a-e3b95d29fab2")
+			(uuid "392bdd1b-d4eb-42df-9608-2ebee7a5d84c")
 		)
 		(pin "55"
-			(uuid "b203d091-2cc7-4727-a283-3bfd43604403")
+			(uuid "f929a26f-6f92-4c5a-840e-b11bd78e9fc0")
 		)
 		(pin "6"
-			(uuid "45932098-6cfd-48c7-9988-febfa4992627")
+			(uuid "e4cf21dd-ac09-485a-a9ca-4be003f7f09f")
 		)
 		(pin "61"
-			(uuid "f8b8b75a-5dd9-457e-9a3d-5deeea7dfb3b")
+			(uuid "a8d15dfc-1c64-474d-94ad-03e57b6096e0")
 		)
 		(pin "51"
-			(uuid "eb4b81a8-b0a9-4501-aec3-70e7d736613f")
+			(uuid "14f34217-0609-49a2-b24d-daf878985bc3")
 		)
 		(pin "7"
-			(uuid "4c275272-3cc2-4c44-b572-ea2c29f7917d")
+			(uuid "b89ee31d-99f0-448a-8336-d0019d627b17")
 		)
 		(pin "60"
-			(uuid "1f1fb06e-145c-41db-b0eb-a43a9e11d6d8")
+			(uuid "b9b9af11-4e9c-4698-a852-3366d79ea567")
 		)
 		(pin "42"
-			(uuid "e889cf71-dcb5-4305-8f6f-07925c59f57d")
+			(uuid "51da9c9a-7c7f-45a0-866d-3c11b23b4712")
 		)
 		(pin "45"
-			(uuid "e4ac4add-0451-4213-a52c-63a6bec10d29")
+			(uuid "cc7fa20f-61dc-4f20-a3cc-fcb3df7077e3")
 		)
 		(pin "41"
-			(uuid "a032b2d0-8b17-4976-928b-e21e58b11b3f")
+			(uuid "0cb58ec6-5e48-4da6-9576-e4bfaaf97e64")
 		)
 		(pin "46"
-			(uuid "cc93c86d-4c4a-45af-832c-c16dc0464338")
+			(uuid "c765e566-ec2a-420b-ad84-1778d9f195c0")
 		)
 		(pin "59"
-			(uuid "1c8f3458-902b-4bb3-964c-80ec0a1fc41c")
+			(uuid "93d93711-12f1-441a-b601-1cfa382bce14")
 		)
 		(pin "37"
-			(uuid "d4249186-43c6-4f63-a868-94e2a54d14ef")
+			(uuid "89c991c4-cc77-429b-8223-ed4bfcf7676d")
 		)
 		(pin "48"
-			(uuid "353fb9f1-ba77-4f65-9c1a-666a60d9b76c")
+			(uuid "e04695e7-7238-419d-b323-e95f787ae0d9")
 		)
 		(pin "64"
-			(uuid "07d864f8-25d9-494d-8f8f-a5cc68a0d59a")
+			(uuid "fd13e53e-04d1-440d-aec8-76004f49ca2f")
 		)
 		(pin "47"
-			(uuid "6e431725-00f6-45d5-8329-ef3c31dd623e")
+			(uuid "21a6dc99-fa24-458c-adb5-2007dbe1ced5")
 		)
 		(pin "63"
-			(uuid "7434b88f-ff93-4613-ba55-6c0b6e8b182f")
+			(uuid "7000393e-ba0e-40d5-be97-5d8e003e936b")
 		)
 		(pin "43"
-			(uuid "3800f2da-c856-4730-87d5-3d43ff15c02a")
+			(uuid "47d62c41-897e-4a57-acbe-4a0abf0f9fdb")
 		)
 		(pin "8"
-			(uuid "e607506f-5382-47ca-90d4-427f89b4e387")
+			(uuid "2ca1e852-244f-4aec-b09c-42847b6b317d")
 		)
 		(pin "39"
-			(uuid "6a31b7eb-4f7e-4cd2-9a6a-bbd3388e19b6")
+			(uuid "930b9f72-8a41-424f-a223-40a9c0195e31")
 		)
 		(pin "44"
-			(uuid "03ce6685-3eac-457f-8664-8ce839f1a6a4")
+			(uuid "7a0a9f45-de2a-44f4-9f65-75b251dad3c0")
 		)
 		(pin "9"
-			(uuid "a10850c4-506b-41f0-bb11-7aad847618e1")
+			(uuid "018ad2af-7916-46e4-8b85-29e9f243c140")
 		)
 		(pin "62"
-			(uuid "17716f6a-2f9d-4ddc-8761-d56f289c8bb2")
+			(uuid "c3dc0a66-e767-4e55-b2cf-00eac3ed7cd0")
 		)
 		(pin "52"
-			(uuid "4e54056f-5895-402d-8d74-adc2f69c98fb")
+			(uuid "424ab661-8de4-4513-a7e3-04a108ed07ac")
 		)
 		(pin "53"
-			(uuid "a367ce7b-b600-49c7-9305-9cef7f06c79e")
+			(uuid "d7b50fb4-1bea-4678-bb58-05dd3bdfc387")
 		)
 		(pin "57"
-			(uuid "66475357-a112-4b44-a9c4-8cae3b68dc91")
+			(uuid "70e3c37f-fba8-4ff4-beae-f0200cd8e69a")
 		)
 		(pin "56"
-			(uuid "d2c59c01-1387-4ad7-981e-f5535278c65d")
+			(uuid "70993f2d-cc4c-4dd7-98d4-dbc5a05d8e20")
 		)
 		(pin "58"
-			(uuid "16b983a9-28d4-43a6-9308-68f8dbc0dfda")
+			(uuid "4ec5718d-8276-4b76-a3dd-0e73aaab7805")
 		)
 		(pin "50"
-			(uuid "0f81980a-5ba4-435d-997c-f619f020b3cb")
+			(uuid "8754226c-156e-4c58-86dc-43a9553d6651")
 		)
 		(pin "54"
-			(uuid "851ffe0d-dbba-4076-a67e-6b3aae4a57f1")
+			(uuid "594884df-41d7-4c61-ad75-525ca8b361aa")
 		)
 		(pin "4"
-			(uuid "62b22c91-9899-44e1-8af1-bae74e43ba32")
+			(uuid "e4ebaddd-f547-4386-aced-d6a4fb0fbf87")
 		)
 		(pin "36"
-			(uuid "42d22799-1c83-493a-b220-995b0ab93436")
+			(uuid "720539c4-9f0f-4323-82cc-635f5f8479e6")
 		)
 		(pin "38"
-			(uuid "9de4a8ed-409f-4c3f-af24-5c47d7f16f02")
+			(uuid "0188b48c-9d68-4b28-8c50-9ef1e68ad372")
 		)
 		(pin "40"
-			(uuid "bdcc5656-0713-4124-87e3-cbecf4898c55")
+			(uuid "5f613e88-19e0-4c97-b307-7180140971e7")
 		)
 		(pin "5"
-			(uuid "f926e7d7-e848-4f05-8f98-0cf531d332c6")
+			(uuid "b28cd1cd-4d33-4054-b191-9cee85857510")
 		)
 		(instances
 			(project ""
@@ -5323,10 +5294,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1513c06b-cd50-4436-ac84-bd06ff707e19")
+			(uuid "c5106439-60b7-415f-9e52-04d3d1336930")
 		)
 		(pin "2"
-			(uuid "af7ddc7e-cff1-4821-aaa4-1e3d350368a6")
+			(uuid "51bc0061-6d17-4076-801e-44ad550b2725")
 		)
 		(instances
 			(project "fpga-utn"
@@ -5391,7 +5362,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d5ce64e-a3f2-49f8-9912-75032aeb0163")
+			(uuid "e783a697-4b57-419e-8d69-58d13723c1a6")
 		)
 		(instances
 			(project "fpga-utn"
@@ -5457,15 +5428,152 @@
 			)
 		)
 		(pin "2"
-			(uuid "39bdb6a7-c730-4ec8-ac58-7299bfb36ad9")
+			(uuid "0805200f-30ca-43be-994c-f9a969d06ed0")
 		)
 		(pin "1"
-			(uuid "0c14ee75-8c69-4f84-8e61-c9ce0e6a8d67")
+			(uuid "4368cc65-8716-49d3-9729-6dccbd8171ee")
 		)
 		(instances
 			(project "fpga-utn"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECS-3225MV-120-CN-TR:ECS-3225MV-120-CN-TR")
+		(at 46.99 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d896ddb-b927-4fba-a005-da9b73bde78e")
+		(property "Reference" "Y1"
+			(at 45.974 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-3225MV-120-CN-TR"
+			(at 57.404 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECS-3225MV-120-CN-TR:OSC_ECS-3225MV-120-CN-TR"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nombre de la hoja de datos" ""
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabricante" ""
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hoja de datos del vendedor" ""
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del fabricante (Order Code)" ""
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link del vendedor" ""
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" ""
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tecnología" ""
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bae7762f-fc35-4caf-b940-44b94389927a")
+		)
+		(pin "4"
+			(uuid "14595870-1621-4b44-8acf-462978c74a89")
+		)
+		(pin "2"
+			(uuid "617c3b47-be43-4ee8-9d2c-4a2e087dac20")
+		)
+		(pin "1"
+			(uuid "758d3eef-12ed-4370-822e-00deb40511f2")
+		)
+		(instances
+			(project ""
+				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -5525,10 +5633,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0946f4dc-254e-41d0-8f16-139276da4532")
+			(uuid "bc28b7dd-c476-400f-905f-5dd8a9291698")
 		)
 		(pin "2"
-			(uuid "6a89b64c-8c7c-4a0c-8a73-3655f8647540")
+			(uuid "75274b11-d303-489f-9312-f17955020ab0")
 		)
 		(instances
 			(project "fpga-utn"
@@ -5593,7 +5701,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "952c17cf-f839-4e55-b5de-66872e074da1")
+			(uuid "2e4e0484-222f-4047-bc1d-cdc7d2611181")
 		)
 		(instances
 			(project "fpga-utn"
@@ -5658,7 +5766,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8e1ffaa-660c-4251-91ff-e5bb7307dd8c")
+			(uuid "8dbc3269-6141-4200-9893-ffe45211b0ed")
 		)
 		(instances
 			(project "fpga-utn"
@@ -5724,10 +5832,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9d81ef49-9c56-4259-ac28-dc12d266eb6a")
+			(uuid "3506cff1-b591-4603-9917-f0e429c38b34")
 		)
 		(pin "1"
-			(uuid "7bc29105-509e-4c37-a2fe-f4c28ba6d04a")
+			(uuid "d1d89274-83e8-4756-a3a5-738dde860318")
 		)
 		(instances
 			(project "fpga-utn"
@@ -5792,7 +5900,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "145174f8-35a0-47fd-928c-e2b9c5d72e6c")
+			(uuid "f8f210aa-f159-4f61-b88c-dc7097657027")
 		)
 		(instances
 			(project ""
@@ -5856,10 +5964,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae5d9595-aad6-4dbf-bd1f-4a277c69e672")
+			(uuid "7eb760b8-afba-4e0e-8038-5977d87a4089")
 		)
 		(pin "2"
-			(uuid "8d9d083d-d64b-455d-831e-f39254cfcf15")
+			(uuid "d85dbc18-1269-4826-ae39-8653aa49d70f")
 		)
 		(instances
 			(project "fpga-utn"
@@ -5925,10 +6033,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "009f66d8-6e13-4d6c-81c3-c9a3242cc565")
+			(uuid "2496de13-bf40-4c73-9893-5c6b99e8845a")
 		)
 		(pin "1"
-			(uuid "250b39c9-ffc4-4a7c-8abe-35bd93543d8c")
+			(uuid "2c4c00fe-9e34-4e74-bd87-b77c16c53549")
 		)
 		(instances
 			(project "fpga-utn"
@@ -5992,10 +6100,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "da87f202-4691-4e1a-9b7a-978f249b6111")
+			(uuid "578a71bb-64d9-4ebe-9069-888b002ae708")
 		)
 		(pin "2"
-			(uuid "04dcf3b7-7a1f-453c-a319-036716b8d875")
+			(uuid "79b9725f-dcbd-4975-a392-8de1d9a6360a")
 		)
 		(instances
 			(project "fpga-utn"
@@ -6060,7 +6168,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2cca81ec-8e08-4526-9d10-c2496ec1db13")
+			(uuid "f33a012e-e3c8-4ac0-906a-8155e7e99c0b")
 		)
 		(instances
 			(project "fpga-utn"
@@ -6126,10 +6234,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b62a4763-6138-46d2-9cdb-849198ba07c3")
+			(uuid "a8e3ed8b-d632-4eb7-a4d2-0bb0b4457821")
 		)
 		(pin "1"
-			(uuid "0f1e2a62-731e-479f-a788-e6aa406da817")
+			(uuid "c270a629-c6f0-4c6b-9eaa-cc45990feed6")
 		)
 		(instances
 			(project "fpga-utn"
@@ -6193,10 +6301,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d593fbe2-78d6-406c-8535-fe51510f5bea")
+			(uuid "460a0a16-0f4d-45d7-9e00-42442d6e2d62")
 		)
 		(pin "2"
-			(uuid "6bdf5deb-9d01-4892-8424-99bab45df636")
+			(uuid "6047afe6-bff2-49b7-8154-c2e713acf6ad")
 		)
 		(instances
 			(project "fpga-utn"
@@ -6325,10 +6433,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a906d3b5-e1c7-4695-bf22-d0a658fd76a5")
+			(uuid "483c1984-b7f4-4632-90d6-92f022905517")
 		)
 		(pin "1"
-			(uuid "4108c59a-4376-4d60-9989-80484da5cb03")
+			(uuid "11c1e7ca-9aec-412a-ab8c-34946fac523a")
 		)
 		(instances
 			(project "fpga-utn"
@@ -6394,12 +6502,207 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf65b24e-8cae-492e-8fbb-dc01570f71d6")
+			(uuid "512a31b5-6439-48ef-a2a5-040b17d8ac4e")
 		)
 		(instances
 			(project "fpga-utn"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87dfc8a5-4ef0-4fa7-944a-6417b7939524")
+		(property "Reference" "#PWR068"
+			(at 35.56 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c781d30-7334-424c-8d38-3a72526e052a")
+		)
+		(instances
+			(project "fpga-utn"
+				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 68.58 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9365b65d-3f79-4475-94bb-0aa81dc348ff")
+		(property "Reference" "TP6"
+			(at 70.104 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12MHZ"
+			(at 70.104 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 73.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nombre de la hoja de datos" ""
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabricante" ""
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hoja de datos del vendedor" ""
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del fabricante (Order Code)" ""
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link del vendedor" ""
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" ""
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tecnología" ""
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7cffc33-ce92-4f5e-9276-c44e9c983fcb")
+		)
+		(instances
+			(project "fpga-utn"
+				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -6459,10 +6762,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4474eb1d-d565-430a-aa04-98cdc1e1b011")
+			(uuid "257035b8-b5a9-4145-adbf-9b9830935b67")
 		)
 		(pin "2"
-			(uuid "52c4fa26-e151-4cbd-80dd-aa9446b28373")
+			(uuid "b4c91f92-c918-4657-a75c-8f98d3de2e5a")
 		)
 		(instances
 			(project ""
@@ -6527,7 +6830,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ddd4780-aeff-4269-96fb-80b18d1f7174")
+			(uuid "345d6857-ea3b-4674-9fa4-c3869f8aa9d3")
 		)
 		(instances
 			(project "fpga-utn"
@@ -6593,10 +6896,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "adab331b-0293-4772-86dd-8b3332f5da22")
+			(uuid "07f92139-cedf-45cf-828a-6eb179270909")
 		)
 		(pin "1"
-			(uuid "3c2492da-b1ec-4576-8c87-c59a709f46f6")
+			(uuid "1257bc49-a89d-4de4-9b9d-3bc6891f5061")
 		)
 		(instances
 			(project ""
@@ -6661,7 +6964,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b94a942-55b8-41a5-b599-eabf1eeb2532")
+			(uuid "06df9a47-4ac7-466c-85c1-8250147db82f")
 		)
 		(instances
 			(project "fpga-utn"
@@ -6727,7 +7030,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "af18b1e1-942f-4c54-a4ee-7a20b6dbc38c")
+			(uuid "c5121a67-0a08-4df8-9a2f-a213faf0bb3b")
 		)
 		(instances
 			(project "fpga-utn"
@@ -6792,7 +7095,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "20e2d8bd-77e1-4701-a9b6-6d4c9fbc8f4b")
+			(uuid "0cf8824d-9972-47cd-936e-c46155fa9181")
 		)
 		(instances
 			(project "fpga-utn"
@@ -6858,7 +7161,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1b48685-60b8-49af-b430-db9816be77a6")
+			(uuid "6f594818-d44e-4827-bc1b-7ed045bb08ae")
 		)
 		(instances
 			(project "fpga-utn"
@@ -6924,10 +7227,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8c6856bc-84f3-4eb8-a416-14462f111357")
+			(uuid "48b7dbd0-8287-4061-a614-7ea9474de89c")
 		)
 		(pin "1"
-			(uuid "8f306552-423b-4d6f-ac29-1325a2fcae67")
+			(uuid "0a9b4447-6e53-4367-b1ad-d13d7aed9be1")
 		)
 		(instances
 			(project "fpga-utn"
@@ -6940,7 +7243,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 66.04 138.43 0)
+		(at 68.58 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6948,7 +7251,7 @@
 		(dnp no)
 		(uuid "bb470808-55b5-452a-91db-faf434952de4")
 		(property "Reference" "#PWR021"
-			(at 66.04 142.24 0)
+			(at 68.58 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6957,7 +7260,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 65.278 134.874 0)
+			(at 67.818 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6965,7 +7268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 138.43 0)
+			(at 68.58 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,7 +7277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 138.43 0)
+			(at 68.58 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6983,7 +7286,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 66.04 138.43 0)
+			(at 68.58 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6992,7 +7295,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d6df542-8d67-4164-ab38-7599f3078a83")
+			(uuid "2f81dc3d-ed6a-4840-ad31-29e0ce47cf3e")
 		)
 		(instances
 			(project "fpga-utn"
@@ -7005,7 +7308,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 38.1 135.89 0)
+		(at 35.56 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7013,7 +7316,7 @@
 		(dnp no)
 		(uuid "bcd52fea-9c4c-4408-838d-e5e3f8397ce9")
 		(property "Reference" "C17"
-			(at 31.242 134.62 0)
+			(at 28.702 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,7 +7325,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 31.242 137.414 0)
+			(at 28.702 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,7 +7334,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 39.0652 139.7 0)
+			(at 36.5252 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +7343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +7352,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 38.1 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +7361,7 @@
 			)
 		)
 		(property "Nombre de la hoja de datos" ""
-			(at 38.1 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,7 +7370,7 @@
 			)
 		)
 		(property "Fabricante" ""
-			(at 38.1 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7379,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 38.1 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +7388,7 @@
 			)
 		)
 		(property "Código del fabricante (Order Code)" ""
-			(at 38.1 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +7397,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 38.1 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +7406,7 @@
 			)
 		)
 		(property "Código del vendedor (Provider Order Code)" ""
-			(at 38.1 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +7415,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 38.1 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,10 +7424,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4e4b3433-1f84-4192-b241-7431352850ee")
+			(uuid "a84ad4e5-acf7-42bc-bd11-145b995456a7")
 		)
 		(pin "1"
-			(uuid "5040276e-d5bc-4816-9e26-5bf37675ac7d")
+			(uuid "c5ed123f-af59-4857-a84b-7cebb232d67a")
 		)
 		(instances
 			(project "fpga-utn"
@@ -7137,7 +7440,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 38.1 129.54 0)
+		(at 35.56 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7145,7 +7448,7 @@
 		(dnp no)
 		(uuid "c0cf2857-a801-42d7-86c8-76b552fad5d8")
 		(property "Reference" "#PWR019"
-			(at 38.1 133.35 0)
+			(at 35.56 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7154,7 +7457,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 37.338 125.984 0)
+			(at 34.798 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,7 +7465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 129.54 0)
+			(at 35.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +7474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 129.54 0)
+			(at 35.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +7483,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 38.1 129.54 0)
+			(at 35.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +7492,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f8dfe9b-781d-43a3-b5d3-f1f4eb3c117d")
+			(uuid "61c43209-2437-43ee-84c6-2c90e3c0ad46")
 		)
 		(instances
 			(project "fpga-utn"
@@ -7255,10 +7558,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a201cf07-352e-4aeb-8755-dafcba4cd4d2")
+			(uuid "7d8039e5-40f3-433e-8256-6ee60d461fa8")
 		)
 		(pin "1"
-			(uuid "996b5e2f-a5fb-4ec4-b1f8-d73a518fdfc7")
+			(uuid "6d8f148f-ce2d-4c5b-8c63-43d4d481218b")
 		)
 		(instances
 			(project "fpga-utn"
@@ -7324,7 +7627,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "41ad8464-ab2a-491f-8844-075d7453e23f")
+			(uuid "f4e5c493-db6e-457a-bbfa-86cbec0628f7")
 		)
 		(instances
 			(project ""
@@ -7389,229 +7692,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c3cfe0c-e266-45bd-b215-d926c3d4b7c4")
+			(uuid "dc91556f-28cf-483e-83b3-303d620e1739")
 		)
 		(instances
 			(project ""
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECS-3225MV-120-BN-TR:ECS-3225MV-120-BN-TR")
-		(at 45.72 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e392f613-d892-44e6-95ef-d17591d689f8")
-		(property "Reference" "X1"
-			(at 44.45 147.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ECS-3225MV-120-BN-TR"
-			(at 55.88 145.034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "libraries:OSC_ECS-3225MV-120-BN-TR"
-			(at 45.212 157.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "ECS Inc."
-			(at 43.18 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            12 MHz XO (Standard) HCMOS Oscillator 1.62V ~ 3.63V Enable/Disable 4-SMD, No Lead\n                        \n"
-			(at 32.766 122.682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "ECS-3225MV-0-4 ECS"
-			(at 46.482 170.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 46.228 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-3225MV-120-BN-TR/ECS/view-part/?ref=snap"
-			(at 38.862 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ECS-3225MV-120-BN-TR"
-			(at 44.196 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 46.228 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ECS-3225MV-120-BN-TR/ECS/view-part/?ref=eda"
-			(at 36.322 150.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Nombre de la hoja de datos" ""
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabricante" ""
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Hoja de datos del vendedor" ""
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link del vendedor" ""
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del vendedor (Provider Order Code)" ""
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tecnología" ""
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bbaba0e1-63e3-4c17-8f80-d886ff0c315d")
-		)
-		(pin "3"
-			(uuid "a3493ab3-0c24-4e42-b36f-3e4b1af27bdc")
-		)
-		(pin "1"
-			(uuid "b2f4a91e-ef2a-42fc-8c1c-ba9a7752e4e9")
-		)
-		(pin "4"
-			(uuid "f68cd2f5-7713-43c2-ab2c-54f72e7c4b0b")
-		)
-		(instances
-			(project ""
-				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
-					(reference "X1")
 					(unit 1)
 				)
 			)

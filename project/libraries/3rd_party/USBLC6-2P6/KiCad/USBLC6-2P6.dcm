@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP USBLC6-2P6
+D ESD Suppressors / TVS Diodes High Speed Interface Protection Low Cap
+K
+F https://datasheet.lcsc.com/szlcsc/STMicroelectronics-USBLC6-2P6_C15999.pdf
+$ENDCMP
+#
+#End Doc Library

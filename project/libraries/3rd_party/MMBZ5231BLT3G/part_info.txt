@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=MMBZ5231BLT3G
+PartCategory=Zener Diode
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=2.1
+Released=2022-11-25 09:56:10
+Downloaded=2025-09-29 15:43:09
+3D=Y

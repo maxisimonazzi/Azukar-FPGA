@@ -1,0 +1,9 @@
+Manufacturer=Lattice Semiconductor
+PartNumber=iCE40HX4K-TQ144
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=144
+Version=1.1
+Released=2020-01-29 11:14:24
+Downloaded=2025-09-29 15:33:44
+3D=Y

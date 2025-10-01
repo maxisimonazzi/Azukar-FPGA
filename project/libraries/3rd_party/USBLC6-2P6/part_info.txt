@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=USBLC6-2P6
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=6
+Version=1.2
+Released=2020-12-12 15:49:49
+Downloaded=2025-09-29 15:43:32
+3D=Y

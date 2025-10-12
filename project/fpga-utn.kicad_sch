@@ -1,10 +1,20 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "fadb8841-cd7a-4174-937d-7c393e857c90")
 	(paper "A4")
 	(lib_symbols)
+	(text "Aqui se inicia nuestro proyecto final"
+		(exclude_from_sim no)
+		(at 150.876 23.114 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "fd698abc-1a7f-4440-93e7-56ee8ffaf67f")
+	)
 	(junction
 		(at 127 97.79)
 		(diameter 0)
@@ -559,19 +569,13 @@
 		)
 		(uuid "ff161534-b675-489e-a78a-287af54826f6")
 	)
-	(text "Aqui se inicia nuestro proyecto final"
-		(exclude_from_sim no)
-		(at 150.876 23.114 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "fd698abc-1a7f-4440-93e7-56ee8ffaf67f")
-	)
 	(sheet
 		(at 132.08 118.11)
 		(size 60.96 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -601,113 +605,113 @@
 		)
 		(pin "VUART_Tx" input
 			(at 193.04 143.51 0)
+			(uuid "1af7b20b-a929-4b22-8c52-90dca4c87802")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1af7b20b-a929-4b22-8c52-90dca4c87802")
 		)
 		(pin "VUART_Rx" output
 			(at 193.04 147.32 0)
+			(uuid "2495b836-1c4f-4fd4-b361-945f0cce9096")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2495b836-1c4f-4fd4-b361-945f0cce9096")
 		)
 		(pin "VUART_DSR" input
 			(at 193.04 128.27 0)
+			(uuid "eba4543d-1a55-4582-9ccf-e86627007aa0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eba4543d-1a55-4582-9ccf-e86627007aa0")
 		)
 		(pin "VUART_CTS" input
 			(at 193.04 135.89 0)
+			(uuid "94275c95-9289-48b8-82cf-6a8d05c968ba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "94275c95-9289-48b8-82cf-6a8d05c968ba")
 		)
 		(pin "VUART_RTS" output
 			(at 193.04 139.7 0)
+			(uuid "d674f361-1bb2-4d3d-90c3-6e2a05bac70f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d674f361-1bb2-4d3d-90c3-6e2a05bac70f")
 		)
 		(pin "VUART_DTR" output
 			(at 193.04 132.08 0)
+			(uuid "88695fd0-b809-4b8a-8e1a-81d74f21f79e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "88695fd0-b809-4b8a-8e1a-81d74f21f79e")
 		)
 		(pin "VUART_DCD" input
 			(at 193.04 124.46 0)
+			(uuid "c1a2e77f-82b3-484e-a01b-1b14ea874e9d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c1a2e77f-82b3-484e-a01b-1b14ea874e9d")
 		)
 		(pin "3V3" input
 			(at 132.08 133.35 180)
+			(uuid "d8d3ba65-e32e-4b57-b616-df3e9f41bad0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d8d3ba65-e32e-4b57-b616-df3e9f41bad0")
 		)
 		(pin "GND" input
 			(at 132.08 139.7 180)
+			(uuid "ba49aa71-23dd-45fa-b3ba-c6310cedfad4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ba49aa71-23dd-45fa-b3ba-c6310cedfad4")
 		)
 		(pin "5V" input
 			(at 132.08 127 180)
+			(uuid "cecefadc-8afc-456a-97f4-c4235c0b3516")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cecefadc-8afc-456a-97f4-c4235c0b3516")
 		)
 		(pin "12MHz_CLK" input
 			(at 193.04 120.65 0)
+			(uuid "9cf15341-04bd-432c-98b3-9c9eaa1910e2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9cf15341-04bd-432c-98b3-9c9eaa1910e2")
 		)
 		(instances
 			(project "fpga-utn"
@@ -720,6 +724,10 @@
 	(sheet
 		(at 132.08 36.83)
 		(size 60.96 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.254)
@@ -753,213 +761,213 @@
 		)
 		(pin "D-" bidirectional
 			(at 132.08 48.26 180)
+			(uuid "3344183d-0cdd-4b5d-9593-9510934317fa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3344183d-0cdd-4b5d-9593-9510934317fa")
 		)
 		(pin "3V3" input
 			(at 132.08 55.88 180)
+			(uuid "ea25843d-c72f-4f0b-9ac6-0c2d1e4c39e9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ea25843d-c72f-4f0b-9ac6-0c2d1e4c39e9")
 		)
 		(pin "GND" input
 			(at 132.08 63.5 180)
+			(uuid "8cd94e9e-c5d5-426d-97c3-a05590b2b33b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8cd94e9e-c5d5-426d-97c3-a05590b2b33b")
 		)
 		(pin "D+" bidirectional
 			(at 132.08 44.45 180)
+			(uuid "2276408d-6fa3-45f2-b5a4-9a7598bae1d3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2276408d-6fa3-45f2-b5a4-9a7598bae1d3")
 		)
 		(pin "VUART_DSR" output
 			(at 193.04 58.42 0)
+			(uuid "5764c516-641d-4b9d-a4b1-b932bd74cf15")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5764c516-641d-4b9d-a4b1-b932bd74cf15")
 		)
 		(pin "VUART_CTS" output
 			(at 193.04 50.8 0)
+			(uuid "46b056e1-7063-4499-b813-b5a0b35b968a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "46b056e1-7063-4499-b813-b5a0b35b968a")
 		)
 		(pin "VUART_DTR" input
 			(at 193.04 54.61 0)
+			(uuid "8bbb1ee8-175f-47c8-a1c6-64970d4e607b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8bbb1ee8-175f-47c8-a1c6-64970d4e607b")
 		)
 		(pin "VUART_RTS" input
 			(at 193.04 46.99 0)
+			(uuid "d856fb71-2b58-4248-a702-5d6030d77a9d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d856fb71-2b58-4248-a702-5d6030d77a9d")
 		)
 		(pin "VUART_Rx" input
 			(at 193.04 39.37 0)
+			(uuid "342319ba-51c3-4cee-817f-29b2b1ee7752")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "342319ba-51c3-4cee-817f-29b2b1ee7752")
 		)
 		(pin "VUART_DCD" output
 			(at 193.04 62.23 0)
+			(uuid "6af721bb-6cca-499e-9911-05a9c496b686")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6af721bb-6cca-499e-9911-05a9c496b686")
 		)
 		(pin "VUART_Tx" output
 			(at 193.04 43.18 0)
+			(uuid "3feed1eb-0278-40df-b9c9-3e6241630e29")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3feed1eb-0278-40df-b9c9-3e6241630e29")
 		)
 		(pin "Flash_SCK" output
 			(at 140.97 68.58 270)
+			(uuid "0b07a30a-5215-45dc-a871-6160d310198c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0b07a30a-5215-45dc-a871-6160d310198c")
 		)
 		(pin "Flash_DI" output
 			(at 148.59 68.58 270)
+			(uuid "f37c8804-6316-42d8-8997-9ed1c6c10080")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f37c8804-6316-42d8-8997-9ed1c6c10080")
 		)
 		(pin "Flash_DO" input
 			(at 144.78 68.58 270)
+			(uuid "a4f52af6-bb61-4e62-9d97-a4cb5eb14b65")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a4f52af6-bb61-4e62-9d97-a4cb5eb14b65")
 		)
 		(pin "Flash_CS" output
 			(at 152.4 68.58 270)
+			(uuid "428bef52-aeec-4ef8-8f9e-16967fca6954")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "428bef52-aeec-4ef8-8f9e-16967fca6954")
 		)
 		(pin "Flash_DONE" input
 			(at 156.21 68.58 270)
+			(uuid "629ffa2a-1db2-446e-9472-07029eace94c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "629ffa2a-1db2-446e-9472-07029eace94c")
 		)
 		(pin "Flash_RESET" output
 			(at 160.02 68.58 270)
+			(uuid "20532404-6e6b-48c8-a6c0-a0b13dbf60eb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "20532404-6e6b-48c8-a6c0-a0b13dbf60eb")
 		)
 		(pin "EEPROM_CS" output
 			(at 168.91 68.58 270)
+			(uuid "310c3273-e151-4e5c-bbbf-909d424be9c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "310c3273-e151-4e5c-bbbf-909d424be9c0")
 		)
 		(pin "EEPROM_CLK" output
 			(at 172.72 68.58 270)
+			(uuid "1e42fdf9-58cd-4708-8ee9-53ac16f58cd0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1e42fdf9-58cd-4708-8ee9-53ac16f58cd0")
 		)
 		(pin "EEPROM_DATA" bidirectional
 			(at 176.53 68.58 270)
+			(uuid "8999b845-01b3-4717-becb-637401fba25d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8999b845-01b3-4717-becb-637401fba25d")
 		)
 		(pin "12MHz_CLK" output
 			(at 193.04 66.04 0)
+			(uuid "5eef3ae0-5207-401c-9b2c-e4095f42a585")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5eef3ae0-5207-401c-9b2c-e4095f42a585")
 		)
 		(instances
 			(project "fpga-utn"
@@ -972,6 +980,10 @@
 	(sheet
 		(at 54.61 40.64)
 		(size 60.96 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -1004,63 +1016,63 @@
 		)
 		(pin "D+" bidirectional
 			(at 115.57 44.45 0)
+			(uuid "7754d066-eceb-4281-bff3-3b4353ce0ef1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7754d066-eceb-4281-bff3-3b4353ce0ef1")
 		)
 		(pin "D-" bidirectional
 			(at 115.57 48.26 0)
+			(uuid "18ccd051-a86f-437f-8367-e4d6385b66bf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "18ccd051-a86f-437f-8367-e4d6385b66bf")
 		)
 		(pin "1V2" output
 			(at 115.57 59.69 0)
+			(uuid "d1b84086-509f-4213-9eae-ed5e89bf01cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d1b84086-509f-4213-9eae-ed5e89bf01cd")
 		)
 		(pin "3V3" output
 			(at 115.57 55.88 0)
+			(uuid "d4ed3520-393b-4fe9-89c9-6adbd350a028")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d4ed3520-393b-4fe9-89c9-6adbd350a028")
 		)
 		(pin "GND" output
 			(at 115.57 63.5 0)
+			(uuid "d9d8d1eb-aff3-4e55-b89f-dd44b7249020")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d9d8d1eb-aff3-4e55-b89f-dd44b7249020")
 		)
 		(pin "5V" output
 			(at 115.57 52.07 0)
+			(uuid "9855cd83-9707-4f26-b4f4-00426da385fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9855cd83-9707-4f26-b4f4-00426da385fc")
 		)
 		(instances
 			(project "fpga-utn"
@@ -1073,6 +1085,10 @@
 	(sheet
 		(at 132.08 83.82)
 		(size 60.96 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1102,123 +1118,123 @@
 		)
 		(pin "EEPROM_CLK" input
 			(at 172.72 83.82 90)
+			(uuid "b98c3d6a-faaa-42f8-b9ff-9c5b5304c9e6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b98c3d6a-faaa-42f8-b9ff-9c5b5304c9e6")
 		)
 		(pin "EEPROM_CS" input
 			(at 168.91 83.82 90)
+			(uuid "08e376d8-3f32-4f8f-b3da-99ccf9676dfb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "08e376d8-3f32-4f8f-b3da-99ccf9676dfb")
 		)
 		(pin "EEPROM_DATA" bidirectional
 			(at 176.53 83.82 90)
+			(uuid "522b17a6-7cc7-4a50-bf1b-22eb5e92bcd7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "522b17a6-7cc7-4a50-bf1b-22eb5e92bcd7")
 		)
 		(pin "Flash_DONE" output
 			(at 156.21 83.82 90)
+			(uuid "c7bc7dad-4be1-43aa-b479-7387f7573b65")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c7bc7dad-4be1-43aa-b479-7387f7573b65")
 		)
 		(pin "Flash_CS" input
 			(at 152.4 83.82 90)
+			(uuid "490ec75a-81d9-4ada-90ce-33fcbd7c2d2b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "490ec75a-81d9-4ada-90ce-33fcbd7c2d2b")
 		)
 		(pin "Flash_DO" output
 			(at 144.78 83.82 90)
+			(uuid "e448b021-9357-4815-8d46-1be724d7f9f0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e448b021-9357-4815-8d46-1be724d7f9f0")
 		)
 		(pin "Flash_DI" input
 			(at 148.59 83.82 90)
+			(uuid "f3b01b96-19ca-4e71-ac09-d2dd476d82fd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f3b01b96-19ca-4e71-ac09-d2dd476d82fd")
 		)
 		(pin "Flash_SCK" input
 			(at 140.97 83.82 90)
+			(uuid "ed4b04e8-7700-4992-8b88-91d820f42e2c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ed4b04e8-7700-4992-8b88-91d820f42e2c")
 		)
 		(pin "Flash_RESET" input
 			(at 160.02 83.82 90)
+			(uuid "51a09278-9fac-4c53-9bd3-9a9be13456d0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "51a09278-9fac-4c53-9bd3-9a9be13456d0")
 		)
 		(pin "3V3" input
 			(at 132.08 92.71 180)
+			(uuid "49406efc-a78d-449a-a4e0-4c1ba012540b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "49406efc-a78d-449a-a4e0-4c1ba012540b")
 		)
 		(pin "GND" input
 			(at 132.08 97.79 180)
+			(uuid "437a0f66-d0d6-4801-8a86-5b56b6f543a8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "437a0f66-d0d6-4801-8a86-5b56b6f543a8")
 		)
 		(pin "1V2" input
 			(at 132.08 102.87 180)
+			(uuid "0bb33373-ce0c-4a68-9bcd-42f790c3db9d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0bb33373-ce0c-4a68-9bcd-42f790c3db9d")
 		)
 		(instances
 			(project "fpga-utn"
@@ -1233,4 +1249,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

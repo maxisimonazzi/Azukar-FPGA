@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.794,
-          "width": 0.7366
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -767,7 +767,7 @@
     ],
     [
       "addbb95a-5ecf-43db-ab5f-45b593a9e920",
-      "Power Supply"
+      "Fuente de Alimentación"
     ],
     [
       "8407417e-b7fd-4165-964b-a68bb857b9a8",

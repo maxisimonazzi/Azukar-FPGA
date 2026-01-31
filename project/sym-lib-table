@@ -5,4 +5,5 @@
   (lib (name "ECS-3225MVQ-1000-CN-TR")(type "KiCad")(uri "${KIPRJMOD}/libraries/3rd_party/ECS-3225MVQ-1000-CN-TR/KiCad/ECS-3225MVQ-1000-CN-TR.kicad_sym")(options "")(descr ""))
   (lib (name "150141RS73100")(type "KiCad")(uri "${KIPRJMOD}/libraries/3rd_party/150141RS73100(LED)/KiCad/150141RS73100.kicad_sym")(options "")(descr ""))
   (lib (name "TS04-66-75-BK-100-SMT")(type "KiCad")(uri "${KIPRJMOD}/libraries/3rd_party/TS04_66_75_BK_100_SMT/TS04-66-75-BK-100-SMT.kicad_sym")(options "")(descr ""))
+  (lib (name "MMBZ5231BLT3G")(type "KiCad")(uri "${KIPRJMOD}/libraries/3rd_party/MMBZ5231BLT3G/KiCad/MMBZ5231BLT3G.kicad_sym")(options "")(descr ""))
 )

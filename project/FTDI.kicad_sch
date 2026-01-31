@@ -4424,7 +4424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "021d7ce6-5c30-442d-9b34-58c5651a3020")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 140.97 142.2399 90)
 			(effects
 				(font
@@ -4469,25 +4469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Fabricante" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Hoja de datos del vendedor" ""
 			(at 135.89 143.51 0)
 			(effects
 				(font
@@ -4505,70 +4487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link del vendedor" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Código del vendedor (Provider Order Code)" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tecnología" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
 			(at 135.89 143.51 0)
 			(effects
 				(font
@@ -4586,8 +4505,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 135.89 143.51 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 135.89 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,8 +4514,26 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 135.89 143.51 0)
+		(property "Link del vendedor" ""
+			(at 135.89 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nombre de la hoja de datos" ""
+			(at 135.89 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tecnología" ""
+			(at 135.89 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +4547,7 @@
 		(instances
 			(project ""
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4691,7 +4628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d6c84cc-bd03-4aad-9bbd-8ef0c77337b5")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR068"
 			(at 99.06 168.91 0)
 			(effects
 				(font
@@ -4741,7 +4678,7 @@
 		(instances
 			(project "fpga-utn"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
-					(reference "#PWR023")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4783,7 +4720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4801,7 +4738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4810,7 +4747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4819,7 +4756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4828,7 +4765,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4837,7 +4774,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4846,7 +4783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4855,7 +4792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4864,7 +4801,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4924,7 +4861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B475KAHNNN.do"
 			(at 226.06 46.99 0)
 			(effects
 				(font
@@ -4942,7 +4879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 226.06 46.99 0)
 			(effects
 				(font
@@ -4951,7 +4888,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B475KAHNNNE"
+			(at 226.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B475KAHNNNE"
+			(at 226.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 226.06 46.99 0)
 			(effects
 				(font
@@ -4969,15 +4924,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 226.06 46.99 0)
 			(effects
@@ -4987,7 +4933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 226.06 46.99 0)
 			(effects
 				(font
@@ -4997,78 +4943,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 226.06 46.99 0)
 			(effects
 				(font
@@ -5128,7 +5002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5146,7 +5020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5155,7 +5029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5164,7 +5038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5173,7 +5047,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5182,7 +5056,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5191,7 +5065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5200,7 +5074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5209,7 +5083,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5269,7 +5143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5287,7 +5161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5296,7 +5170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5305,7 +5179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5314,7 +5188,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5323,7 +5197,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5332,7 +5206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5341,7 +5215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5350,7 +5224,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5410,7 +5284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf"
+		(property "Datasheet" "https://ftdichip.com/wp-content/uploads/2024/09/DS_FT2232H.pdf"
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5428,7 +5302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "LQPF-64"
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5437,7 +5311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5446,7 +5320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Link del vendedor" ""
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5455,7 +5329,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5464,7 +5338,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Tecnología" ""
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5473,7 +5347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Código del fabricante (Order Code)" "FT2232HL-TRAY"
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5482,7 +5356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Código del vendedor (Provider Order Code)" "895-FT2232HL-TRAY"
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5491,7 +5365,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Fabricante" "FTDI Chip"
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5735,7 +5609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5753,7 +5627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5762,7 +5636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5771,7 +5645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Link del vendedor" ""
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5780,7 +5654,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5789,7 +5663,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Tecnología" ""
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5798,7 +5672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Código del fabricante (Order Code)" "AC1206FR-0710KL"
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5807,7 +5681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Código del vendedor (Provider Order Code)" "603-AC1206FR-0710KL"
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5816,7 +5690,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Fabricante" "Yageo"
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5941,7 +5815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -5959,7 +5833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -5968,7 +5842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -5977,7 +5851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -5986,7 +5860,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -5995,7 +5869,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -6004,7 +5878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -6013,7 +5887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -6022,7 +5896,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -6081,7 +5955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-3225MV.pdf"
 			(at 45.72 134.62 0)
 			(effects
 				(font
@@ -6090,7 +5964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Standard Clock Oscillators XO 12.000MHZ CMOS SMD ECS-3225MV XO Enable/Disable CMOS 1.7 V ~ 3.6 V +/- 25ppm -40 C ~ 85 C 20 mA Surface Mount 4-SMD, No Lead 0.098\" L x 0.079\" W (2.50mm x 2.00mm) 0.035\" (1.2mm),AECQ"
 			(at 45.72 134.62 0)
 			(effects
 				(font
@@ -6099,7 +5973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "ECS INC"
 			(at 45.72 134.62 0)
 			(effects
 				(font
@@ -6108,8 +5982,26 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "ECS-3225MV-120-CN-TR"
 			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "520-ECS-3225MV-120-CN-TR"
+			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "3225"
+			(at 46.99 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,15 +6010,6 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 45.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
 			(at 45.72 134.62 0)
 			(effects
 				(font
@@ -6144,7 +6027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 45.72 134.62 0)
 			(effects
 				(font
@@ -6155,78 +6038,6 @@
 		)
 		(property "Tecnología" ""
 			(at 45.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 46.99 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +6101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/742792141.pdf"
 			(at 240.03 41.91 0)
 			(effects
 				(font
@@ -6308,7 +6119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 240.03 41.91 0)
 			(effects
 				(font
@@ -6317,8 +6128,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 240.03 41.91 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 240.03 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,8 +6137,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 240.03 41.91 0)
+		(property "Link del vendedor" ""
+			(at 240.03 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,8 +6146,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 240.03 41.91 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 240.03 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,8 +6155,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 240.03 41.91 0)
+		(property "Tecnología" ""
+			(at 240.03 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,8 +6164,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 240.03 41.91 0)
+		(property "Código del fabricante (Order Code)" "742792141"
+			(at 240.03 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,8 +6173,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 240.03 41.91 0)
+		(property "Código del vendedor (Provider Order Code)" "710-742792141"
+			(at 240.03 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6371,8 +6182,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 240.03 41.91 0)
+		(property "Fabricante" "Wurth Elektronik"
+			(at 240.03 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6561,7 +6372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6579,7 +6390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6588,7 +6399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6597,7 +6408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6606,7 +6417,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6615,7 +6426,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6624,7 +6435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6633,7 +6444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6642,7 +6453,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6765,7 +6576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 66.04 85.09 0)
 			(effects
 				(font
@@ -6783,7 +6594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 66.04 85.09 0)
 			(effects
 				(font
@@ -6792,8 +6603,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 66.04 85.09 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 66.04 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6801,8 +6612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 66.04 85.09 0)
+		(property "Link del vendedor" ""
+			(at 66.04 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,8 +6621,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 66.04 85.09 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 66.04 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,8 +6630,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 66.04 85.09 0)
+		(property "Tecnología" ""
+			(at 66.04 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,8 +6639,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 66.04 85.09 0)
+		(property "Código del fabricante (Order Code)" "AC1206FR-0712KL"
+			(at 66.04 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6837,8 +6648,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 66.04 85.09 0)
+		(property "Código del vendedor (Provider Order Code)" "603-AC1206FR-0712KL"
+			(at 66.04 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6846,8 +6657,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 66.04 85.09 0)
+		(property "Fabricante" "Yageo"
+			(at 66.04 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,7 +6717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6924,7 +6735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6933,7 +6744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6942,7 +6753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6951,7 +6762,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6960,7 +6771,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6969,7 +6780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6978,7 +6789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6987,7 +6798,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -7045,7 +6856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 66.04 90.17 0)
 			(effects
 				(font
@@ -7063,7 +6874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 66.04 90.17 0)
 			(effects
 				(font
@@ -7072,8 +6883,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 66.04 90.17 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 66.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,8 +6892,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 66.04 90.17 0)
+		(property "Link del vendedor" ""
+			(at 66.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,8 +6901,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 66.04 90.17 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 66.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,8 +6910,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 66.04 90.17 0)
+		(property "Tecnología" ""
+			(at 66.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,8 +6919,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 66.04 90.17 0)
+		(property "Código del fabricante (Order Code)" "RC1206FR-101KL"
+			(at 66.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,8 +6928,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 66.04 90.17 0)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-101KL"
+			(at 66.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7126,8 +6937,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 66.04 90.17 0)
+		(property "Fabricante" "Yageo"
+			(at 66.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,7 +7062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7269,7 +7080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7278,7 +7089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7287,7 +7098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7296,7 +7107,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7305,7 +7116,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7314,7 +7125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7323,7 +7134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7332,7 +7143,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7390,7 +7201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7408,7 +7219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7417,7 +7228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7426,7 +7237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Link del vendedor" ""
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7435,7 +7246,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7444,7 +7255,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Tecnología" ""
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7453,7 +7264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Código del fabricante (Order Code)" "AC1206FR-0710KL"
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7462,7 +7273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Código del vendedor (Provider Order Code)" "603-AC1206FR-0710KL"
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7471,7 +7282,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Fabricante" "Yageo"
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7531,7 +7342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B475KAHNNN.do"
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -7549,7 +7360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -7558,7 +7369,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B475KAHNNNE"
+			(at 260.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B475KAHNNNE"
+			(at 260.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -7576,15 +7405,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 260.35 46.99 0)
 			(effects
@@ -7594,7 +7414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -7604,78 +7424,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -7775,7 +7523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87dfc8a5-4ef0-4fa7-944a-6417b7939524")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR022"
 			(at 34.29 147.32 0)
 			(effects
 				(font
@@ -7825,7 +7573,7 @@
 		(instances
 			(project "fpga-utn"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
-					(reference "#PWR068")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7866,7 +7614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/742792141.pdf"
 			(at 205.74 41.91 0)
 			(effects
 				(font
@@ -7884,7 +7632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 205.74 41.91 0)
 			(effects
 				(font
@@ -7893,8 +7641,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 205.74 41.91 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 205.74 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7902,8 +7650,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 205.74 41.91 0)
+		(property "Link del vendedor" ""
+			(at 205.74 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7911,8 +7659,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 205.74 41.91 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 205.74 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,8 +7668,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 205.74 41.91 0)
+		(property "Tecnología" ""
+			(at 205.74 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,8 +7677,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 205.74 41.91 0)
+		(property "Código del fabricante (Order Code)" "742792141"
+			(at 205.74 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,8 +7686,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 205.74 41.91 0)
+		(property "Código del vendedor (Provider Order Code)" "710-742792141"
+			(at 205.74 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7947,8 +7695,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 205.74 41.91 0)
+		(property "Fabricante" "Wurth Elektronik"
+			(at 205.74 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8072,7 +7820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B335KOHNNN.do"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8090,7 +7838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8099,7 +7847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B335KOHNNNE"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8108,7 +7856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B335KOHNNNE"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8117,7 +7865,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8126,7 +7874,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8135,7 +7883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8144,7 +7892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8153,7 +7901,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8252,7 +8000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0ff9913-e89d-4edc-a738-c7a1773a4228")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 233.68 156.21 0)
 			(effects
 				(font
@@ -8302,7 +8050,7 @@
 		(instances
 			(project "fpga-utn"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8475,7 +8223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8493,7 +8241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8502,7 +8250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8511,7 +8259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8520,7 +8268,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8529,7 +8277,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8538,7 +8286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8547,7 +8295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8556,7 +8304,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8681,7 +8429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 34.29 135.89 0)
 			(effects
 				(font
@@ -8699,7 +8447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 34.29 135.89 0)
 			(effects
 				(font
@@ -8708,8 +8456,26 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 34.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
+			(at 34.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8718,15 +8484,6 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 34.29 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
 			(at 34.29 135.89 0)
 			(effects
 				(font
@@ -8744,7 +8501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 34.29 135.89 0)
 			(effects
 				(font
@@ -8755,78 +8512,6 @@
 		)
 		(property "Tecnología" ""
 			(at 34.29 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,7 +8635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -8968,7 +8653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -8977,7 +8662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -8986,7 +8671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -8995,7 +8680,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -9004,7 +8689,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -9013,7 +8698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -9022,7 +8707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -9031,7 +8716,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 213.36 46.99 0)
 			(effects
 				(font

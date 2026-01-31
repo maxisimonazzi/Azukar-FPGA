@@ -8825,7 +8825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 245.11 90.17 0)
 			(effects
 				(font
@@ -8843,7 +8843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 245.11 90.17 0)
 			(effects
 				(font
@@ -8852,7 +8852,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 245.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 245.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 245.11 90.17 0)
 			(effects
 				(font
@@ -8870,15 +8888,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 245.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 245.11 90.17 0)
 			(effects
@@ -8888,7 +8897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 245.11 90.17 0)
 			(effects
 				(font
@@ -8898,78 +8907,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 245.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 245.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 245.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 245.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 245.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 245.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 245.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 245.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 245.11 90.17 0)
 			(effects
 				(font
@@ -9029,7 +8966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 179.07 142.24 0)
 			(effects
 				(font
@@ -9047,7 +8984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 179.07 142.24 0)
 			(effects
 				(font
@@ -9056,7 +8993,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
+			(at 179.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
+			(at 179.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 179.07 142.24 0)
 			(effects
 				(font
@@ -9074,15 +9029,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 179.07 142.24 0)
 			(effects
@@ -9092,7 +9038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 179.07 142.24 0)
 			(effects
 				(font
@@ -9102,78 +9048,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 179.07 142.24 0)
 			(effects
 				(font
@@ -9215,7 +9089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 252.73 100.33 0)
 			(effects
 				(font
@@ -9233,7 +9107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B106KAHNNN.do"
 			(at 257.81 102.87 0)
 			(effects
 				(font
@@ -9251,7 +9125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 257.81 102.87 0)
 			(effects
 				(font
@@ -9260,7 +9134,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B106KAHNNNE"
+			(at 257.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B106KAHNNNE"
+			(at 257.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 257.81 102.87 0)
 			(effects
 				(font
@@ -9278,15 +9170,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 257.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 257.81 102.87 0)
 			(effects
@@ -9296,7 +9179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 257.81 102.87 0)
 			(effects
 				(font
@@ -9306,78 +9189,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 257.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 257.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 257.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 257.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 257.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 257.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 257.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 257.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 257.81 102.87 0)
 			(effects
 				(font
@@ -9419,7 +9230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 187.452 145.034 0)
 			(effects
 				(font
@@ -9437,7 +9248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B105KAHNFN.do"
 			(at 186.69 142.24 0)
 			(effects
 				(font
@@ -9455,7 +9266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 186.69 142.24 0)
 			(effects
 				(font
@@ -9464,7 +9275,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B105KAHNFNE"
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B105KAHNFNE "
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 186.69 142.24 0)
 			(effects
 				(font
@@ -9482,15 +9311,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 186.69 142.24 0)
 			(effects
@@ -9500,7 +9320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 186.69 142.24 0)
 			(effects
 				(font
@@ -9510,78 +9330,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 186.69 142.24 0)
 			(effects
 				(font
@@ -9639,7 +9387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 193.04 95.25 0)
 			(effects
 				(font
@@ -9657,7 +9405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 193.04 95.25 0)
 			(effects
 				(font
@@ -9666,7 +9414,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "AC1206FR-0710KL"
+			(at 193.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-AC1206FR-0710KL"
+			(at 193.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 193.04 95.25 0)
 			(effects
 				(font
@@ -9676,16 +9442,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 193.04 95.25 0)
+			(at 193.04 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +9451,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 193.04 95.25 0)
+			(at 193.04 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9702,8 +9459,8 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
-			(at 193.04 95.25 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 193.04 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,79 +9469,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 193.04 95.25 0)
+			(at 193.04 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9844,7 +9529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
 			(at 135.89 52.07 0)
 			(effects
 				(font
@@ -9862,7 +9547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "3528"
 			(at 135.89 52.07 0)
 			(effects
 				(font
@@ -9871,8 +9556,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 135.89 52.07 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 135.89 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9880,8 +9565,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 135.89 52.07 0)
+		(property "Link del vendedor" ""
+			(at 135.89 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9889,8 +9574,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 135.89 52.07 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 135.89 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9898,8 +9583,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 135.89 52.07 0)
+		(property "Tecnología" ""
+			(at 135.89 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9907,8 +9592,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 135.89 52.07 0)
+		(property "Código del fabricante (Order Code)" "150141GS73100 "
+			(at 135.89 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9916,8 +9601,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 135.89 52.07 0)
+		(property "Código del vendedor (Provider Order Code)" "710-150141GS73100"
+			(at 135.89 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9925,8 +9610,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 135.89 52.07 0)
+		(property "Fabricante" "Wurth Elektronik"
+			(at 135.89 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,7 +9781,7 @@
 				)
 			)
 		)
-		(property "Value" "Conector SMD 2x10"
+		(property "Value" "Conector 2x10"
 			(at 83.82 113.538 0)
 			(effects
 				(font
@@ -10122,7 +9807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Conector SMD 2x10 (Male o Female)"
+		(property "Description" "Conector 2x10 (Female)"
 			(at 81.026 113.03 0)
 			(effects
 				(font
@@ -10131,25 +9816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Fabricante" ""
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Hoja de datos del vendedor" ""
 			(at 86.36 91.44 0)
 			(effects
 				(font
@@ -10167,70 +9834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link del vendedor" ""
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Código del vendedor (Provider Order Code)" ""
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tecnología" ""
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
 			(at 86.36 91.44 0)
 			(effects
 				(font
@@ -10248,7 +9852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 86.36 91.44 0)
 			(effects
 				(font
@@ -10257,7 +9861,25 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Link del vendedor" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nombre de la hoja de datos" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tecnología" ""
 			(at 86.36 91.44 0)
 			(effects
 				(font
@@ -10353,7 +9975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 210.312 145.034 0)
 			(effects
 				(font
@@ -10371,7 +9993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B105KAHNFN.do"
 			(at 209.55 142.24 0)
 			(effects
 				(font
@@ -10389,7 +10011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 209.55 142.24 0)
 			(effects
 				(font
@@ -10398,7 +10020,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B105KAHNFNE"
+			(at 209.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B105KAHNFNE "
+			(at 209.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 209.55 142.24 0)
 			(effects
 				(font
@@ -10416,15 +10056,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 209.55 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 209.55 142.24 0)
 			(effects
@@ -10434,7 +10065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 209.55 142.24 0)
 			(effects
 				(font
@@ -10444,78 +10075,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 209.55 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 209.55 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 209.55 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 209.55 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 209.55 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 209.55 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 209.55 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 209.55 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 209.55 142.24 0)
 			(effects
 				(font
@@ -10705,7 +10264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 247.65 142.24 0)
 			(effects
 				(font
@@ -10723,7 +10282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 247.65 142.24 0)
 			(effects
 				(font
@@ -10732,7 +10291,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
+			(at 247.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
+			(at 247.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 247.65 142.24 0)
 			(effects
 				(font
@@ -10750,15 +10327,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 247.65 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 247.65 142.24 0)
 			(effects
@@ -10768,7 +10336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 247.65 142.24 0)
 			(effects
 				(font
@@ -10778,78 +10346,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 247.65 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 247.65 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 247.65 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 247.65 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 247.65 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 247.65 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 247.65 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 247.65 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 247.65 142.24 0)
 			(effects
 				(font
@@ -10910,7 +10406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40"
+		(property "Datasheet" "https://www.latticesemi.com/~/media/latticesemi/documents/datasheets/ice/ice40lphxfamilydatasheet.pdf"
 			(at 35.56 6.35 0)
 			(effects
 				(font
@@ -10928,7 +10424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Lattice Semiconductor"
 			(at 60.96 69.85 0)
 			(effects
 				(font
@@ -10937,7 +10433,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "iCE40HX4K-TQ144"
+			(at 60.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "842-iCE40HX4K-TQ144"
+			(at 60.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TQFP-144"
 			(at 60.96 69.85 0)
 			(effects
 				(font
@@ -10955,15 +10469,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 60.96 69.85 0)
 			(effects
@@ -10973,7 +10478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 60.96 69.85 0)
 			(effects
 				(font
@@ -10983,78 +10488,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 60.96 69.85 0)
 			(effects
 				(font
@@ -11522,7 +10955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 195.58 100.33 0)
 			(effects
 				(font
@@ -11540,7 +10973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B106KAHNNN.do"
 			(at 200.66 102.87 0)
 			(effects
 				(font
@@ -11558,7 +10991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 200.66 102.87 0)
 			(effects
 				(font
@@ -11567,7 +11000,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B106KAHNNNE"
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B106KAHNNNE"
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 200.66 102.87 0)
 			(effects
 				(font
@@ -11585,15 +11036,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 200.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 200.66 102.87 0)
 			(effects
@@ -11603,7 +11045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 200.66 102.87 0)
 			(effects
 				(font
@@ -11613,78 +11055,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 200.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 200.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 200.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 200.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 200.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 200.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 200.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 200.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 200.66 102.87 0)
 			(effects
 				(font
@@ -11742,7 +11112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 269.24 95.25 0)
 			(effects
 				(font
@@ -11760,7 +11130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 269.24 95.25 0)
 			(effects
 				(font
@@ -11769,7 +11139,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "AC1206FR-0710KL"
+			(at 269.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-AC1206FR-0710KL"
+			(at 269.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 269.24 95.25 0)
 			(effects
 				(font
@@ -11779,16 +11167,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 269.24 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 269.24 95.25 0)
+			(at 269.24 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11797,7 +11176,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 269.24 95.25 0)
+			(at 269.24 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11805,8 +11184,8 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
-			(at 269.24 95.25 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 269.24 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11815,79 +11194,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 269.24 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 269.24 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 269.24 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 269.24 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 269.24 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 269.24 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 269.24 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 269.24 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 269.24 95.25 0)
+			(at 269.24 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11993,7 +11300,7 @@
 				)
 			)
 		)
-		(property "Value" "Conector SMD 2x10"
+		(property "Value" "Conector 2x10"
 			(at 35.56 35.56 0)
 			(effects
 				(font
@@ -12019,7 +11326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Conector SMD 2x10 (Male o Female)"
+		(property "Description" "Conector 2x10 (Female)"
 			(at 32.766 77.47 0)
 			(effects
 				(font
@@ -12028,25 +11335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
-			(at 38.1 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Fabricante" ""
-			(at 38.1 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Hoja de datos del vendedor" ""
 			(at 38.1 55.88 0)
 			(effects
 				(font
@@ -12064,70 +11353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link del vendedor" ""
-			(at 38.1 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Código del vendedor (Provider Order Code)" ""
-			(at 38.1 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tecnología" ""
-			(at 38.1 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 38.1 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 38.1 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 38.1 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 38.1 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
 			(at 38.1 55.88 0)
 			(effects
 				(font
@@ -12145,7 +11371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 38.1 55.88 0)
 			(effects
 				(font
@@ -12154,7 +11380,25 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Link del vendedor" ""
+			(at 38.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nombre de la hoja de datos" ""
+			(at 38.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tecnología" ""
 			(at 38.1 55.88 0)
 			(effects
 				(font
@@ -12250,7 +11494,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED Red"
+		(property "Value" "LED Green"
 			(at 162.56 54.9274 90)
 			(effects
 				(font
@@ -12269,7 +11513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
 			(at 158.75 52.07 0)
 			(effects
 				(font
@@ -12287,7 +11531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "3528"
 			(at 158.75 52.07 0)
 			(effects
 				(font
@@ -12296,8 +11540,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 158.75 52.07 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 158.75 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12305,8 +11549,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 158.75 52.07 0)
+		(property "Link del vendedor" ""
+			(at 158.75 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12314,8 +11558,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 158.75 52.07 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 158.75 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12323,8 +11567,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 158.75 52.07 0)
+		(property "Tecnología" ""
+			(at 158.75 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12332,8 +11576,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 158.75 52.07 0)
+		(property "Código del fabricante (Order Code)" "150141GS73100 "
+			(at 158.75 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12341,8 +11585,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 158.75 52.07 0)
+		(property "Código del vendedor (Provider Order Code)" "710-150141GS73100"
+			(at 158.75 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12350,8 +11594,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 158.75 52.07 0)
+		(property "Fabricante" "Wurth Elektronik"
+			(at 158.75 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12410,7 +11654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 264.16 90.17 0)
 			(effects
 				(font
@@ -12428,7 +11672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 264.16 90.17 0)
 			(effects
 				(font
@@ -12437,7 +11681,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 264.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 264.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 264.16 90.17 0)
 			(effects
 				(font
@@ -12455,15 +11717,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 264.16 90.17 0)
 			(effects
@@ -12473,7 +11726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 264.16 90.17 0)
 			(effects
 				(font
@@ -12483,78 +11736,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 264.16 90.17 0)
 			(effects
 				(font
@@ -12616,7 +11797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
 			(at 240.03 101.6 0)
 			(effects
 				(font
@@ -12634,7 +11815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "SPST"
 			(at 245.11 101.6 0)
 			(effects
 				(font
@@ -12643,8 +11824,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 245.11 101.6 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 245.11 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12652,8 +11833,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 245.11 101.6 0)
+		(property "Link del vendedor" ""
+			(at 245.11 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12661,8 +11842,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 245.11 101.6 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 245.11 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12670,8 +11851,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 245.11 101.6 0)
+		(property "Tecnología" ""
+			(at 245.11 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12679,8 +11860,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 245.11 101.6 0)
+		(property "Código del fabricante (Order Code)" "TS04-66-75-BK-100-SMT "
+			(at 245.11 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12688,8 +11869,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 245.11 101.6 0)
+		(property "Código del vendedor (Provider Order Code)" "179-TS04-66-75-BK-100-SMT"
+			(at 245.11 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12697,8 +11878,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 245.11 101.6 0)
+		(property "Fabricante" "Same sky"
+			(at 245.11 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12822,7 +12003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 217.17 142.24 0)
 			(effects
 				(font
@@ -12840,7 +12021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 217.17 142.24 0)
 			(effects
 				(font
@@ -12849,7 +12030,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
+			(at 217.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
+			(at 217.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 217.17 142.24 0)
 			(effects
 				(font
@@ -12867,15 +12066,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 217.17 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 217.17 142.24 0)
 			(effects
@@ -12885,7 +12075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 217.17 142.24 0)
 			(effects
 				(font
@@ -12895,78 +12085,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 217.17 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 217.17 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 217.17 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 217.17 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 217.17 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 217.17 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 217.17 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 217.17 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 217.17 142.24 0)
 			(effects
 				(font
@@ -13008,7 +12126,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 161.29 43.1799 0)
 			(effects
 				(font
@@ -13027,7 +12145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 158.75 41.91 0)
 			(effects
 				(font
@@ -13045,7 +12163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 158.75 41.91 0)
 			(effects
 				(font
@@ -13054,8 +12172,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 158.75 41.91 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 158.75 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13063,8 +12181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 158.75 41.91 0)
+		(property "Link del vendedor" ""
+			(at 158.75 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13072,8 +12190,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 158.75 41.91 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 158.75 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13081,8 +12199,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 158.75 41.91 0)
+		(property "Tecnología" ""
+			(at 158.75 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13090,8 +12208,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 158.75 41.91 0)
+		(property "Fabricante" "Yageo"
+			(at 158.75 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13099,8 +12217,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 158.75 41.91 0)
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 158.75 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13108,8 +12226,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 158.75 41.91 0)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 158.75 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13150,7 +12268,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 149.86 43.1799 0)
 			(effects
 				(font
@@ -13169,7 +12287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 147.32 41.91 0)
 			(effects
 				(font
@@ -13187,7 +12305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 147.32 41.91 0)
 			(effects
 				(font
@@ -13196,8 +12314,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 147.32 41.91 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 147.32 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13205,8 +12323,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 147.32 41.91 0)
+		(property "Link del vendedor" ""
+			(at 147.32 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13214,8 +12332,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 147.32 41.91 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 147.32 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13223,8 +12341,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 147.32 41.91 0)
+		(property "Tecnología" ""
+			(at 147.32 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13232,8 +12350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 147.32 41.91 0)
+		(property "Fabricante" "Yageo"
+			(at 147.32 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13241,8 +12359,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 147.32 41.91 0)
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 147.32 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13250,8 +12368,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 147.32 41.91 0)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 147.32 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13356,7 +12474,7 @@
 				)
 			)
 		)
-		(property "Value" "Conector SMD 2x10"
+		(property "Value" "Conector 2x10"
 			(at 35.814 113.538 0)
 			(effects
 				(font
@@ -13382,7 +12500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Conector SMD 2x10 (Male o Female)"
+		(property "Description" "Conector 2x10 (Female)"
 			(at 32.766 113.03 0)
 			(effects
 				(font
@@ -13391,25 +12509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Fabricante" ""
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Hoja de datos del vendedor" ""
 			(at 38.1 91.44 0)
 			(effects
 				(font
@@ -13427,70 +12527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link del vendedor" ""
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Código del vendedor (Provider Order Code)" ""
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tecnología" ""
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
 			(at 38.1 91.44 0)
 			(effects
 				(font
@@ -13508,7 +12545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 38.1 91.44 0)
 			(effects
 				(font
@@ -13517,7 +12554,25 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Link del vendedor" ""
+			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nombre de la hoja de datos" ""
+			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tecnología" ""
 			(at 38.1 91.44 0)
 			(effects
 				(font
@@ -13632,7 +12687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
 			(at 220.98 101.6 0)
 			(effects
 				(font
@@ -13650,7 +12705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "SPST"
 			(at 226.06 101.6 0)
 			(effects
 				(font
@@ -13659,8 +12714,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 226.06 101.6 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 226.06 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13668,8 +12723,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 226.06 101.6 0)
+		(property "Link del vendedor" ""
+			(at 226.06 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13677,8 +12732,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 226.06 101.6 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 226.06 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13686,8 +12741,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 226.06 101.6 0)
+		(property "Tecnología" ""
+			(at 226.06 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13695,8 +12750,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 226.06 101.6 0)
+		(property "Código del fabricante (Order Code)" "TS04-66-75-BK-100-SMT "
+			(at 226.06 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13704,8 +12759,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 226.06 101.6 0)
+		(property "Código del vendedor (Provider Order Code)" "179-TS04-66-75-BK-100-SMT"
+			(at 226.06 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13713,8 +12768,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 226.06 101.6 0)
+		(property "Fabricante" "Same sky"
+			(at 226.06 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13773,7 +12828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 194.31 142.24 0)
 			(effects
 				(font
@@ -13791,7 +12846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 194.31 142.24 0)
 			(effects
 				(font
@@ -13800,7 +12855,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
+			(at 194.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
+			(at 194.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 194.31 142.24 0)
 			(effects
 				(font
@@ -13818,15 +12891,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 194.31 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 194.31 142.24 0)
 			(effects
@@ -13836,7 +12900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 194.31 142.24 0)
 			(effects
 				(font
@@ -13846,78 +12910,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 194.31 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 194.31 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 194.31 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 194.31 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 194.31 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 194.31 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 194.31 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 194.31 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 194.31 142.24 0)
 			(effects
 				(font
@@ -13975,7 +12967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -13993,7 +12985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -14002,7 +12994,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "AC1206FR-0710KL"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-AC1206FR-0710KL"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -14012,16 +13022,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 154.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 154.94 95.25 0)
+			(at 154.94 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14030,7 +13031,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 154.94 95.25 0)
+			(at 154.94 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14038,8 +13039,8 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
-			(at 154.94 95.25 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 154.94 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14048,79 +13049,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 154.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 154.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 154.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 154.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 154.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 154.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 154.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 154.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 154.94 95.25 0)
+			(at 154.94 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14180,7 +13109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40"
+		(property "Datasheet" "https://www.latticesemi.com/~/media/latticesemi/documents/datasheets/ice/ice40lphxfamilydatasheet.pdf"
 			(at 82.55 101.6 0)
 			(effects
 				(font
@@ -14198,7 +13127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Lattice Semiconductor"
 			(at 107.95 165.1 0)
 			(effects
 				(font
@@ -14207,7 +13136,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "iCE40HX4K-TQ144"
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "842-iCE40HX4K-TQ144"
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TQFP-144"
 			(at 107.95 165.1 0)
 			(effects
 				(font
@@ -14225,15 +13172,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 107.95 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 107.95 165.1 0)
 			(effects
@@ -14243,7 +13181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 107.95 165.1 0)
 			(effects
 				(font
@@ -14253,78 +13191,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 107.95 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 107.95 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 107.95 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 107.95 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 107.95 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 107.95 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 107.95 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 107.95 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 107.95 165.1 0)
 			(effects
 				(font
@@ -14857,7 +13723,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 157.48 100.33 0)
 			(effects
 				(font
@@ -14875,7 +13741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B106KAHNNN.do"
 			(at 162.56 102.87 0)
 			(effects
 				(font
@@ -14893,7 +13759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 162.56 102.87 0)
 			(effects
 				(font
@@ -14902,7 +13768,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B106KAHNNNE"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B106KAHNNNE"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 162.56 102.87 0)
 			(effects
 				(font
@@ -14920,15 +13804,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 162.56 102.87 0)
 			(effects
@@ -14938,7 +13813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 162.56 102.87 0)
 			(effects
 				(font
@@ -14948,78 +13823,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 162.56 102.87 0)
 			(effects
 				(font
@@ -15126,7 +13929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 153.67 43.1799 0)
 			(effects
 				(font
@@ -15145,7 +13948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 151.13 41.91 0)
 			(effects
 				(font
@@ -15163,7 +13966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 151.13 41.91 0)
 			(effects
 				(font
@@ -15172,8 +13975,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 151.13 41.91 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 151.13 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15181,8 +13984,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 151.13 41.91 0)
+		(property "Link del vendedor" ""
+			(at 151.13 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15190,8 +13993,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 151.13 41.91 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 151.13 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15199,8 +14002,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 151.13 41.91 0)
+		(property "Tecnología" ""
+			(at 151.13 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15208,8 +14011,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 151.13 41.91 0)
+		(property "Fabricante" "Yageo"
+			(at 151.13 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15217,8 +14020,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 151.13 41.91 0)
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 151.13 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15226,8 +14029,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 151.13 41.91 0)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 151.13 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15286,7 +14089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 207.01 90.17 0)
 			(effects
 				(font
@@ -15304,7 +14107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 207.01 90.17 0)
 			(effects
 				(font
@@ -15313,7 +14116,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 207.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 207.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 207.01 90.17 0)
 			(effects
 				(font
@@ -15331,15 +14152,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 207.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 207.01 90.17 0)
 			(effects
@@ -15349,7 +14161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 207.01 90.17 0)
 			(effects
 				(font
@@ -15359,78 +14171,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 207.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 207.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 207.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 207.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 207.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 207.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 207.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 207.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 207.01 90.17 0)
 			(effects
 				(font
@@ -15553,7 +14293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 250.19 95.25 0)
 			(effects
 				(font
@@ -15571,7 +14311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 250.19 95.25 0)
 			(effects
 				(font
@@ -15580,7 +14320,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "AC1206FR-0710KL"
+			(at 250.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-AC1206FR-0710KL"
+			(at 250.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 250.19 95.25 0)
 			(effects
 				(font
@@ -15590,16 +14348,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 250.19 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 250.19 95.25 0)
+			(at 250.19 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15608,7 +14357,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 250.19 95.25 0)
+			(at 250.19 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15616,8 +14365,8 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
-			(at 250.19 95.25 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 250.19 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15626,79 +14375,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 250.19 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 250.19 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 250.19 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 250.19 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 250.19 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 250.19 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 250.19 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 250.19 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 250.19 95.25 0)
+			(at 250.19 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15822,7 +14499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 44.45 163.83 0)
 			(effects
 				(font
@@ -15840,7 +14517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 44.45 163.83 0)
 			(effects
 				(font
@@ -15849,8 +14526,26 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 44.45 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
+			(at 44.45 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 44.45 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15859,15 +14554,6 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 44.45 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
 			(at 44.45 163.83 0)
 			(effects
 				(font
@@ -15885,7 +14571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 44.45 163.83 0)
 			(effects
 				(font
@@ -15895,79 +14581,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 44.45 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 44.45 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 44.45 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 44.45 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 44.45 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 44.45 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 44.45 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 44.45 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 44.45 166.37 0)
+			(at 44.45 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16024,7 +14638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 212.09 95.25 0)
 			(effects
 				(font
@@ -16042,7 +14656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 212.09 95.25 0)
 			(effects
 				(font
@@ -16051,7 +14665,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "AC1206FR-0710KL"
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-AC1206FR-0710KL"
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 212.09 95.25 0)
 			(effects
 				(font
@@ -16061,16 +14693,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 212.09 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 212.09 95.25 0)
+			(at 212.09 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16079,7 +14702,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 212.09 95.25 0)
+			(at 212.09 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16087,8 +14710,8 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
-			(at 212.09 95.25 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 212.09 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16097,79 +14720,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 212.09 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 212.09 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 212.09 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 212.09 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 212.09 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 212.09 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 212.09 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 212.09 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 212.09 95.25 0)
+			(at 212.09 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16228,7 +14779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 130.81 90.17 0)
 			(effects
 				(font
@@ -16246,7 +14797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 130.81 90.17 0)
 			(effects
 				(font
@@ -16255,7 +14806,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 130.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 130.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 130.81 90.17 0)
 			(effects
 				(font
@@ -16273,15 +14842,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 130.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 130.81 90.17 0)
 			(effects
@@ -16291,7 +14851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 130.81 90.17 0)
 			(effects
 				(font
@@ -16301,78 +14861,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 130.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 130.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 130.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 130.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 130.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 130.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 130.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 130.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 130.81 90.17 0)
 			(effects
 				(font
@@ -16498,7 +14986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
 			(at 163.83 101.6 0)
 			(effects
 				(font
@@ -16516,7 +15004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "SPST"
 			(at 168.91 101.6 0)
 			(effects
 				(font
@@ -16525,8 +15013,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 168.91 101.6 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 168.91 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16534,8 +15022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 168.91 101.6 0)
+		(property "Link del vendedor" ""
+			(at 168.91 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16543,8 +15031,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 168.91 101.6 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 168.91 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16552,8 +15040,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 168.91 101.6 0)
+		(property "Tecnología" ""
+			(at 168.91 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16561,8 +15049,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 168.91 101.6 0)
+		(property "Código del fabricante (Order Code)" "TS04-66-75-BK-100-SMT "
+			(at 168.91 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16570,8 +15058,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 168.91 101.6 0)
+		(property "Código del vendedor (Provider Order Code)" "179-TS04-66-75-BK-100-SMT"
+			(at 168.91 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16579,8 +15067,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 168.91 101.6 0)
+		(property "Fabricante" "Same sky"
+			(at 168.91 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16640,7 +15128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
 			(at 201.93 101.6 0)
 			(effects
 				(font
@@ -16658,7 +15146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "SPST"
 			(at 207.01 101.6 0)
 			(effects
 				(font
@@ -16667,8 +15155,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 207.01 101.6 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 207.01 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16676,8 +15164,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 207.01 101.6 0)
+		(property "Link del vendedor" ""
+			(at 207.01 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16685,8 +15173,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 207.01 101.6 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 207.01 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16694,8 +15182,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 207.01 101.6 0)
+		(property "Tecnología" ""
+			(at 207.01 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16703,8 +15191,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 207.01 101.6 0)
+		(property "Código del fabricante (Order Code)" "TS04-66-75-BK-100-SMT "
+			(at 207.01 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16712,8 +15200,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 207.01 101.6 0)
+		(property "Código del vendedor (Provider Order Code)" "179-TS04-66-75-BK-100-SMT"
+			(at 207.01 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16721,8 +15209,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 207.01 101.6 0)
+		(property "Fabricante" "Same sky"
+			(at 207.01 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16977,7 +15465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
 			(at 144.78 101.6 0)
 			(effects
 				(font
@@ -16995,7 +15483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "SPST"
 			(at 149.86 101.6 0)
 			(effects
 				(font
@@ -17004,8 +15492,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 149.86 101.6 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 149.86 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17013,8 +15501,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 149.86 101.6 0)
+		(property "Link del vendedor" ""
+			(at 149.86 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17022,8 +15510,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 149.86 101.6 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 149.86 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17031,8 +15519,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 149.86 101.6 0)
+		(property "Tecnología" ""
+			(at 149.86 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17040,8 +15528,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 149.86 101.6 0)
+		(property "Código del fabricante (Order Code)" "TS04-66-75-BK-100-SMT "
+			(at 149.86 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17049,8 +15537,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 149.86 101.6 0)
+		(property "Código del vendedor (Provider Order Code)" "179-TS04-66-75-BK-100-SMT"
+			(at 149.86 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17058,8 +15546,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 149.86 101.6 0)
+		(property "Fabricante" "Same sky"
+			(at 149.86 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17100,7 +15588,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED Red"
+		(property "Value" "LED Green"
 			(at 158.75 54.9274 90)
 			(effects
 				(font
@@ -17119,7 +15607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
 			(at 154.94 52.07 0)
 			(effects
 				(font
@@ -17137,7 +15625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "3528"
 			(at 154.94 52.07 0)
 			(effects
 				(font
@@ -17146,8 +15634,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 154.94 52.07 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 154.94 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17155,8 +15643,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 154.94 52.07 0)
+		(property "Link del vendedor" ""
+			(at 154.94 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17164,8 +15652,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 154.94 52.07 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 154.94 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17173,8 +15661,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 154.94 52.07 0)
+		(property "Tecnología" ""
+			(at 154.94 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17182,8 +15670,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 154.94 52.07 0)
+		(property "Código del fabricante (Order Code)" "150141GS73100 "
+			(at 154.94 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17191,8 +15679,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 154.94 52.07 0)
+		(property "Código del vendedor (Provider Order Code)" "710-150141GS73100"
+			(at 154.94 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17200,8 +15688,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 154.94 52.07 0)
+		(property "Fabricante" "Wurth Elektronik"
+			(at 154.94 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17260,7 +15748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -17278,7 +15766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -17287,7 +15775,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -17305,15 +15811,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 168.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 168.91 90.17 0)
 			(effects
@@ -17323,7 +15820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -17333,78 +15830,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 168.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 168.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 168.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 168.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 168.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 168.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 168.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 168.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -17511,7 +15936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 157.48 43.1799 0)
 			(effects
 				(font
@@ -17530,7 +15955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 154.94 41.91 0)
 			(effects
 				(font
@@ -17548,7 +15973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 154.94 41.91 0)
 			(effects
 				(font
@@ -17557,8 +15982,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 154.94 41.91 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 154.94 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17566,8 +15991,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 154.94 41.91 0)
+		(property "Link del vendedor" ""
+			(at 154.94 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17575,8 +16000,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 154.94 41.91 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 154.94 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17584,8 +16009,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 154.94 41.91 0)
+		(property "Tecnología" ""
+			(at 154.94 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17593,8 +16018,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 154.94 41.91 0)
+		(property "Fabricante" "Yageo"
+			(at 154.94 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17602,8 +16027,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 154.94 41.91 0)
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 154.94 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17611,8 +16036,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 154.94 41.91 0)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 154.94 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17669,7 +16094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 135.89 95.25 0)
 			(effects
 				(font
@@ -17687,7 +16112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 135.89 95.25 0)
 			(effects
 				(font
@@ -17696,7 +16121,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "AC1206FR-0710KL"
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-AC1206FR-0710KL"
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 135.89 95.25 0)
 			(effects
 				(font
@@ -17706,16 +16149,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 135.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 135.89 95.25 0)
+			(at 135.89 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17724,7 +16158,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 135.89 95.25 0)
+			(at 135.89 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17732,8 +16166,8 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
-			(at 135.89 95.25 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 135.89 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17742,79 +16176,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 135.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 135.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 135.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 135.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 135.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 135.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 135.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 135.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 135.89 95.25 0)
+			(at 135.89 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17874,7 +16236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
 			(at 143.51 52.07 0)
 			(effects
 				(font
@@ -17892,7 +16254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "3528"
 			(at 143.51 52.07 0)
 			(effects
 				(font
@@ -17901,8 +16263,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 143.51 52.07 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 143.51 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17910,8 +16272,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 143.51 52.07 0)
+		(property "Link del vendedor" ""
+			(at 143.51 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17919,8 +16281,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 143.51 52.07 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 143.51 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17928,8 +16290,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 143.51 52.07 0)
+		(property "Tecnología" ""
+			(at 143.51 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17937,8 +16299,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 143.51 52.07 0)
+		(property "Código del fabricante (Order Code)" "150141GS73100 "
+			(at 143.51 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17946,8 +16308,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 143.51 52.07 0)
+		(property "Código del vendedor (Provider Order Code)" "710-150141GS73100"
+			(at 143.51 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17955,8 +16317,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 143.51 52.07 0)
+		(property "Fabricante" "Wurth Elektronik"
+			(at 143.51 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18015,7 +16377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -18033,7 +16395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -18042,7 +16404,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -18060,15 +16440,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 149.86 90.17 0)
 			(effects
@@ -18078,7 +16449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -18088,78 +16459,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -18201,7 +16500,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED Red"
+		(property "Value" "LED Green"
 			(at 151.13 54.9274 90)
 			(effects
 				(font
@@ -18220,7 +16519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -18238,7 +16537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "3528"
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -18247,8 +16546,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 147.32 52.07 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 147.32 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18256,8 +16555,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 147.32 52.07 0)
+		(property "Link del vendedor" ""
+			(at 147.32 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18265,8 +16564,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 147.32 52.07 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 147.32 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18274,8 +16573,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 147.32 52.07 0)
+		(property "Tecnología" ""
+			(at 147.32 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18283,8 +16582,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 147.32 52.07 0)
+		(property "Código del fabricante (Order Code)" "150141GS73100 "
+			(at 147.32 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18292,8 +16591,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 147.32 52.07 0)
+		(property "Código del vendedor (Provider Order Code)" "710-150141GS73100"
+			(at 147.32 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18301,8 +16600,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 147.32 52.07 0)
+		(property "Fabricante" "Wurth Elektronik"
+			(at 147.32 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18362,7 +16661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
 			(at 182.88 101.6 0)
 			(effects
 				(font
@@ -18380,7 +16679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "SPST"
 			(at 187.96 101.6 0)
 			(effects
 				(font
@@ -18389,8 +16688,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 187.96 101.6 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 187.96 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18398,8 +16697,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 187.96 101.6 0)
+		(property "Link del vendedor" ""
+			(at 187.96 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18407,8 +16706,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 187.96 101.6 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 187.96 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18416,8 +16715,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 187.96 101.6 0)
+		(property "Tecnología" ""
+			(at 187.96 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18425,8 +16724,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 187.96 101.6 0)
+		(property "Código del fabricante (Order Code)" "TS04-66-75-BK-100-SMT "
+			(at 187.96 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18434,8 +16733,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 187.96 101.6 0)
+		(property "Código del vendedor (Provider Order Code)" "179-TS04-66-75-BK-100-SMT"
+			(at 187.96 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18443,8 +16742,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 187.96 101.6 0)
+		(property "Fabricante" "Same sky"
+			(at 187.96 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18568,7 +16867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 187.96 90.17 0)
 			(effects
 				(font
@@ -18586,7 +16885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 187.96 90.17 0)
 			(effects
 				(font
@@ -18595,7 +16894,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 187.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 187.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 187.96 90.17 0)
 			(effects
 				(font
@@ -18613,15 +16930,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 187.96 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 187.96 90.17 0)
 			(effects
@@ -18631,7 +16939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 187.96 90.17 0)
 			(effects
 				(font
@@ -18641,78 +16949,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 187.96 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 187.96 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 187.96 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 187.96 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 187.96 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 187.96 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 187.96 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 187.96 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 187.96 90.17 0)
 			(effects
 				(font
@@ -18772,7 +17008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 226.06 90.17 0)
 			(effects
 				(font
@@ -18790,7 +17026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 226.06 90.17 0)
 			(effects
 				(font
@@ -18799,7 +17035,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 226.06 90.17 0)
 			(effects
 				(font
@@ -18817,15 +17071,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 226.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 226.06 90.17 0)
 			(effects
@@ -18835,7 +17080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 226.06 90.17 0)
 			(effects
 				(font
@@ -18845,78 +17090,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 226.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 226.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 226.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 226.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 226.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 226.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 226.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 226.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 226.06 90.17 0)
 			(effects
 				(font
@@ -19042,7 +17215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
 			(at 132.08 52.07 0)
 			(effects
 				(font
@@ -19060,7 +17233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "3528"
 			(at 132.08 52.07 0)
 			(effects
 				(font
@@ -19069,8 +17242,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 132.08 52.07 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 132.08 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19078,8 +17251,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 132.08 52.07 0)
+		(property "Link del vendedor" ""
+			(at 132.08 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19087,8 +17260,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 132.08 52.07 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 132.08 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19096,8 +17269,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 132.08 52.07 0)
+		(property "Tecnología" ""
+			(at 132.08 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19105,8 +17278,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 132.08 52.07 0)
+		(property "Código del fabricante (Order Code)" "150141GS73100 "
+			(at 132.08 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19114,8 +17287,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 132.08 52.07 0)
+		(property "Código del vendedor (Provider Order Code)" "710-150141GS73100"
+			(at 132.08 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19123,8 +17296,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 132.08 52.07 0)
+		(property "Fabricante" "Wurth Elektronik"
+			(at 132.08 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19165,7 +17338,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 233.68 100.33 0)
 			(effects
 				(font
@@ -19183,7 +17356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B106KAHNNN.do"
 			(at 238.76 102.87 0)
 			(effects
 				(font
@@ -19201,7 +17374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 238.76 102.87 0)
 			(effects
 				(font
@@ -19210,7 +17383,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B106KAHNNNE"
+			(at 238.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B106KAHNNNE"
+			(at 238.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 238.76 102.87 0)
 			(effects
 				(font
@@ -19228,15 +17419,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 238.76 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 238.76 102.87 0)
 			(effects
@@ -19246,7 +17428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 238.76 102.87 0)
 			(effects
 				(font
@@ -19256,78 +17438,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 238.76 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 238.76 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 238.76 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 238.76 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 238.76 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 238.76 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 238.76 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 238.76 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 238.76 102.87 0)
 			(effects
 				(font
@@ -19386,7 +17496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.cn/datasheet/2/122/ECS_3225MVQ-1825332.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/294/1/ECS_3225MVQ.pdf"
 			(at 72.39 360.02 0)
 			(effects
 				(font
@@ -19405,57 +17515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.2"
-			(at 72.39 560.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "520-3225MVQ-1000CN-T"
-			(at 72.39 660.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-3225MVQ-1000-CN-TR?qs=GedFDFLaBXGF0v8Ft1PUZg%3D%3D"
-			(at 72.39 760.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ECS"
-			(at 72.39 860.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ECS-3225MVQ-1000-CN-TR"
-			(at 72.39 960.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
+		(property "Package" "3225"
 			(at 38.1 167.64 0)
 			(effects
 				(font
@@ -19464,7 +17524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Fabricante" "ECS INC"
 			(at 38.1 167.64 0)
 			(effects
 				(font
@@ -19473,7 +17533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del fabricante (Order Code)" "ECS-3225MVQ-1000-CN-TR"
 			(at 38.1 167.64 0)
 			(effects
 				(font
@@ -19482,61 +17542,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Nombre de la hoja de datos" ""
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabricante" ""
+		(property "Código del vendedor (Provider Order Code)" "520-ECS-3225MVQ-1000-CN-TR"
 			(at 38.1 167.64 0)
 			(effects
 				(font
@@ -19546,16 +17552,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 38.1 167.64 0)
+			(at 38.1 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19564,7 +17561,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 38.1 167.64 0)
+			(at 38.1 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19572,8 +17569,8 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
-			(at 38.1 167.64 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 38.1 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19582,7 +17579,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 38.1 167.64 0)
+			(at 38.1 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19629,7 +17626,7 @@
 				)
 			)
 		)
-		(property "Value" "Conector SMD 2x10"
+		(property "Value" "Conector 2x10"
 			(at 83.82 33.02 0)
 			(effects
 				(font
@@ -19655,7 +17652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Conector SMD 2x10 (Male o Female)"
+		(property "Description" "Conector 2x10 (Female)"
 			(at 81.026 74.93 0)
 			(effects
 				(font
@@ -19664,25 +17661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
-			(at 86.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Fabricante" ""
-			(at 86.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Hoja de datos del vendedor" ""
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -19700,70 +17679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link del vendedor" ""
-			(at 86.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Código del vendedor (Provider Order Code)" ""
-			(at 86.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tecnología" ""
-			(at 86.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 86.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 86.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 86.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 86.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -19781,7 +17697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -19790,7 +17706,25 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Link del vendedor" ""
+			(at 86.36 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nombre de la hoja de datos" ""
+			(at 86.36 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tecnología" ""
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -19905,7 +17839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
 			(at 139.7 52.07 0)
 			(effects
 				(font
@@ -19923,7 +17857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "3528"
 			(at 139.7 52.07 0)
 			(effects
 				(font
@@ -19932,8 +17866,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 139.7 52.07 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 139.7 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19941,8 +17875,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 139.7 52.07 0)
+		(property "Link del vendedor" ""
+			(at 139.7 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19950,8 +17884,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 139.7 52.07 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 139.7 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19959,8 +17893,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 139.7 52.07 0)
+		(property "Tecnología" ""
+			(at 139.7 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19968,8 +17902,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 139.7 52.07 0)
+		(property "Código del fabricante (Order Code)" "150141GS73100 "
+			(at 139.7 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19977,8 +17911,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 139.7 52.07 0)
+		(property "Código del vendedor (Provider Order Code)" "710-150141GS73100"
+			(at 139.7 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19986,8 +17920,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 139.7 52.07 0)
+		(property "Fabricante" "Wurth Elektronik"
+			(at 139.7 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20047,7 +17981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40"
+		(property "Datasheet" "https://www.latticesemi.com/~/media/latticesemi/documents/datasheets/ice/ice40lphxfamilydatasheet.pdf"
 			(at 83.82 6.35 0)
 			(effects
 				(font
@@ -20065,7 +17999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Lattice Semiconductor"
 			(at 109.22 69.85 0)
 			(effects
 				(font
@@ -20074,7 +18008,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "iCE40HX4K-TQ144"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "842-iCE40HX4K-TQ144"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TQFP-144"
 			(at 109.22 69.85 0)
 			(effects
 				(font
@@ -20092,15 +18044,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 109.22 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 109.22 69.85 0)
 			(effects
@@ -20110,7 +18053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 109.22 69.85 0)
 			(effects
 				(font
@@ -20120,78 +18063,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 109.22 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 109.22 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 109.22 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 109.22 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 109.22 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 109.22 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 109.22 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 109.22 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 109.22 69.85 0)
 			(effects
 				(font
@@ -20675,7 +18546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 231.14 95.25 0)
 			(effects
 				(font
@@ -20693,7 +18564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 231.14 95.25 0)
 			(effects
 				(font
@@ -20702,7 +18573,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "AC1206FR-0710KL"
+			(at 231.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-AC1206FR-0710KL"
+			(at 231.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 231.14 95.25 0)
 			(effects
 				(font
@@ -20712,16 +18601,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 231.14 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 231.14 95.25 0)
+			(at 231.14 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20730,7 +18610,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 231.14 95.25 0)
+			(at 231.14 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20738,8 +18618,8 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
-			(at 231.14 95.25 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 231.14 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20748,79 +18628,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 231.14 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 231.14 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 231.14 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 231.14 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 231.14 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 231.14 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 231.14 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 231.14 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 231.14 95.25 0)
+			(at 231.14 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20879,7 +18687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 171.45 142.24 0)
 			(effects
 				(font
@@ -20897,7 +18705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 171.45 142.24 0)
 			(effects
 				(font
@@ -20906,7 +18714,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
+			(at 171.45 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
+			(at 171.45 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 171.45 142.24 0)
 			(effects
 				(font
@@ -20924,15 +18750,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 171.45 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 171.45 142.24 0)
 			(effects
@@ -20942,7 +18759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 171.45 142.24 0)
 			(effects
 				(font
@@ -20952,78 +18769,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 171.45 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 171.45 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 171.45 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 171.45 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 171.45 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 171.45 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 171.45 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 171.45 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 171.45 142.24 0)
 			(effects
 				(font
@@ -21130,7 +18875,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 138.43 100.33 0)
 			(effects
 				(font
@@ -21148,7 +18893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B106KAHNNN.do"
 			(at 143.51 102.87 0)
 			(effects
 				(font
@@ -21166,7 +18911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 143.51 102.87 0)
 			(effects
 				(font
@@ -21175,7 +18920,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B106KAHNNNE"
+			(at 143.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B106KAHNNNE"
+			(at 143.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 143.51 102.87 0)
 			(effects
 				(font
@@ -21193,15 +18956,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 143.51 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 143.51 102.87 0)
 			(effects
@@ -21211,7 +18965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 143.51 102.87 0)
 			(effects
 				(font
@@ -21221,78 +18975,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 143.51 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 143.51 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 143.51 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 143.51 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 143.51 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 143.51 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 143.51 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 143.51 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 143.51 102.87 0)
 			(effects
 				(font
@@ -21334,7 +19016,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 164.592 145.034 0)
 			(effects
 				(font
@@ -21352,7 +19034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B105KAHNFN.do"
 			(at 163.83 142.24 0)
 			(effects
 				(font
@@ -21370,7 +19052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 163.83 142.24 0)
 			(effects
 				(font
@@ -21379,7 +19061,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B105KAHNFNE"
+			(at 163.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B105KAHNFNE "
+			(at 163.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 163.83 142.24 0)
 			(effects
 				(font
@@ -21397,15 +19097,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 163.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 163.83 142.24 0)
 			(effects
@@ -21415,7 +19106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 163.83 142.24 0)
 			(effects
 				(font
@@ -21425,78 +19116,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 163.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 163.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 163.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 163.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 163.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 163.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 163.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 163.83 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 163.83 142.24 0)
 			(effects
 				(font
@@ -21556,7 +19175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 240.03 142.24 0)
 			(effects
 				(font
@@ -21574,7 +19193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 240.03 142.24 0)
 			(effects
 				(font
@@ -21583,7 +19202,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
+			(at 240.03 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
+			(at 240.03 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 240.03 142.24 0)
 			(effects
 				(font
@@ -21601,15 +19238,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 240.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 240.03 142.24 0)
 			(effects
@@ -21619,7 +19247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 240.03 142.24 0)
 			(effects
 				(font
@@ -21629,78 +19257,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 240.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 240.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 240.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 240.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 240.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 240.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 240.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 240.03 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 240.03 142.24 0)
 			(effects
 				(font
@@ -21758,7 +19314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 173.99 95.25 0)
 			(effects
 				(font
@@ -21776,7 +19332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Yageo"
 			(at 173.99 95.25 0)
 			(effects
 				(font
@@ -21785,7 +19341,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "AC1206FR-0710KL"
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "603-AC1206FR-0710KL"
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 173.99 95.25 0)
 			(effects
 				(font
@@ -21795,16 +19369,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 173.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 173.99 95.25 0)
+			(at 173.99 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21813,7 +19378,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 173.99 95.25 0)
+			(at 173.99 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21821,8 +19386,8 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
-			(at 173.99 95.25 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 173.99 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21831,79 +19396,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 173.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 173.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 173.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 173.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 173.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 173.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 173.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 173.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 173.99 95.25 0)
+			(at 173.99 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21963,7 +19456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
 			(at 125.73 101.6 0)
 			(effects
 				(font
@@ -21981,7 +19474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "SPST"
 			(at 130.81 101.6 0)
 			(effects
 				(font
@@ -21990,8 +19483,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 130.81 101.6 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 130.81 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21999,8 +19492,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 130.81 101.6 0)
+		(property "Link del vendedor" ""
+			(at 130.81 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22008,8 +19501,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 130.81 101.6 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 130.81 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22017,8 +19510,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 130.81 101.6 0)
+		(property "Tecnología" ""
+			(at 130.81 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22026,8 +19519,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 130.81 101.6 0)
+		(property "Código del fabricante (Order Code)" "TS04-66-75-BK-100-SMT "
+			(at 130.81 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22035,8 +19528,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 130.81 101.6 0)
+		(property "Código del vendedor (Provider Order Code)" "179-TS04-66-75-BK-100-SMT"
+			(at 130.81 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22044,8 +19537,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 130.81 101.6 0)
+		(property "Fabricante" "Same sky"
+			(at 130.81 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22086,7 +19579,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 134.62 43.1799 0)
 			(effects
 				(font
@@ -22105,7 +19598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 132.08 41.91 0)
 			(effects
 				(font
@@ -22123,7 +19616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 132.08 41.91 0)
 			(effects
 				(font
@@ -22132,8 +19625,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 132.08 41.91 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 132.08 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22141,8 +19634,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 132.08 41.91 0)
+		(property "Link del vendedor" ""
+			(at 132.08 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22150,8 +19643,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 132.08 41.91 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 132.08 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22159,8 +19652,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 132.08 41.91 0)
+		(property "Tecnología" ""
+			(at 132.08 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22168,8 +19661,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 132.08 41.91 0)
+		(property "Fabricante" "Yageo"
+			(at 132.08 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22177,8 +19670,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 132.08 41.91 0)
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 132.08 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22186,8 +19679,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 132.08 41.91 0)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 132.08 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22228,7 +19721,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED Red"
+		(property "Value" "LED Green"
 			(at 154.94 54.9274 90)
 			(effects
 				(font
@@ -22247,7 +19740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
 			(at 151.13 52.07 0)
 			(effects
 				(font
@@ -22265,7 +19758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "3528"
 			(at 151.13 52.07 0)
 			(effects
 				(font
@@ -22274,8 +19767,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 151.13 52.07 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 151.13 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22283,8 +19776,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 151.13 52.07 0)
+		(property "Link del vendedor" ""
+			(at 151.13 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22292,8 +19785,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 151.13 52.07 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 151.13 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22301,8 +19794,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 151.13 52.07 0)
+		(property "Tecnología" ""
+			(at 151.13 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22310,8 +19803,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 151.13 52.07 0)
+		(property "Código del fabricante (Order Code)" "150141GS73100 "
+			(at 151.13 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22319,8 +19812,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 151.13 52.07 0)
+		(property "Código del vendedor (Provider Order Code)" "710-150141GS73100"
+			(at 151.13 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22328,8 +19821,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 151.13 52.07 0)
+		(property "Fabricante" "Wurth Elektronik"
+			(at 151.13 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22370,7 +19863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 146.05 43.1799 0)
 			(effects
 				(font
@@ -22389,7 +19882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 143.51 41.91 0)
 			(effects
 				(font
@@ -22407,7 +19900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 143.51 41.91 0)
 			(effects
 				(font
@@ -22416,8 +19909,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 143.51 41.91 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 143.51 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22425,8 +19918,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 143.51 41.91 0)
+		(property "Link del vendedor" ""
+			(at 143.51 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22434,8 +19927,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 143.51 41.91 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 143.51 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22443,8 +19936,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 143.51 41.91 0)
+		(property "Tecnología" ""
+			(at 143.51 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22452,8 +19945,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 143.51 41.91 0)
+		(property "Fabricante" "Yageo"
+			(at 143.51 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22461,8 +19954,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 143.51 41.91 0)
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 143.51 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22470,8 +19963,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 143.51 41.91 0)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 143.51 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22512,7 +20005,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 214.63 100.33 0)
 			(effects
 				(font
@@ -22530,7 +20023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B106KAHNNN.do"
 			(at 219.71 102.87 0)
 			(effects
 				(font
@@ -22548,7 +20041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 219.71 102.87 0)
 			(effects
 				(font
@@ -22557,7 +20050,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B106KAHNNNE"
+			(at 219.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B106KAHNNNE"
+			(at 219.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 219.71 102.87 0)
 			(effects
 				(font
@@ -22575,15 +20086,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 219.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 219.71 102.87 0)
 			(effects
@@ -22593,7 +20095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 219.71 102.87 0)
 			(effects
 				(font
@@ -22603,78 +20105,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 219.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 219.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 219.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 219.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 219.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 219.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 219.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 219.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 219.71 102.87 0)
 			(effects
 				(font
@@ -22930,7 +20360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40"
+		(property "Datasheet" "https://www.latticesemi.com/~/media/latticesemi/documents/datasheets/ice/ice40lphxfamilydatasheet.pdf"
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -22948,7 +20378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Lattice Semiconductor"
 			(at 234.95 33.02 0)
 			(effects
 				(font
@@ -22957,7 +20387,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "iCE40HX4K-TQ144"
+			(at 234.95 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "842-iCE40HX4K-TQ144"
+			(at 234.95 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TQFP-144"
 			(at 234.95 33.02 0)
 			(effects
 				(font
@@ -22967,16 +20415,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 234.95 33.02 0)
+			(at 234.95 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22985,7 +20424,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 234.95 33.02 0)
+			(at 234.95 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22993,8 +20432,8 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
-			(at 234.95 33.02 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 234.95 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23003,79 +20442,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 234.95 33.02 0)
+			(at 234.95 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23560,7 +20927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 224.79 142.24 0)
 			(effects
 				(font
@@ -23578,7 +20945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 224.79 142.24 0)
 			(effects
 				(font
@@ -23587,7 +20954,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
+			(at 224.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
+			(at 224.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 224.79 142.24 0)
 			(effects
 				(font
@@ -23605,15 +20990,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 224.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 224.79 142.24 0)
 			(effects
@@ -23623,7 +20999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 224.79 142.24 0)
 			(effects
 				(font
@@ -23633,78 +21009,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 224.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 224.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 224.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 224.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 224.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 224.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 224.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 224.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 224.79 142.24 0)
 			(effects
 				(font
@@ -23746,7 +21050,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 142.24 43.1799 0)
 			(effects
 				(font
@@ -23765,7 +21069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 139.7 41.91 0)
 			(effects
 				(font
@@ -23783,7 +21087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 139.7 41.91 0)
 			(effects
 				(font
@@ -23792,8 +21096,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 139.7 41.91 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 139.7 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23801,8 +21105,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 139.7 41.91 0)
+		(property "Link del vendedor" ""
+			(at 139.7 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23810,8 +21114,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 139.7 41.91 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 139.7 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23819,8 +21123,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 139.7 41.91 0)
+		(property "Tecnología" ""
+			(at 139.7 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23828,8 +21132,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 139.7 41.91 0)
+		(property "Fabricante" "Yageo"
+			(at 139.7 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23837,8 +21141,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 139.7 41.91 0)
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 139.7 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23846,8 +21150,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 139.7 41.91 0)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 139.7 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23888,7 +21192,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 271.78 100.33 0)
 			(effects
 				(font
@@ -23906,7 +21210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B106KAHNNN.do"
 			(at 276.86 102.87 0)
 			(effects
 				(font
@@ -23924,7 +21228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 276.86 102.87 0)
 			(effects
 				(font
@@ -23933,7 +21237,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B106KAHNNNE"
+			(at 276.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B106KAHNNNE"
+			(at 276.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 276.86 102.87 0)
 			(effects
 				(font
@@ -23951,15 +21273,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 276.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 276.86 102.87 0)
 			(effects
@@ -23969,7 +21282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 276.86 102.87 0)
 			(effects
 				(font
@@ -23979,78 +21292,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 276.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 276.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 276.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 276.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 276.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 276.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 276.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 276.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 276.86 102.87 0)
 			(effects
 				(font
@@ -24092,7 +21333,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 138.43 43.1799 0)
 			(effects
 				(font
@@ -24111,7 +21352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 135.89 41.91 0)
 			(effects
 				(font
@@ -24129,7 +21370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 135.89 41.91 0)
 			(effects
 				(font
@@ -24138,8 +21379,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 135.89 41.91 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 135.89 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24147,8 +21388,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 135.89 41.91 0)
+		(property "Link del vendedor" ""
+			(at 135.89 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24156,8 +21397,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 135.89 41.91 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 135.89 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24165,8 +21406,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 135.89 41.91 0)
+		(property "Tecnología" ""
+			(at 135.89 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24174,8 +21415,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 135.89 41.91 0)
+		(property "Fabricante" "Yageo"
+			(at 135.89 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24183,8 +21424,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 135.89 41.91 0)
+		(property "Código del fabricante (Order Code)" "RC1206FR-13220RL"
+			(at 135.89 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24192,8 +21433,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 135.89 41.91 0)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-13220RL"
+			(at 135.89 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24299,7 +21540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 176.53 100.33 0)
 			(effects
 				(font
@@ -24317,7 +21558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B106KAHNNN.do"
 			(at 181.61 102.87 0)
 			(effects
 				(font
@@ -24335,7 +21576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 181.61 102.87 0)
 			(effects
 				(font
@@ -24344,7 +21585,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B106KAHNNNE"
+			(at 181.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B106KAHNNNE"
+			(at 181.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 181.61 102.87 0)
 			(effects
 				(font
@@ -24362,15 +21621,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 181.61 102.87 0)
 			(effects
@@ -24380,7 +21630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 181.61 102.87 0)
 			(effects
 				(font
@@ -24390,78 +21640,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 181.61 102.87 0)
 			(effects
 				(font
@@ -24503,7 +21681,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 233.172 145.034 0)
 			(effects
 				(font
@@ -24521,7 +21699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B105KAHNFN.do"
 			(at 232.41 142.24 0)
 			(effects
 				(font
@@ -24539,7 +21717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 232.41 142.24 0)
 			(effects
 				(font
@@ -24548,7 +21726,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B105KAHNFNE"
+			(at 232.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B105KAHNFNE "
+			(at 232.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 232.41 142.24 0)
 			(effects
 				(font
@@ -24566,15 +21762,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 232.41 142.24 0)
 			(effects
@@ -24584,7 +21771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 232.41 142.24 0)
 			(effects
 				(font
@@ -24594,78 +21781,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 232.41 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 232.41 142.24 0)
 			(effects
 				(font
@@ -24726,7 +21841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
 			(at 259.08 101.6 0)
 			(effects
 				(font
@@ -24744,7 +21859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "SPST"
 			(at 264.16 101.6 0)
 			(effects
 				(font
@@ -24753,8 +21868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 264.16 101.6 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 264.16 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24762,8 +21877,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 264.16 101.6 0)
+		(property "Link del vendedor" ""
+			(at 264.16 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24771,8 +21886,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 264.16 101.6 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 264.16 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24780,8 +21895,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 264.16 101.6 0)
+		(property "Tecnología" ""
+			(at 264.16 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24789,8 +21904,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 264.16 101.6 0)
+		(property "Código del fabricante (Order Code)" "TS04-66-75-BK-100-SMT "
+			(at 264.16 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24798,8 +21913,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 264.16 101.6 0)
+		(property "Código del vendedor (Provider Order Code)" "179-TS04-66-75-BK-100-SMT"
+			(at 264.16 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24807,8 +21922,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 264.16 101.6 0)
+		(property "Fabricante" "Same sky"
+			(at 264.16 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24867,7 +21982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 201.93 142.24 0)
 			(effects
 				(font
@@ -24885,7 +22000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 201.93 142.24 0)
 			(effects
 				(font
@@ -24894,7 +22009,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
+			(at 201.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
+			(at 201.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 201.93 142.24 0)
 			(effects
 				(font
@@ -24912,15 +22045,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 201.93 142.24 0)
 			(effects
@@ -24930,7 +22054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 201.93 142.24 0)
 			(effects
 				(font
@@ -24940,78 +22064,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 201.93 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 201.93 142.24 0)
 			(effects
 				(font

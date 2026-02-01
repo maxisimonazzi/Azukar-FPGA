@@ -85,10 +85,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
-		(start 68.58 72.39)
-		(end 80.01 88.265)
+		(start 83.82 81.28)
+		(end 104.14 97.155)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 23367c5a-e8c0-420d-a80e-d5b2112b5f27)
+	)
+	(rectangle
+		(start 68.58 81.28)
+		(end 80.01 97.155)
 		(stroke
 			(width 0)
 			(type default)
@@ -99,8 +194,8 @@
 		(uuid 70020644-3af8-49a5-b243-fad42236332a)
 	)
 	(rectangle
-		(start 54.61 72.39)
-		(end 66.04 88.265)
+		(start 54.61 81.28)
+		(end 66.04 106.68)
 		(stroke
 			(width 0)
 			(type default)
@@ -110,9 +205,23 @@
 		)
 		(uuid c8caaa43-4bf9-4b31-9d7f-498246ab5c6c)
 	)
+	(text "Tooling Holes"
+		(exclude_from_sim no)
+		(at 94.742 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "53405c5a-c326-46ba-bbd8-eafc8731eee8")
+	)
 	(text "Marcadores Fiduciales"
 		(exclude_from_sim no)
-		(at 65.532 71.12 0)
+		(at 67.818 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -689,16 +798,108 @@
 		(uuid "ff161534-b675-489e-a78a-287af54826f6")
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 86.36 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "246a9e79-3477-403a-8b11-7adaa7352d4b")
+		(property "Reference" "TH3"
+			(at 88.9 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 88.9 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabricante" ""
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del fabricante (Order Code)" ""
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" ""
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
+					(reference "TH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 71.12 85.09 0)
+		(at 57.15 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7159504d-0a9f-4ec2-ab6a-c5a78df6b964")
-		(property "Reference" "BFID6"
-			(at 73.406 85.09 0)
+		(uuid "2aafd3b2-c803-4ee5-81fb-811ce882c4fd")
+		(property "Reference" "FFID4"
+			(at 59.436 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -707,7 +908,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 73.66 86.3599 0)
+			(at 59.69 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,7 +918,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 71.12 85.09 0)
+			(at 57.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 85.09 0)
+			(at 57.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,7 +936,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 71.12 85.09 0)
+			(at 57.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +945,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 71.12 85.09 0)
+			(at 57.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -753,7 +954,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 71.12 85.09 0)
+			(at 57.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -762,7 +963,7 @@
 			)
 		)
 		(property "Nombre de la hoja de datos" ""
-			(at 71.12 85.09 0)
+			(at 57.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -771,7 +972,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 71.12 85.09 0)
+			(at 57.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -782,7 +983,7 @@
 		(instances
 			(project "fpga-utn"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
-					(reference "BFID6")
+					(reference "FFID4")
 					(unit 1)
 				)
 			)
@@ -790,15 +991,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 57.15 74.93 0)
+		(at 57.15 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7846d91d-fd3e-452d-aef6-909d43f67b9b")
-		(property "Reference" "FFID1"
-			(at 59.436 74.93 0)
+		(uuid "396ce12f-2a66-4776-9a75-e241eb7c4095")
+		(property "Reference" "FFID5"
+			(at 59.436 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -807,7 +1008,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 59.69 76.1999 0)
+			(at 59.69 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,7 +1018,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 57.15 74.93 0)
+			(at 57.15 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,7 +1027,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 74.93 0)
+			(at 57.15 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -835,7 +1036,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 57.15 74.93 0)
+			(at 57.15 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -844,7 +1045,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 57.15 74.93 0)
+			(at 57.15 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,7 +1054,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 57.15 74.93 0)
+			(at 57.15 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +1063,7 @@
 			)
 		)
 		(property "Nombre de la hoja de datos" ""
-			(at 57.15 74.93 0)
+			(at 57.15 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +1072,326 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 57.15 74.93 0)
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "fpga-utn"
+				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
+					(reference "FFID5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 86.36 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bdb6546-b9c0-48ef-9221-351825e9951a")
+		(property "Reference" "TH2"
+			(at 88.9 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 88.9 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabricante" ""
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del fabricante (Order Code)" ""
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" ""
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
+					(reference "TH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 71.12 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7159504d-0a9f-4ec2-ab6a-c5a78df6b964")
+		(property "Reference" "BFID8"
+			(at 73.406 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 73.66 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hoja de datos del vendedor" ""
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link del vendedor" ""
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nombre de la hoja de datos" ""
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tecnología" ""
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "fpga-utn"
+				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
+					(reference "BFID8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 57.15 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7846d91d-fd3e-452d-aef6-909d43f67b9b")
+		(property "Reference" "FFID1"
+			(at 59.436 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 59.69 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 57.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 57.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hoja de datos del vendedor" ""
+			(at 57.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link del vendedor" ""
+			(at 57.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nombre de la hoja de datos" ""
+			(at 57.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tecnología" ""
+			(at 57.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabricante" ""
+			(at 57.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del fabricante (Order Code)" ""
+			(at 57.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" ""
+			(at 57.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -890,7 +1410,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 57.15 85.09 0)
+		(at 57.15 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -898,7 +1418,7 @@
 		(dnp no)
 		(uuid "7a0bed19-1bde-49bc-a9c6-6416708d8262")
 		(property "Reference" "FFID3"
-			(at 59.436 85.09 0)
+			(at 59.436 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,7 +1427,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 59.69 86.3599 0)
+			(at 59.69 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,7 +1437,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 57.15 85.09 0)
+			(at 57.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -926,7 +1446,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 85.09 0)
+			(at 57.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,7 +1455,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 57.15 85.09 0)
+			(at 57.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,7 +1464,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 57.15 85.09 0)
+			(at 57.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,7 +1473,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 57.15 85.09 0)
+			(at 57.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +1482,7 @@
 			)
 		)
 		(property "Nombre de la hoja de datos" ""
-			(at 57.15 85.09 0)
+			(at 57.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,7 +1491,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 57.15 85.09 0)
+			(at 57.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,15 +1510,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 71.12 80.01 0)
+		(at 71.12 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b9abbb83-3130-4e74-adb8-7fc64a4e6cb0")
-		(property "Reference" "BFID5"
-			(at 73.406 80.01 0)
+		(property "Reference" "BFID7"
+			(at 73.406 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1007,7 +1527,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 73.66 81.2799 0)
+			(at 73.66 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1537,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 71.12 80.01 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,7 +1546,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 80.01 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,7 +1555,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 71.12 80.01 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1564,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 71.12 80.01 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +1573,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 71.12 80.01 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1582,7 @@
 			)
 		)
 		(property "Nombre de la hoja de datos" ""
-			(at 71.12 80.01 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1591,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 71.12 80.01 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,7 +1602,99 @@
 		(instances
 			(project "fpga-utn"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
-					(reference "BFID5")
+					(reference "BFID7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 86.36 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d87b41bb-3a62-4b15-be86-26da07fd8013")
+		(property "Reference" "TH1"
+			(at 88.9 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 88.9 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabricante" ""
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del fabricante (Order Code)" ""
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" ""
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
+					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -1090,7 +1702,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 57.15 80.01 0)
+		(at 57.15 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1098,7 +1710,7 @@
 		(dnp no)
 		(uuid "dc7d96d3-ae58-4dfa-9205-8267eaee0a63")
 		(property "Reference" "FFID2"
-			(at 59.436 80.01 0)
+			(at 59.436 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,7 +1719,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 59.69 81.2799 0)
+			(at 59.69 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1729,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 57.15 80.01 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 80.01 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1747,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 57.15 80.01 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +1756,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 57.15 80.01 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1153,7 +1765,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 57.15 80.01 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1162,7 +1774,7 @@
 			)
 		)
 		(property "Nombre de la hoja de datos" ""
-			(at 57.15 80.01 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1171,7 +1783,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 57.15 80.01 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,15 +1802,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 71.12 74.93 0)
+		(at 71.12 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e4329803-47db-45e1-89bf-00597bf2f426")
-		(property "Reference" "BFID4"
-			(at 73.406 74.93 0)
+		(property "Reference" "BFID6"
+			(at 73.406 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1819,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 73.66 76.1999 0)
+			(at 73.66 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,7 +1829,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 71.12 74.93 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1838,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 74.93 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1847,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 71.12 74.93 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1856,7 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 71.12 74.93 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1865,7 @@
 			)
 		)
 		(property "Link del vendedor" ""
-			(at 71.12 74.93 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1874,7 @@
 			)
 		)
 		(property "Nombre de la hoja de datos" ""
-			(at 71.12 74.93 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1883,7 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 71.12 74.93 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1894,7 @@
 		(instances
 			(project "fpga-utn"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
-					(reference "BFID4")
+					(reference "BFID6")
 					(unit 1)
 				)
 			)

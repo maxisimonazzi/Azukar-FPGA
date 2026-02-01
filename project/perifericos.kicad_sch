@@ -198,6 +198,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -3807,229 +3816,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SW_Push_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW7"
-				(at 1.2701 -1.27 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at -1.2699 -1.27 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 -4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Availability" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description_1" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MP" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Price" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_1_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -9561,7 +9347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
+		(property "Datasheet" "~"
 			(at 135.89 52.07 0)
 			(effects
 				(font
@@ -9644,6 +9430,15 @@
 		)
 		(property "Fabricante" "Wurth Elektronik"
 			(at 135.89 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 135.89 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11545,7 +11340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
+		(property "Datasheet" "~"
 			(at 158.75 52.07 0)
 			(effects
 				(font
@@ -11628,6 +11423,15 @@
 		)
 		(property "Fabricante" "Wurth Elektronik"
 			(at 158.75 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11792,7 +11596,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SW_Push_1")
 		(lib_id "Switch:SW_Push")
 		(at 245.11 101.6 90)
 		(unit 1)
@@ -11829,7 +11632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
+		(property "Datasheet" "~"
 			(at 240.03 101.6 0)
 			(effects
 				(font
@@ -12719,7 +12522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
+		(property "Datasheet" "~"
 			(at 220.98 101.6 0)
 			(effects
 				(font
@@ -15018,7 +14821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
+		(property "Datasheet" "~"
 			(at 163.83 101.6 0)
 			(effects
 				(font
@@ -15160,7 +14963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
+		(property "Datasheet" "~"
 			(at 201.93 101.6 0)
 			(effects
 				(font
@@ -15497,7 +15300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
+		(property "Datasheet" "~"
 			(at 144.78 101.6 0)
 			(effects
 				(font
@@ -15639,7 +15442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
+		(property "Datasheet" "~"
 			(at 154.94 52.07 0)
 			(effects
 				(font
@@ -15722,6 +15525,15 @@
 		)
 		(property "Fabricante" "Wurth Elektronik"
 			(at 154.94 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16268,7 +16080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
+		(property "Datasheet" "~"
 			(at 143.51 52.07 0)
 			(effects
 				(font
@@ -16351,6 +16163,15 @@
 		)
 		(property "Fabricante" "Wurth Elektronik"
 			(at 143.51 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16551,7 +16372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
+		(property "Datasheet" "~"
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -16641,6 +16462,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7f7affb-0798-4396-936c-e6f3846b8b20")
 		)
@@ -16693,7 +16523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
+		(property "Datasheet" "~"
 			(at 182.88 101.6 0)
 			(effects
 				(font
@@ -17247,7 +17077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
+		(property "Datasheet" "~"
 			(at 132.08 52.07 0)
 			(effects
 				(font
@@ -17330,6 +17160,15 @@
 		)
 		(property "Fabricante" "Wurth Elektronik"
 			(at 132.08 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17871,7 +17710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
+		(property "Datasheet" "~"
 			(at 139.7 52.07 0)
 			(effects
 				(font
@@ -17954,6 +17793,15 @@
 		)
 		(property "Fabricante" "Wurth Elektronik"
 			(at 139.7 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19488,7 +19336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
+		(property "Datasheet" "~"
 			(at 125.73 101.6 0)
 			(effects
 				(font
@@ -19772,7 +19620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141GS73100.pdf"
+		(property "Datasheet" "~"
 			(at 151.13 52.07 0)
 			(effects
 				(font
@@ -19855,6 +19703,15 @@
 		)
 		(property "Fabricante" "Wurth Elektronik"
 			(at 151.13 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21873,7 +21730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/6118/1/ts04.pdf"
+		(property "Datasheet" "~"
 			(at 259.08 101.6 0)
 			(effects
 				(font

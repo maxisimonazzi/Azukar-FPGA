@@ -1046,6 +1046,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -1294,22 +1303,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Z1"
-				(at 11.7079 -3.81 90)
+			(property "Reference" "Z"
+				(at 19.05 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left top)
 				)
 			)
 			(property "Value" "MMBZ5231BLT3G"
-				(at 9.1679 -3.81 90)
+				(at 19.05 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left top)
 				)
 			)
 			(property "Footprint" "SOT96P237X111-3N"
@@ -1476,7 +1485,7 @@
 				(pin passive line
 					(at 6.35 0 0)
 					(length 2.54)
-					(name ""
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1494,7 +1503,7 @@
 				(pin passive line
 					(at 13.97 0 180)
 					(length 2.54)
-					(name ""
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5680,7 +5689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141RS73100.pdf"
+		(property "Datasheet" "~"
 			(at 163.83 88.9 0)
 			(effects
 				(font
@@ -5763,6 +5772,15 @@
 		)
 		(property "Fabricante" "Wurth Elektronik"
 			(at 163.83 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -348,6 +348,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -3580,7 +3589,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 10.16 0)
+				(at -7.62 10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3589,7 +3598,7 @@
 				)
 			)
 			(property "Value" "W25X40CLSN"
-				(at 2.54 10.16 0)
+				(at 2.54 10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3615,7 +3624,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "4Mbit Serial Flash memory, dual I/O SPI, SOIC-8"
+			(property "Description" "4Mbit / 512KiB Serial Flash memory, Standard/Dual I/O SPI, 2.3-3.6V, SOIC-8 (150 mil)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3677,7 +3686,7 @@
 				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "SCK"
+					(name "CLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3695,7 +3704,7 @@
 				(pin bidirectional line
 					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "DI(IO0)"
+					(name "DI/IO_{0}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3713,7 +3722,7 @@
 				(pin bidirectional line
 					(at -10.16 0 0)
 					(length 2.54)
-					(name "DO(IO1)"
+					(name "DO/IO_{1}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6767,7 +6776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141RS73100.pdf"
+		(property "Datasheet" "~"
 			(at 143.51 148.59 0)
 			(effects
 				(font
@@ -6849,6 +6858,15 @@
 			)
 		)
 		(property "Fabricante" "Wurth Elektronik"
+			(at 143.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 143.51 148.59 0)
 			(effects
 				(font
@@ -10299,7 +10317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25x40cl_f%2020140325.pdf"
+		(property "Datasheet" "https://www.winbond.com/resource-files/W25X40CL_G%2020210505.pdf"
 			(at 194.31 88.9 0)
 			(effects
 				(font
@@ -10308,7 +10326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4Mbit Serial Flash memory, dual I/O SPI, SOIC-8"
+		(property "Description" "4Mbit / 512KiB Serial Flash memory, Standard/Dual I/O SPI, 2.3-3.6V, SOIC-8 (150 mil)"
 			(at 191.77 114.3 0)
 			(effects
 				(font

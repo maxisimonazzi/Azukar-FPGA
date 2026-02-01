@@ -1,6 +1,8 @@
 /otras_placas
 /extras
-/fabricacion
+fabricacion/
+production/
+
 
 # Tempfiles
 project/~fpga-utn.kicad_pcb.lck

@@ -221,4 +221,15 @@
 		(uuid "59023371-986d-47ae-9b88-9fcfa3d4c3af")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3rd_party/TS04_66_75_BK_100_SMT/Alternative_model.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

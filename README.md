@@ -50,7 +50,9 @@ The project follows open hardware principles and is optimized for academic envir
 ## Repository Structure
 
 /docs -> Documentation of the board, pinout, datasheets, etc
+
 /images -> Images
+
 /project -> Kicad project
 
 ---
@@ -146,7 +148,9 @@ El proyecto sigue principios de hardware abierto y está optimizado para entorno
 ## Estructura del repositorio
 
 /docs -> Documentación de la placa, pinout, hojas de datos, etc.
+
 /images -> Imágenes
+
 /project -> Proyecto de KiCad
 
 ---

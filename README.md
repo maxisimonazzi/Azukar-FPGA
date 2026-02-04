@@ -25,6 +25,10 @@ It provides an accessible and reproducible hardware platform that enables studen
 
 The project follows open hardware principles and is optimized for academic environments, hands-on learning, and experimentation.
 
+### Special Considerations
+
+Assembly-first decisions were made to keep the board easy to build in a lab or at home: most parts use common, hand-solderable footprints (e.g., 1206, SOT-233-3, SOIC-8, 3528, SOT-23-6), and all components are placed on the TOP side of the PCB to simplify manual assembly and hot-plate reflow. The only parts that typically require extra precision or a different soldering technique are the FPGA (TQFP-144), the FTDI USB interface (LQFP-64), and the 3225 package crystals. As a trade-off, these assembly-friendly decisions make the routing denser and therefore increase via usage compared to a design that spreads parts across both PCB sides.
+
 ---
 
 ## Key Goals
@@ -122,6 +126,10 @@ See the LICENSE file for details.
 Proporciona una plataforma de hardware accesible y reproducible que permite a estudiantes, makers e ingenieros explorar el diseño en HDL, la arquitectura de sistemas digitales y aplicaciones basadas en FPGA usando toolchains abiertas.
 
 El proyecto sigue principios de hardware abierto y está optimizado para entornos académicos, aprendizaje práctico y experimentación.
+
+### Consideraciones especiales
+
+Se tomaron decisiones orientadas al montaje para que la placa sea más fácil de construir en laboratorio o en casa: la mayoría de los componentes usan encapsulados comunes y soldables a mano (por ejemplo 1206, SOT-233-3, SOIC-8, 3528, SOT-23-6), y todos los componentes están ubicados en la cara TOP de la PCB para facilitar el armado manual y el soldado por reflow con cama caliente. Los únicos componentes que suelen requerir más precisión o una técnica de soldado diferente son la FPGA (TQFP-144), la interfaz FTDI del puerto USB (LQFP-64) y los cristales en encapsulado 3225. Como contrapartida, estas decisiones orientadas al ensamblado vuelven el ruteo más complejo y, por lo tanto, aumentan la cantidad de vías respecto de un diseño que distribuye componentes en ambas caras de la PCB.
 
 ---
 

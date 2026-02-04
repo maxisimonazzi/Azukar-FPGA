@@ -6874,7 +6874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "SOT-666-6"
+		(property "Package" "SOT-23-6"
 			(at 86.36 91.44 0)
 			(effects
 				(font

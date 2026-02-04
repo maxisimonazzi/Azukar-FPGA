@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: AZUKAR FPGA
+message: If you use this project, please cite it as below.
+type: Hardware
+authors:
+  - family-names: Simonazzi
+    given-names: Maximiliano
+    email: 
+    website: 
+  - family-names: Gomez Espeche
+    given-names: Valentin
+    email: 
+    website: 
+repository-code: https://github.com/maxisimonazzi/Azukar-FPGA
+license: CERN-OHL-S-2.0
+keywords:
+  - FPGA
+  - Digital Design
+  - Education
+  - Open Hardware
+  - HDL
+url: "https://www.azukar.com.ar"

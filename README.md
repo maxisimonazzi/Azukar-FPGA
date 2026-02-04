@@ -118,6 +118,26 @@ See the LICENSE file for details.
 
 ---
 
+## Attribution
+
+If you use this project as a reference or as a base for derivative works, the CERN-OHL-P license requires preservation of attribution to the original AZUKAR project.
+
+We strongly encourage including in documentation and repositories:
+- A reference to this repository (link and name)
+- The original author name
+- The license notice
+
+This helps maintain traceability and academic integrity within the open hardware community.
+
+---
+
+## Disclaimer
+
+This project is an independent hardware design based on publicly available documentation of the Lattice iCE40HX FPGA family.
+It is not affiliated with, endorsed by, or supported by Lattice Semiconductor.
+
+---
+
 # Español
 
 ## Descripción general
@@ -219,3 +239,21 @@ Este proyecto se publica bajo una licencia compatible con hardware abierto y de 
 Ver el archivo LICENSE para más detalles.
 
 ---
+
+## Atribución
+
+Si utilizás este proyecto como referencia o como base para obras derivadas, la licencia CERN-OHL-P exige que se preserve la atribución al proyecto original AZUKAR.
+
+Se recomienda especialmente incluir en la documentación y repositorios:
+- Una referencia a este repositorio (enlace y nombre)
+- El nombre del autor original
+- El aviso de licencia
+
+Esto ayuda a mantener la trazabilidad y la integridad académica dentro de la comunidad de hardware abierto.
+
+---
+
+## Descargo de responsabilidad
+
+Este proyecto es un diseño de hardware independiente basado en documentación de acceso público de la familia de FPGA Lattice iCE40HX.
+No está afiliado a, avalado por, ni respaldado por Lattice Semiconductor.

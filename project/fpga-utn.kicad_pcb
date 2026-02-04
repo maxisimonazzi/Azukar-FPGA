@@ -71141,6 +71141,19 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "AZUKAR FPGA Version 1.4 - 2026\nCERN-OHL-P-2.0\n© M. Simonazzi, V. Gomez Espeche"
+		(at 163.24 142.56 0)
+		(layer "B.SilkS")
+		(uuid "b346df3f-2f72-43ce-a32b-034df373ac7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "IOL_17A"
 		(at 141.208 123.3904 0)
 		(layer "B.SilkS")
@@ -71341,19 +71354,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.125)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "VERSION 1.4 © 2026"
-		(at 164.29 141.87 0)
-		(layer "B.SilkS")
-		(uuid "cf8b56f7-d727-426f-a600-dbdbff9b05e0")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
 			)
 			(justify left bottom mirror)
 		)

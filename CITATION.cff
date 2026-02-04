@@ -1,7 +1,10 @@
 cff-version: 1.2.0
 title: AZUKAR FPGA
+abstract: Open-source FPGA development board for education and digital design learning. Focused on accessibility, reproducible hardware and open toolchain integration for students, makers and academic environments.
 message: If you use this project, please cite the original project.
 type: Hardware
+version: 1.4
+date-released: 2026-02-04
 authors:
   - family-names: Simonazzi
     given-names: Maximiliano

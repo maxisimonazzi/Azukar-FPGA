@@ -4,6 +4,16 @@
 	(generator_version "9.0")
 	(uuid "fadb8841-cd7a-4174-937d-7c393e857c90")
 	(paper "A4")
+	(title_block
+		(title "Azukar FPGA")
+		(date "2026-02-04")
+		(rev "1.4")
+		(company "Maximiliano Simonazzi, Valentin Gomez Espeche")
+		(comment 1 "attribution to the original AZUKAR project is preserved.")
+		(comment 2 "This design may be copied, modified, manufactured, and distributed provided that")
+		(comment 3 "Year: 2026")
+		(comment 4 "License: CERN Open Hardware Licence v2 – Permissive (CERN-OHL-P-2.0)")
+	)
 	(lib_symbols
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
@@ -233,15 +243,18 @@
 		)
 		(uuid "9811995a-aecb-47c5-9244-5b99c65779c9")
 	)
-	(text "Aqui se inicia nuestro proyecto final"
+	(text "Azukar FPGA"
 		(exclude_from_sim no)
-		(at 150.876 23.114 0)
+		(at 121.412 23.876 0)
 		(effects
 			(font
 				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
 			)
+			(justify left)
 		)
-		(uuid "fd698abc-1a7f-4440-93e7-56ee8ffaf67f")
+		(uuid "e0ece026-2210-4a2b-9466-aff635a3dbdb")
 	)
 	(junction
 		(at 127 97.79)
@@ -981,7 +994,7 @@
 			)
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
 					(reference "FFID4")
 					(unit 1)
@@ -1081,7 +1094,7 @@
 			)
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
 					(reference "FFID5")
 					(unit 1)
@@ -1273,7 +1286,7 @@
 			)
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
 					(reference "BFID8")
 					(unit 1)
@@ -1500,7 +1513,7 @@
 			)
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
 					(reference "FFID3")
 					(unit 1)
@@ -1600,7 +1613,7 @@
 			)
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
 					(reference "BFID7")
 					(unit 1)
@@ -1792,7 +1805,7 @@
 			)
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
 					(reference "FFID2")
 					(unit 1)
@@ -1892,7 +1905,7 @@
 			)
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
 					(reference "BFID6")
 					(unit 1)
@@ -2045,7 +2058,7 @@
 			)
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
 					(page "5")
 				)
@@ -2053,8 +2066,8 @@
 		)
 	)
 	(sheet
-		(at 255.27 173.99)
-		(size 26.67 3.81)
+		(at 250.19 153.67)
+		(size 30.48 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2069,7 +2082,7 @@
 		)
 		(uuid "7fe1bf15-9d75-4a1c-ae72-a4f134f46aee")
 		(property "Sheetname" "Licencia"
-			(at 255.27 173.2784 0)
+			(at 250.19 152.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,7 +2091,7 @@
 			)
 		)
 		(property "Sheetfile" "licencia.kicad_sch"
-			(at 255.27 178.3846 0)
+			(at 250.19 161.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2100,7 @@
 			)
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
 					(page "6")
 				)
@@ -2343,7 +2356,7 @@
 			)
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
 					(page "3")
 				)
@@ -2365,7 +2378,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "addbb95a-5ecf-43db-ab5f-45b593a9e920")
-		(property "Sheetname" "Fuente de Alimentación"
+		(property "Sheetname" "Power Supply"
 			(at 54.61 39.9284 0)
 			(effects
 				(font
@@ -2448,7 +2461,7 @@
 			)
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
 					(page "2")
 				)
@@ -2610,7 +2623,7 @@
 			)
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90"
 					(page "4")
 				)

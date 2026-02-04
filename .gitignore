@@ -5,13 +5,13 @@ production/
 todo
 
 # Tempfiles
-project/~fpga-utn.kicad_pcb.lck
-project/~fpga-utn.kicad_sch.lck
+project/~azukar-fpga.kicad_pcb.lck
+project/~azukar-fpga.kicad_sch.lck
 *.tmp
 
 # Caches
 fp-info-cache
 
 # Backups
-/project/fpga-utn-backups
+/project/azukar-fpga-backups
 *.bak

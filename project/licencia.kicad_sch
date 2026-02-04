@@ -4,6 +4,16 @@
 	(generator_version "9.0")
 	(uuid "ae94ceca-4d68-453f-b07d-0eb7fd200eb6")
 	(paper "A4")
+	(title_block
+		(title "Azukar FPGA")
+		(date "2026-02-04")
+		(rev "1.4")
+		(company "Maximiliano Simonazzi, Valentin Gomez Espeche")
+		(comment 1 "attribution to the original AZUKAR project is preserved.")
+		(comment 2 "This design may be copied, modified, manufactured, and distributed provided that")
+		(comment 3 "Year: 2026")
+		(comment 4 "License: CERN Open Hardware Licence v2 – Permissive (CERN-OHL-P-2.0)")
+	)
 	(lib_symbols)
 	(text "# English\n\nThis design is released under the CERN Open Hardware Licence v2 - Permissive (CERN-OHL-P-2.0).\n\nYou are free to copy, modify, manufacture, and distribute this design, provided that attribution\nto the original AZUKAR project is preserved.\n\nThis is an independent hardware design based on publicly available documentation of the Lattice\niCE40HX FPGA family. It is not affiliated with or endorsed by Lattice Semiconductor."
 		(exclude_from_sim no)

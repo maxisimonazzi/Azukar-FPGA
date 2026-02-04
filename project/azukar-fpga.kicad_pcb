@@ -13179,7 +13179,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/246a9e79-3477-403a-8b11-7adaa7352d4b")
 		(sheetname "/")
-		(sheetfile "fpga-utn.kicad_sch")
+		(sheetfile "azukar-fpga.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -21852,7 +21852,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/dc7d96d3-ae58-4dfa-9205-8267eaee0a63")
 		(sheetname "/")
-		(sheetfile "fpga-utn.kicad_sch")
+		(sheetfile "azukar-fpga.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -25332,7 +25332,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/396ce12f-2a66-4776-9a75-e241eb7c4095")
 		(sheetname "/")
-		(sheetfile "fpga-utn.kicad_sch")
+		(sheetfile "azukar-fpga.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -31135,7 +31135,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/7a0bed19-1bde-49bc-a9c6-6416708d8262")
 		(sheetname "/")
-		(sheetfile "fpga-utn.kicad_sch")
+		(sheetfile "azukar-fpga.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -34417,7 +34417,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/2aafd3b2-c803-4ee5-81fb-811ce882c4fd")
 		(sheetname "/")
-		(sheetfile "fpga-utn.kicad_sch")
+		(sheetfile "azukar-fpga.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -36382,7 +36382,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/5bdb6546-b9c0-48ef-9221-351825e9951a")
 		(sheetname "/")
-		(sheetfile "fpga-utn.kicad_sch")
+		(sheetfile "azukar-fpga.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -37778,7 +37778,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/d87b41bb-3a62-4b15-be86-26da07fd8013")
 		(sheetname "/")
-		(sheetfile "fpga-utn.kicad_sch")
+		(sheetfile "azukar-fpga.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -55547,7 +55547,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/7846d91d-fd3e-452d-aef6-909d43f67b9b")
 		(sheetname "/")
-		(sheetfile "fpga-utn.kicad_sch")
+		(sheetfile "azukar-fpga.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -65195,7 +65195,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/b9abbb83-3130-4e74-adb8-7fc64a4e6cb0")
 		(sheetname "/")
-		(sheetfile "fpga-utn.kicad_sch")
+		(sheetfile "azukar-fpga.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -65370,7 +65370,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/7159504d-0a9f-4ec2-ab6a-c5a78df6b964")
 		(sheetname "/")
-		(sheetfile "fpga-utn.kicad_sch")
+		(sheetfile "azukar-fpga.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -65531,7 +65531,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/e4329803-47db-45e1-89bf-00597bf2f426")
 		(sheetname "/")
-		(sheetfile "fpga-utn.kicad_sch")
+		(sheetfile "azukar-fpga.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)

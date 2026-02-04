@@ -477,7 +477,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "fpga-utn.kicad_pro",
+    "filename": "azukar-fpga.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -529,7 +529,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "..\\..\\..\\fpga-utn.csv",
+    "bom_export_filename": "..\\..\\..\\azukar-fpga.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -725,7 +725,7 @@
     ],
     [
       "addbb95a-5ecf-43db-ab5f-45b593a9e920",
-      "Fuente de Alimentación"
+      "Power Supply"
     ],
     [
       "8407417e-b7fd-4165-964b-a68bb857b9a8",

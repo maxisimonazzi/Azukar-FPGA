@@ -4,6 +4,16 @@
 	(generator_version "9.0")
 	(uuid "15d195fe-268d-4056-bc40-d6e41f6172ca")
 	(paper "A4")
+	(title_block
+		(title "Azukar FPGA")
+		(date "2026-02-04")
+		(rev "1.4")
+		(company "Maximiliano Simonazzi, Valentin Gomez Espeche")
+		(comment 1 "attribution to the original AZUKAR project is preserved.")
+		(comment 2 "This design may be copied, modified, manufactured, and distributed provided that")
+		(comment 3 "Year: 2026")
+		(comment 4 "License: CERN Open Hardware Licence v2 – Permissive (CERN-OHL-P-2.0)")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -3707,7 +3717,7 @@
 			(uuid "d38139a0-a75e-4ef5-a7e9-5c9638e32590")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "#PWR03")
 					(unit 1)
@@ -3848,7 +3858,7 @@
 			(uuid "60f6d97b-4d38-439e-9199-9156f11dbbc9")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "R4")
 					(unit 1)
@@ -4056,7 +4066,7 @@
 			(uuid "af660419-365c-4a9a-84ef-f960973dd16f")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "#FLG03")
 					(unit 1)
@@ -4198,7 +4208,7 @@
 			(uuid "effd12a9-87e2-4c90-a72e-5af765d0240b")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "C3")
 					(unit 1)
@@ -4338,7 +4348,7 @@
 			(uuid "f7cd311b-78a1-4930-b123-4b575804cf8c")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "FB2")
 					(unit 1)
@@ -4523,7 +4533,7 @@
 			(uuid "908365cf-9c4f-4a55-9f2e-abd6cf204de4")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "J1")
 					(unit 1)
@@ -4664,7 +4674,7 @@
 			(uuid "cad5294d-3f8d-4465-975a-def08dcc0427")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "C6")
 					(unit 1)
@@ -4806,7 +4816,7 @@
 			(uuid "1813be76-e2b8-4a13-9d74-a185d99bd2be")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "C2")
 					(unit 1)
@@ -4871,7 +4881,7 @@
 			(uuid "508b437d-e530-46e8-a2f5-b7f6944c6faa")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "#FLG02")
 					(unit 1)
@@ -4936,7 +4946,7 @@
 			(uuid "56188092-3b37-4777-bd74-4b49c9b1f3b2")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "#PWR07")
 					(unit 1)
@@ -5078,7 +5088,7 @@
 			(uuid "45b95cd5-60f2-41d4-b1c6-8bb689568db1")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "C5")
 					(unit 1)
@@ -5219,7 +5229,7 @@
 			(uuid "e0d5a9ad-fff7-4be8-aaec-4de7c9a0b043")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "R1")
 					(unit 1)
@@ -5359,7 +5369,7 @@
 			(uuid "7e5708d8-87e1-4202-ab9b-d6e940bc7495")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "FB1")
 					(unit 1)
@@ -5644,7 +5654,7 @@
 			(uuid "fd844c72-9e49-4624-9133-b03e3171f1ce")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "C7")
 					(unit 1)
@@ -5795,7 +5805,7 @@
 			(uuid "1ac6cf21-d33c-41d8-8c57-147da962cab0")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "D2")
 					(unit 1)
@@ -5937,7 +5947,7 @@
 			(uuid "b3ff1352-ba61-4fef-a0dc-8287994d7144")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "C4")
 					(unit 1)
@@ -6002,7 +6012,7 @@
 			(uuid "c29395b6-6212-48a6-8cd3-77bf1d4efb74")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "#PWR06")
 					(unit 1)
@@ -6143,7 +6153,7 @@
 			(uuid "43bf49b9-f178-4a98-90c0-b1285dc1d940")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "R2")
 					(unit 1)
@@ -6350,7 +6360,7 @@
 			(uuid "9eb15a8a-19d0-43b3-a3b8-681165753e7c")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "#FLG04")
 					(unit 1)
@@ -6491,7 +6501,7 @@
 			(uuid "b5a35ab7-284e-40f4-83ee-8ee7a4a4d848")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "R3")
 					(unit 1)
@@ -6556,7 +6566,7 @@
 			(uuid "78871d7f-5c23-4f68-9c32-d924d3b48ce8")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "#PWR02")
 					(unit 1)
@@ -6621,7 +6631,7 @@
 			(uuid "dc89a24c-00c5-433c-886a-db4a519d7dac")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "#FLG01")
 					(unit 1)
@@ -6938,7 +6948,7 @@
 			(uuid "d9e80f4b-0f59-47e0-839d-0d9c9373a4a9")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "U3")
 					(unit 1)
@@ -7003,7 +7013,7 @@
 			(uuid "7aa64109-29ee-4ffc-88b7-85195e776132")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "#PWR05")
 					(unit 1)
@@ -7143,7 +7153,7 @@
 			(uuid "29f5c045-8048-4c20-bed2-62aac5818bc4")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "FB3")
 					(unit 1)
@@ -7208,7 +7218,7 @@
 			(uuid "8b0ca386-360b-4d6e-b4b9-7772a7a34eca")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "#PWR01")
 					(unit 1)
@@ -7273,7 +7283,7 @@
 			(uuid "065cd235-66ce-4346-9324-cfb4eea02ffa")
 		)
 		(instances
-			(project "fpga-utn"
+			(project "azukar-fpga"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
 					(reference "#PWR04")
 					(unit 1)

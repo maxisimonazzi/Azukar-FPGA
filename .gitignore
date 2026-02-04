@@ -1,6 +1,17 @@
-/project/fpga-utn-backups
 /otras_placas
 /extras
-*.bak
+fabricacion/
+production/
+
+
+# Tempfiles
+project/~fpga-utn.kicad_pcb.lck
+project/~fpga-utn.kicad_sch.lck
 *.tmp
+
+# Caches
 fp-info-cache
+
+# Backups
+/project/fpga-utn-backups
+*.bak

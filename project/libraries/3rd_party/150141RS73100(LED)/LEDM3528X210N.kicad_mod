@@ -1,14 +1,14 @@
 (footprint "LEDM3528X210N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "WL-SMTW SMD TOP LED")
 	(tags "LED")
 	(property "Reference" "LED**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "ea296cdb-b462-459c-8b7e-48dd1d421063")
+		(uuid "3f832e35-a721-4a35-a3ef-be98f6a1b89e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "f77374f1-ccd0-467c-9fd7-0d15a45780e5")
+		(uuid "d6dc3b41-5205-4cf4-8665-57431fa389a1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,23 +28,11 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e3deedaf-9f29-4ec0-a557-93780db800e4")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "51dd0bba-b7c1-43da-b154-f3ec75b28e0e")
+		(uuid "1c0dc3c9-7b39-40b7-9ab0-d5c4d1ce650d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "72d8c290-0008-4ab1-91b8-b3457da1b286")
+		(uuid "af84269f-eb57-4171-b755-6f8540894820")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b66ffede-7560-4e7d-8c47-129c173c0e3a")
+		(uuid "eee4d5a6-ddea-4d21-947e-adeff794232c")
 	)
 	(fp_line
 		(start 1.75 -1.4)
@@ -83,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3ca11d9f-87d1-4f05-9c48-7f5a9ce25501")
+		(uuid "4c1148f4-e2c5-49de-9f16-acd1ba7b23c2")
 	)
 	(fp_line
 		(start -2.6 -1.75)
@@ -92,8 +80,8 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Dwgs.User")
-		(uuid "f292f18c-9cce-4648-a57a-524814e92cd8")
+		(layer "F.CrtYd")
+		(uuid "13e6bd7a-8710-42cc-875d-b3eb7c000880")
 	)
 	(fp_line
 		(start -2.6 1.75)
@@ -102,58 +90,8 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Dwgs.User")
-		(uuid "cd6f13cb-8aa4-467c-bfa8-7ddfa26aeff6")
-	)
-	(fp_line
-		(start -1.75 -1.4)
-		(end 1.75 -1.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "c05dc95b-44fc-4e1a-ad4e-2018adc50c86")
-	)
-	(fp_line
-		(start -1.75 -0.5)
-		(end -0.85 -1.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "36c1ad57-7f5b-45bd-81b1-cdbacce731de")
-	)
-	(fp_line
-		(start -1.75 1.4)
-		(end -1.75 -1.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "cfb458e9-cdf9-4b78-8711-e34b0beac281")
-	)
-	(fp_line
-		(start 1.75 -1.4)
-		(end 1.75 1.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "452713a3-645b-4466-bb99-074dbae5bd7f")
-	)
-	(fp_line
-		(start 1.75 1.4)
-		(end -1.75 1.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "50c2ff63-604a-4f03-a319-f1aca326bc3d")
+		(layer "F.CrtYd")
+		(uuid "65b9de63-03ed-4f0f-a7c2-0c630345333e")
 	)
 	(fp_line
 		(start 2.6 -1.75)
@@ -162,8 +100,8 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Dwgs.User")
-		(uuid "3bde7282-5b81-41e5-8430-299cb0c258a3")
+		(layer "F.CrtYd")
+		(uuid "0944307e-729d-42f0-8af1-995a2ca0991d")
 	)
 	(fp_line
 		(start 2.6 1.75)
@@ -172,26 +110,86 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Dwgs.User")
-		(uuid "43f64e64-e035-47a2-985d-7dab1c5db2e7")
+		(layer "F.CrtYd")
+		(uuid "30c9befb-4008-4ab9-8e2a-082b716d40cc")
+	)
+	(fp_line
+		(start -1.75 -1.4)
+		(end 1.75 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1d12f35-0d2c-40be-835d-52ad09131de3")
+	)
+	(fp_line
+		(start -1.75 -0.5)
+		(end -0.85 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cca653f2-66c6-4ef2-9fea-174b6a9eabe2")
+	)
+	(fp_line
+		(start -1.75 1.4)
+		(end -1.75 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa66223a-ca0a-43ba-aa95-4695765992a8")
+	)
+	(fp_line
+		(start 1.75 -1.4)
+		(end 1.75 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38df3a08-97f4-430e-a1c4-38a2aefefeb2")
+	)
+	(fp_line
+		(start 1.75 1.4)
+		(end -1.75 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be8f4ee0-fc4b-4751-88ac-2a5f464c5bcf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dcbf1f87-39ce-40e7-a5fa-192ad21cfd8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
 	)
 	(pad "1" smd rect
 		(at -1.45 0)
 		(size 1.8 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "d386e3e7-c6fc-4b5d-b516-0925cebaf4c1")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c7ae177d-67e9-4f5d-af4c-c2efd89add7a")
 	)
 	(pad "2" smd rect
 		(at 1.45 0)
 		(size 1.8 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "08cfa5b2-7d96-41f9-8539-8a43d4fd7034")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "efc1ec3d-9950-497b-9f1c-ea6fc3040c01")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/3rd_party/150141RS73100(LED)/3D/150141RS73100.stp"
 		(offset
-			(xyz 0 0 1)
+			(xyz 0 0 1.019999966)
 		)
 		(scale
 			(xyz 1 1 1)

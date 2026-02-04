@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "f589a20e-4fb4-4d16-b24d-5e17c9037d93")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,9 +110,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -181,7 +188,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -193,7 +200,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -242,9 +249,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:FerriteBead_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -317,7 +327,7 @@
 			(symbol "FerriteBead_Small_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 					)
 					(stroke
 						(width 0)
@@ -341,7 +351,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+						(xy 0 -1.27) (xy 0 -0.7874)
 					)
 					(stroke
 						(width 0)
@@ -390,9 +400,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -511,6 +524,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ECS-3225MV-120-CN-TR:ECS-3225MV-120-CN-TR"
 			(pin_names
@@ -578,16 +592,16 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -5.08 180)
+					(at -7.62 3.81 0)
 					(length 5.08)
-					(name "TRI-STATE"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -632,16 +646,16 @@
 					)
 				)
 				(pin input line
-					(at -7.62 3.81 0)
+					(at 20.32 -5.08 180)
 					(length 5.08)
-					(name "VDD"
+					(name "TRI-STATE"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -650,6 +664,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Interface_USB:FT2232HL"
 			(exclude_from_sim no)
@@ -733,16 +748,214 @@
 			)
 			(symbol "FT2232HL_1_1"
 				(pin power_in line
-					(at -10.16 -55.88 90)
+					(at -30.48 48.26 0)
 					(length 3.81)
-					(name "GND"
+					(name "VREGIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -30.48 43.18 0)
+					(length 3.81)
+					(name "VREGOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 22.86 0)
+					(length 3.81)
+					(name "DM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 20.32 0)
+					(length 3.81)
+					(name "DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -30.48 15.24 0)
+					(length 3.81)
+					(name "REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 10.16 0)
+					(length 3.81)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -30.48 -17.78 0)
+					(length 3.81)
+					(name "EECS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -30.48 -20.32 0)
+					(length 3.81)
+					(name "EECLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -22.86 0)
+					(length 3.81)
+					(name "EEDATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 -30.48 0)
+					(length 3.81)
+					(name "OSCI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -30.48 -40.64 0)
+					(length 3.81)
+					(name "OSCO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 -45.72 0)
+					(length 3.81)
+					(name "TEST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -769,7 +982,43 @@
 					)
 				)
 				(pin power_in line
-					(at -5.08 -55.88 90)
+					(at -12.7 55.88 270)
+					(length 3.81)
+					(name "VPHY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 55.88 270)
+					(length 3.81)
+					(name "VPLL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -55.88 90)
 					(length 3.81)
 					(name "GND"
 						(effects
@@ -778,7 +1027,25 @@
 							)
 						)
 					)
-					(number "11"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -55.88 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -804,17 +1071,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -30.48 -45.72 0)
+				(pin power_in line
+					(at -5.08 -55.88 90)
 					(length 3.81)
-					(name "TEST"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -822,17 +1089,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -30.48 10.16 0)
+				(pin power_in line
+					(at -2.54 55.88 270)
 					(length 3.81)
-					(name "~{RESET}"
+					(name "VCORE"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -851,6 +1118,168 @@
 						)
 					)
 					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 55.88 270)
+					(length 3.81)
+					(name "VCORE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -55.88 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -55.88 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 55.88 270)
+					(length 3.81)
+					(name "VCCIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -55.88 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 55.88 270)
+					(length 3.81)
+					(name "VCCIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -55.88 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 55.88 270)
+					(length 3.81)
+					(name "VCCIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 55.88 270)
+					(length 3.81)
+					(name "VCCIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -930,42 +1359,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -30.48 -30.48 0)
-					(length 3.81)
-					(name "OSCI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 55.88 270)
-					(length 3.81)
-					(name "VCCIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 30.48 38.1 180)
 					(length 3.81)
@@ -1031,24 +1424,6 @@
 						)
 					)
 					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -55.88 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1128,24 +1503,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at -30.48 -40.64 0)
-					(length 3.81)
-					(name "OSCO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 30.48 15.24 180)
 					(length 3.81)
@@ -1157,24 +1514,6 @@
 						)
 					)
 					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 55.88 270)
-					(length 3.81)
-					(name "VCCIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1236,60 +1575,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 2.54 -55.88 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 30.48 -45.72 180)
-					(length 3.81)
-					(name "~{SUSPEND}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 55.88 270)
-					(length 3.81)
-					(name "VCORE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 30.48 2.54 180)
 					(length 3.81)
@@ -1326,24 +1611,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -12.7 55.88 270)
-					(length 3.81)
-					(name "VPHY"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 30.48 -2.54 180)
 					(length 3.81)
@@ -1373,24 +1640,6 @@
 						)
 					)
 					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 55.88 270)
-					(length 3.81)
-					(name "VCCIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1470,24 +1719,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -55.88 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 30.48 -20.32 180)
 					(length 3.81)
@@ -1499,78 +1730,6 @@
 						)
 					)
 					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -30.48 43.18 0)
-					(length 3.81)
-					(name "VREGOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 -55.88 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -30.48 48.26 0)
-					(length 3.81)
-					(name "VREGIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -55.88 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "51"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1650,24 +1809,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 55.88 270)
-					(length 3.81)
-					(name "VCCIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 30.48 -33.02 180)
 					(length 3.81)
@@ -1723,24 +1864,6 @@
 					)
 				)
 				(pin output line
-					(at -30.48 15.24 0)
-					(length 3.81)
-					(name "REF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
 					(at 30.48 -43.18 180)
 					(length 3.81)
 					(name "~{PWREN}"
@@ -1758,125 +1881,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -30.48 -22.86 0)
-					(length 3.81)
-					(name "EEDATA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "61"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output line
-					(at -30.48 -20.32 0)
+					(at 30.48 -45.72 180)
 					(length 3.81)
-					(name "EECLK"
+					(name "~{SUSPEND}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "62"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -30.48 -17.78 0)
-					(length 3.81)
-					(name "EECS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 55.88 270)
-					(length 3.81)
-					(name "VCORE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "64"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 22.86 0)
-					(length 3.81)
-					(name "DM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 20.32 0)
-					(length 3.81)
-					(name "DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 55.88 270)
-					(length 3.81)
-					(name "VPLL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1885,12 +1900,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1962,7 +1982,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1974,7 +1994,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2005,12 +2025,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2101,12 +2126,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2197,7 +2227,110 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 186.69 26.67)
+		(end 274.32 63.5)
+		(stroke
+			(width 0.25)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2cbd256b-6371-47f7-a667-891d63a86e2d)
+	)
+	(rectangle
+		(start 210.82 127)
+		(end 240.03 157.48)
+		(stroke
+			(width 0.25)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5212c28f-afab-4c37-8657-e251365c43a2)
+	)
+	(rectangle
+		(start 210.82 82.55)
+		(end 245.11 111.76)
+		(stroke
+			(width 0.25)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9310eb88-cd9e-4fb8-b4c1-28a50ea23ee6)
+	)
+	(text "Filtrado de alimentación FT2232H\n"
+		(exclude_from_sim no)
+		(at 187.96 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24173830-b6a3-4c9f-a4a0-6a896ea5ae98")
+	)
+	(text "Canal A utilizado para\nacceder la memoria Flash"
+		(exclude_from_sim no)
+		(at 150.622 60.452 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "312c2b06-6ff8-46be-968a-4c05fbd32b2d")
+	)
+	(text "Canal B utilizado\ncomo Virtual UART"
+		(exclude_from_sim no)
+		(at 152.4 106.426 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "c482be60-ad49-4ff0-871a-47407473326c")
+	)
+	(text "Desacople FT2232H: VCORE"
+		(exclude_from_sim no)
+		(at 212.344 130.048 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccf44f4e-54d2-49bb-9e74-c63e5b419d44")
+	)
+	(text "Pines utilizados para\nacceder a la memoria EEPROM"
+		(exclude_from_sim no)
+		(at 23.368 112.776 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "f2556279-1ee8-478d-817e-0f752e277ff2")
+	)
+	(text "Desacople FT2232H: VCCIO"
+		(exclude_from_sim no)
+		(at 212.09 84.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc282300-ffee-4fe0-876c-8623ed33fb4b")
 	)
 	(junction
 		(at 223.52 102.87)
@@ -3367,16 +3500,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 129.54) (xy 71.12 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97f2d834-419b-472b-8d29-267d5a642afe")
-	)
-	(wire
-		(pts
 			(xy 134.62 102.87) (xy 137.16 102.87)
 		)
 		(stroke
@@ -3955,111 +4078,8 @@
 		)
 		(uuid "fe87f62c-95fe-4f10-a827-b9c80cc92593")
 	)
-	(rectangle
-		(start 186.69 26.67)
-		(end 274.32 63.5)
-		(stroke
-			(width 0.25)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2cbd256b-6371-47f7-a667-891d63a86e2d)
-	)
-	(rectangle
-		(start 210.82 127)
-		(end 240.03 157.48)
-		(stroke
-			(width 0.25)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5212c28f-afab-4c37-8657-e251365c43a2)
-	)
-	(rectangle
-		(start 210.82 82.55)
-		(end 245.11 111.76)
-		(stroke
-			(width 0.25)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9310eb88-cd9e-4fb8-b4c1-28a50ea23ee6)
-	)
-	(text "Filtrado de alimentación FT2232H\n"
-		(exclude_from_sim no)
-		(at 187.96 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "24173830-b6a3-4c9f-a4a0-6a896ea5ae98")
-	)
-	(text "Canal A utilizado para\nacceder la memoria Flash"
-		(exclude_from_sim no)
-		(at 150.622 60.452 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left)
-		)
-		(uuid "312c2b06-6ff8-46be-968a-4c05fbd32b2d")
-	)
-	(text "Canal B utilizado\ncomo Virtual UART"
-		(exclude_from_sim no)
-		(at 152.4 106.426 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left)
-		)
-		(uuid "c482be60-ad49-4ff0-871a-47407473326c")
-	)
-	(text "Desacople FT2232H: VCORE"
-		(exclude_from_sim no)
-		(at 212.344 130.048 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ccf44f4e-54d2-49bb-9e74-c63e5b419d44")
-	)
-	(text "Pines utilizados para\nacceder a la memoria EEPROM"
-		(exclude_from_sim no)
-		(at 23.368 112.776 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left)
-		)
-		(uuid "f2556279-1ee8-478d-817e-0f752e277ff2")
-	)
-	(text "Desacople FT2232H: VCCIO"
-		(exclude_from_sim no)
-		(at 212.09 84.582 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fc282300-ffee-4fe0-876c-8623ed33fb4b")
-	)
 	(label "VPLL"
 		(at 85.09 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4070,7 +4090,6 @@
 	)
 	(label "VPHY"
 		(at 228.6 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4081,7 +4100,6 @@
 	)
 	(label "VPHY"
 		(at 85.09 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4092,7 +4110,6 @@
 	)
 	(label "VPLL"
 		(at 262.89 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4104,7 +4121,6 @@
 	(hierarchical_label "EEPROM_DATA"
 		(shape bidirectional)
 		(at 64.77 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4116,7 +4132,6 @@
 	(hierarchical_label "Flash_SCK"
 		(shape output)
 		(at 137.16 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4128,7 +4143,6 @@
 	(hierarchical_label "VUART_DCD"
 		(shape output)
 		(at 137.16 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4140,7 +4154,6 @@
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 199.39 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4152,7 +4165,6 @@
 	(hierarchical_label "D+"
 		(shape bidirectional)
 		(at 71.12 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4164,7 +4176,6 @@
 	(hierarchical_label "Flash_DONE"
 		(shape input)
 		(at 137.16 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4176,7 +4187,6 @@
 	(hierarchical_label "Flash_DO"
 		(shape input)
 		(at 137.16 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4188,7 +4198,6 @@
 	(hierarchical_label "VUART_CTS"
 		(shape output)
 		(at 137.16 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4200,7 +4209,6 @@
 	(hierarchical_label "VUART_Tx"
 		(shape output)
 		(at 137.16 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4212,7 +4220,6 @@
 	(hierarchical_label "VUART_DTR"
 		(shape input)
 		(at 137.16 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4224,7 +4231,6 @@
 	(hierarchical_label "VUART_Rx"
 		(shape input)
 		(at 137.16 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4236,7 +4242,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 243.84 54.61 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4248,7 +4253,6 @@
 	(hierarchical_label "12MHz_CLK"
 		(shape output)
 		(at 69.85 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4260,7 +4264,6 @@
 	(hierarchical_label "EEPROM_CS"
 		(shape output)
 		(at 64.77 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4272,7 +4275,6 @@
 	(hierarchical_label "EEPROM_CLK"
 		(shape output)
 		(at 64.77 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4284,7 +4286,6 @@
 	(hierarchical_label "Flash_DI"
 		(shape output)
 		(at 137.16 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4296,7 +4297,6 @@
 	(hierarchical_label "VUART_DSR"
 		(shape output)
 		(at 137.16 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4308,7 +4308,6 @@
 	(hierarchical_label "VUART_RTS"
 		(shape input)
 		(at 137.16 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4320,7 +4319,6 @@
 	(hierarchical_label "D-"
 		(shape bidirectional)
 		(at 71.12 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4332,7 +4330,6 @@
 	(hierarchical_label "Flash_CS"
 		(shape output)
 		(at 137.16 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4344,7 +4341,6 @@
 	(hierarchical_label "Flash_RESET"
 		(shape output)
 		(at 137.16 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4428,7 +4424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "021d7ce6-5c30-442d-9b34-58c5651a3020")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 140.97 142.2399 90)
 			(effects
 				(font
@@ -4473,25 +4469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Fabricante" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Hoja de datos del vendedor" ""
 			(at 135.89 143.51 0)
 			(effects
 				(font
@@ -4509,70 +4487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link del vendedor" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Código del vendedor (Provider Order Code)" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tecnología" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 135.89 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
 			(at 135.89 143.51 0)
 			(effects
 				(font
@@ -4590,8 +4505,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 135.89 143.51 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 135.89 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,8 +4514,26 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 135.89 143.51 0)
+		(property "Link del vendedor" ""
+			(at 135.89 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nombre de la hoja de datos" ""
+			(at 135.89 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tecnología" ""
+			(at 135.89 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +4547,7 @@
 		(instances
 			(project ""
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4695,7 +4628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d6c84cc-bd03-4aad-9bbd-8ef0c77337b5")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR068"
 			(at 99.06 168.91 0)
 			(effects
 				(font
@@ -4745,7 +4678,7 @@
 		(instances
 			(project "fpga-utn"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
-					(reference "#PWR023")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4787,7 +4720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4805,7 +4738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4814,7 +4747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4823,7 +4756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4832,7 +4765,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4841,7 +4774,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4850,7 +4783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4859,7 +4792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4868,7 +4801,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -4928,7 +4861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B475KAHNNN.do"
 			(at 226.06 46.99 0)
 			(effects
 				(font
@@ -4946,7 +4879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 226.06 46.99 0)
 			(effects
 				(font
@@ -4955,7 +4888,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B475KAHNNNE"
+			(at 226.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B475KAHNNNE"
+			(at 226.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 226.06 46.99 0)
 			(effects
 				(font
@@ -4973,15 +4924,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 226.06 46.99 0)
 			(effects
@@ -4991,7 +4933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 226.06 46.99 0)
 			(effects
 				(font
@@ -5001,78 +4943,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 226.06 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 226.06 46.99 0)
 			(effects
 				(font
@@ -5132,7 +5002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5150,7 +5020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5159,7 +5029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5168,7 +5038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5177,7 +5047,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5186,7 +5056,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5195,7 +5065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5204,7 +5074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5213,7 +5083,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -5273,7 +5143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5291,7 +5161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5300,7 +5170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5309,7 +5179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5318,7 +5188,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5327,7 +5197,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5336,7 +5206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5345,7 +5215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5354,7 +5224,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 218.44 143.51 0)
 			(effects
 				(font
@@ -5414,7 +5284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf"
+		(property "Datasheet" "https://ftdichip.com/wp-content/uploads/2024/09/DS_FT2232H.pdf"
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5432,7 +5302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "LQPF-64"
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5441,7 +5311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5450,7 +5320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Link del vendedor" ""
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5459,7 +5329,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5468,7 +5338,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Tecnología" ""
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5477,7 +5347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Código del fabricante (Order Code)" "FT2232HL-TRAY"
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5486,7 +5356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Código del vendedor (Provider Order Code)" "895-FT2232HL-TRAY"
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5495,7 +5365,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Fabricante" "FTDI Chip"
 			(at 104.14 100.33 0)
 			(effects
 				(font
@@ -5739,7 +5609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5757,7 +5627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5766,7 +5636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5775,7 +5645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Link del vendedor" ""
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5784,7 +5654,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5793,7 +5663,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Tecnología" ""
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5802,7 +5672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Código del fabricante (Order Code)" "AC1206FR-0710KL"
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5811,7 +5681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Código del vendedor (Provider Order Code)" "603-AC1206FR-0710KL"
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5820,7 +5690,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Fabricante" "Yageo"
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -5945,7 +5815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -5963,7 +5833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -5972,7 +5842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -5981,7 +5851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -5990,7 +5860,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -5999,7 +5869,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -6008,7 +5878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -6017,7 +5887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -6026,7 +5896,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -6085,7 +5955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-3225MV.pdf"
 			(at 45.72 134.62 0)
 			(effects
 				(font
@@ -6094,7 +5964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Standard Clock Oscillators XO 12.000MHZ CMOS SMD ECS-3225MV XO Enable/Disable CMOS 1.7 V ~ 3.6 V +/- 25ppm -40 C ~ 85 C 20 mA Surface Mount 4-SMD, No Lead 0.098\" L x 0.079\" W (2.50mm x 2.00mm) 0.035\" (1.2mm),AECQ"
 			(at 45.72 134.62 0)
 			(effects
 				(font
@@ -6103,7 +5973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "ECS INC"
 			(at 45.72 134.62 0)
 			(effects
 				(font
@@ -6112,8 +5982,26 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "ECS-3225MV-120-CN-TR"
 			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "520-ECS-3225MV-120-CN-TR"
+			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "3225"
+			(at 46.99 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,15 +6010,6 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 45.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
 			(at 45.72 134.62 0)
 			(effects
 				(font
@@ -6148,7 +6027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 45.72 134.62 0)
 			(effects
 				(font
@@ -6159,78 +6038,6 @@
 		)
 		(property "Tecnología" ""
 			(at 45.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 46.99 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,7 +6101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/742792141.pdf"
 			(at 240.03 41.91 0)
 			(effects
 				(font
@@ -6312,7 +6119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 240.03 41.91 0)
 			(effects
 				(font
@@ -6321,8 +6128,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 240.03 41.91 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 240.03 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,8 +6137,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 240.03 41.91 0)
+		(property "Link del vendedor" ""
+			(at 240.03 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6339,8 +6146,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 240.03 41.91 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 240.03 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,8 +6155,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 240.03 41.91 0)
+		(property "Tecnología" ""
+			(at 240.03 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,8 +6164,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 240.03 41.91 0)
+		(property "Código del fabricante (Order Code)" "742792141"
+			(at 240.03 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,8 +6173,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 240.03 41.91 0)
+		(property "Código del vendedor (Provider Order Code)" "710-742792141"
+			(at 240.03 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,8 +6182,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 240.03 41.91 0)
+		(property "Fabricante" "Wurth Elektronik"
+			(at 240.03 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +6372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6583,7 +6390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6592,7 +6399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6601,7 +6408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6610,7 +6417,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6619,7 +6426,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6628,7 +6435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6637,7 +6444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6646,7 +6453,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 226.06 143.51 0)
 			(effects
 				(font
@@ -6769,7 +6576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 66.04 85.09 0)
 			(effects
 				(font
@@ -6787,7 +6594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 66.04 85.09 0)
 			(effects
 				(font
@@ -6796,8 +6603,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 66.04 85.09 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 66.04 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,8 +6612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 66.04 85.09 0)
+		(property "Link del vendedor" ""
+			(at 66.04 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6814,8 +6621,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 66.04 85.09 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 66.04 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6823,8 +6630,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 66.04 85.09 0)
+		(property "Tecnología" ""
+			(at 66.04 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6832,8 +6639,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 66.04 85.09 0)
+		(property "Código del fabricante (Order Code)" "AC1206FR-0712KL"
+			(at 66.04 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,8 +6648,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 66.04 85.09 0)
+		(property "Código del vendedor (Provider Order Code)" "603-AC1206FR-0712KL"
+			(at 66.04 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,8 +6657,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 66.04 85.09 0)
+		(property "Fabricante" "Yageo"
+			(at 66.04 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,7 +6717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6928,7 +6735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6937,7 +6744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6946,7 +6753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6955,7 +6762,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6964,7 +6771,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6973,7 +6780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6982,7 +6789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -6991,7 +6798,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -7049,7 +6856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 66.04 90.17 0)
 			(effects
 				(font
@@ -7067,7 +6874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 66.04 90.17 0)
 			(effects
 				(font
@@ -7076,8 +6883,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 66.04 90.17 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 66.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,8 +6892,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 66.04 90.17 0)
+		(property "Link del vendedor" ""
+			(at 66.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,8 +6901,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 66.04 90.17 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 66.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,8 +6910,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 66.04 90.17 0)
+		(property "Tecnología" ""
+			(at 66.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,8 +6919,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 66.04 90.17 0)
+		(property "Código del fabricante (Order Code)" "RC1206FR-101KL"
+			(at 66.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,8 +6928,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 66.04 90.17 0)
+		(property "Código del vendedor (Provider Order Code)" "603-RC1206FR-101KL"
+			(at 66.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,8 +6937,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 66.04 90.17 0)
+		(property "Fabricante" "Yageo"
+			(at 66.04 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,7 +7062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7273,7 +7080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7282,7 +7089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7291,7 +7098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7300,7 +7107,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7309,7 +7116,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7318,7 +7125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7327,7 +7134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7336,7 +7143,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 233.68 143.51 0)
 			(effects
 				(font
@@ -7394,7 +7201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_AC_51_ROHS_L.pdf"
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7412,7 +7219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7421,7 +7228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7430,7 +7237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Link del vendedor" ""
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7439,7 +7246,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7448,7 +7255,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Tecnología" ""
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7457,7 +7264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Código del fabricante (Order Code)" "AC1206FR-0710KL"
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7466,7 +7273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Código del vendedor (Provider Order Code)" "603-AC1206FR-0710KL"
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7475,7 +7282,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Fabricante" "Yageo"
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -7535,7 +7342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B475KAHNNN.do"
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -7553,7 +7360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -7562,7 +7369,25 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B475KAHNNNE"
+			(at 260.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B475KAHNNNE"
+			(at 260.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -7580,15 +7405,6 @@
 				(hide yes)
 			)
 		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Link del vendedor" ""
 			(at 260.35 46.99 0)
 			(effects
@@ -7598,7 +7414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -7608,78 +7424,6 @@
 			)
 		)
 		(property "Tecnología" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
 			(at 260.35 46.99 0)
 			(effects
 				(font
@@ -7779,7 +7523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87dfc8a5-4ef0-4fa7-944a-6417b7939524")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR022"
 			(at 34.29 147.32 0)
 			(effects
 				(font
@@ -7829,208 +7573,7 @@
 		(instances
 			(project "fpga-utn"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 71.12 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9365b65d-3f79-4475-94bb-0aa81dc348ff")
-		(property "Reference" "TP1"
-			(at 65.532 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12MHZ"
-			(at 62.738 128.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 76.2 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Nombre de la hoja de datos" ""
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabricante" ""
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Hoja de datos del vendedor" ""
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link del vendedor" ""
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del vendedor (Provider Order Code)" ""
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tecnología" ""
-			(at 71.12 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 68.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 68.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 68.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 68.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 68.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 68.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 68.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 68.58 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7cffc33-ce92-4f5e-9276-c44e9c983fcb")
-		)
-		(instances
-			(project "fpga-utn"
-				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
-					(reference "TP1")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8071,7 +7614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/742792141.pdf"
 			(at 205.74 41.91 0)
 			(effects
 				(font
@@ -8089,7 +7632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 205.74 41.91 0)
 			(effects
 				(font
@@ -8098,8 +7641,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 205.74 41.91 0)
+		(property "Hoja de datos del vendedor" ""
+			(at 205.74 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,8 +7650,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
-			(at 205.74 41.91 0)
+		(property "Link del vendedor" ""
+			(at 205.74 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,8 +7659,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
-			(at 205.74 41.91 0)
+		(property "Nombre de la hoja de datos" ""
+			(at 205.74 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,8 +7668,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
-			(at 205.74 41.91 0)
+		(property "Tecnología" ""
+			(at 205.74 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,8 +7677,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 205.74 41.91 0)
+		(property "Código del fabricante (Order Code)" "742792141"
+			(at 205.74 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,8 +7686,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 205.74 41.91 0)
+		(property "Código del vendedor (Provider Order Code)" "710-742792141"
+			(at 205.74 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,8 +7695,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
-			(at 205.74 41.91 0)
+		(property "Fabricante" "Wurth Elektronik"
+			(at 205.74 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,7 +7820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B335KOHNNN.do"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8295,7 +7838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8304,7 +7847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B335KOHNNNE"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8313,7 +7856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" "187-CL31B335KOHNNNE"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8322,7 +7865,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8331,7 +7874,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8340,7 +7883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8349,7 +7892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8358,7 +7901,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -8457,7 +8000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0ff9913-e89d-4edc-a738-c7a1773a4228")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 233.68 156.21 0)
 			(effects
 				(font
@@ -8507,7 +8050,7 @@
 		(instances
 			(project "fpga-utn"
 				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/8407417e-b7fd-4165-964b-a68bb857b9a8"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8531,7 +8074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+1V8"
 			(at 217.678 133.604 0)
 			(effects
 				(font
@@ -8680,7 +8223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8698,7 +8241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8707,7 +8250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8716,7 +8259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8725,7 +8268,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8734,7 +8277,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8743,7 +8286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8752,7 +8295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8761,7 +8304,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 223.52 97.79 0)
 			(effects
 				(font
@@ -8886,7 +8429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 34.29 135.89 0)
 			(effects
 				(font
@@ -8904,7 +8447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Nombre de la hoja de datos" ""
+		(property "Fabricante" "Samsung"
 			(at 34.29 135.89 0)
 			(effects
 				(font
@@ -8913,8 +8456,26 @@
 				(hide yes)
 			)
 		)
-		(property "Fabricante" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 34.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
+			(at 34.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,15 +8484,6 @@
 			)
 		)
 		(property "Hoja de datos del vendedor" ""
-			(at 34.29 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Código del fabricante (Order Code)" ""
 			(at 34.29 135.89 0)
 			(effects
 				(font
@@ -8949,7 +8501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Código del vendedor (Provider Order Code)" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 34.29 135.89 0)
 			(effects
 				(font
@@ -8960,78 +8512,6 @@
 		)
 		(property "Tecnología" ""
 			(at 34.29 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9155,7 +8635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B104KBCNFN.do"
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -9173,7 +8653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Package" "1206"
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -9182,7 +8662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Código del fabricante (Order Code)" "CL31B104KBCNFNC"
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -9191,7 +8671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "Código del vendedor (Provider Order Code)" " 187-CL31B104KBCNFNC"
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -9200,7 +8680,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "Fabricante" "Samsung"
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -9209,7 +8689,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" ""
+		(property "Hoja de datos del vendedor" ""
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -9218,7 +8698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Link del vendedor" ""
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -9227,7 +8707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Nombre de la hoja de datos" ""
 			(at 213.36 46.99 0)
 			(effects
 				(font
@@ -9236,7 +8716,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Tecnología" ""
 			(at 213.36 46.99 0)
 			(effects
 				(font

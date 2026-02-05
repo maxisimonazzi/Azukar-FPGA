@@ -10,6 +10,7 @@
 ![Open Hardware](https://img.shields.io/badge/Open%20Hardware-OSHWA%20Compatible-success)
 ![KiCad](https://img.shields.io/badge/Designed%20with-KiCad%209-blue)
 ![FPGA](https://img.shields.io/badge/FPGA-Education-orange)
+![Board](https://img.shields.io/badge/Board_Revision-1.4-violet)
 ![Status](https://img.shields.io/badge/status-active%20development-yellow)
 
 ![Front Preview](images/board-front.png)

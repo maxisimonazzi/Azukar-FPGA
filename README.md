@@ -180,8 +180,6 @@ Se recomienda especialmente incluir en la documentación y repositorios:
 
 Esto ayuda a mantener la trazabilidad y la integridad académica dentro de la comunidad de hardware abierto.
 
----
-
 ## Descargo de responsabilidad
 
 Este proyecto es un diseño de hardware independiente basado en documentación de acceso público de la familia de FPGA Lattice iCE40HX.

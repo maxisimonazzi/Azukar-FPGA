@@ -5,8 +5,8 @@
 
 [English](#english) | [Español](#español)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/YOURUSER/AZUKAR?style=social)
-![License](https://img.shields.io/github/license/YOURUSER/AZUKAR)
+![GitHub Repo stars](https://img.shields.io/github/stars/maxisimonazzi/Azukar-FPGA?style=social)
+![License](https://img.shields.io/github/license/maxisimonazzi/Azukar-FPGA)
 ![Open Hardware](https://img.shields.io/badge/Open%20Hardware-OSHWA%20Compatible-success)
 ![KiCad](https://img.shields.io/badge/Designed%20with-KiCad%209-blue)
 ![FPGA](https://img.shields.io/badge/FPGA-Education-orange)

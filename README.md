@@ -1,4 +1,7 @@
-# AZUKAR — Open FPGA Education Board
+<div align="center">
+  <h1><img alt="AZUKAR Logo" src="images/logo_azukar_64.png"/>AZUKAR — Open FPGA Education Board<img alt="AZUKAR Logo" src="images/logo_azukar_64.png"/></h1>
+  <h1>UTN-FRT - Ingeniería Electrónica</h1>
+</div>
 
 [English](#english) | [Español](#español)
 
@@ -33,22 +36,17 @@ Assembly-first decisions were made to keep the board easy to build in a lab or a
 
 ## Key Goals
 
-- Facilitate FPGA learning and digital design education
-- Support open-source FPGA toolchains
-- Provide reproducible and transparent hardware design
-- Enable laboratory use and academic training
-- Encourage community contributions and experimentation
+The main idea behind AZUKAR is to make FPGA learning feel approachable and practical, especially in the context of digital design courses and hands-on training. To do that, the board is designed to work well with open-source FPGA toolchains and to keep the hardware design easy to understand, reproduce, and verify.
+
+At the same time, this is meant to be a solid platform for lab work and academic use, not just a one-off prototype. The project is open to contributions and experiments from the community, so people can build on it, adapt it to their needs, and share improvements back.
 
 ---
 
 ## Features
 
-- FPGA-based digital logic platform
-- Fully open hardware design files
-- Designed with KiCad 9
-- Compatible with open-source synthesis and programming tools
-- Educational-oriented I/O and peripherals
-- Modular and extensible architecture
+AZUKAR is an FPGA-based digital logic platform with fully open hardware design files, created and maintained in KiCad 9. It is intended to work smoothly with open-source synthesis and programming workflows, so the learning experience doesn’t depend on proprietary tools.
+
+From the start, the board is designed with education in mind: the I/O and peripherals are chosen to support typical lab exercises and digital design practice. The overall architecture is modular and extensible, so it can grow with new experiments, add-ons, and future improvements.
 
 ---
 
@@ -64,24 +62,13 @@ Assembly-first decisions were made to keep the board easy to build in a lab or a
 
 ## Toolchain Compatibility
 
-AZUKAR is designed to work with open-source FPGA workflows, including:
-
-- Yosys (synthesis)
-- NextPNR / Place & Route tools
-- Open FPGA programming tools
-- Vendor-independent HDL flows
+AZUKAR is designed to fit naturally into open-source FPGA workflows. In practice, that means you can synthesize designs with tools like Yosys, run place-and-route with NextPNR, and program the board using open programming utilities. The goal is to keep the HDL flow as vendor-independent as possible, so the same learning and development approach can be reused across projects.
 
 ---
 
 ## Educational Use
 
-This board is intended for:
-
-- University courses
-- Digital electronics laboratories
-- FPGA introduction workshops
-- Self-learning and experimentation
-- Research prototypes
+This board is intended to be used in real learning environments: university courses, digital electronics labs, and introductory FPGA workshops. It also works well for self-learning and experimentation at home, and it can serve as a practical base for small research prototypes where having an open, reproducible platform is a plus.
 
 ---
 
@@ -155,22 +142,17 @@ Se tomaron decisiones orientadas al montaje para que la placa sea más fácil de
 
 ## Objetivos principales
 
-- Facilitar el aprendizaje de FPGA y la educación en diseño digital
-- Soportar toolchains de FPGA de código abierto
-- Proporcionar un diseño de hardware reproducible y transparente
-- Habilitar el uso en laboratorio y la formación académica
-- Fomentar las contribuciones de la comunidad y la experimentación
+La idea principal de AZUKAR es que aprender FPGA sea más accesible y práctico, especialmente para materias de diseño digital y actividades de laboratorio. Por eso se buscó que la placa pueda trabajar con toolchains de FPGA de código abierto y que el diseño de hardware sea transparente, entendible y fácil de reproducir.
+
+Además, el objetivo es que sirva como una plataforma sólida para uso académico y entrenamiento, no sólo como un prototipo aislado. El proyecto también está pensado para que la comunidad pueda aportar, probar ideas y experimentar, de forma que cualquiera pueda adaptarlo y mejorar lo que ya existe.
 
 ---
 
 ## Características
 
-- Plataforma de lógica digital basada en FPGA
-- Archivos de diseño de hardware totalmente abiertos
-- Diseñada con KiCad 9
-- Compatible con herramientas de síntesis y programación de código abierto
-- E/S y periféricos orientados a educación
-- Arquitectura modular y extensible
+AZUKAR es una plataforma de lógica digital basada en FPGA, con archivos de diseño de hardware totalmente abiertos y desarrollados en KiCad 9. La placa está pensada para integrarse bien con herramientas de síntesis y programación de código abierto, para que el flujo de trabajo sea accesible y fácil de replicar.
+
+También se priorizó el uso educativo: las entradas/salidas y los periféricos apuntan a cubrir prácticas típicas de laboratorio y ejercicios de diseño digital. La arquitectura, además, es modular y extensible, lo que permite sumar ideas, módulos y mejoras con el tiempo.
 
 ---
 
@@ -186,24 +168,13 @@ Se tomaron decisiones orientadas al montaje para que la placa sea más fácil de
 
 ## Compatibilidad con toolchains
 
-AZUKAR está diseñada para funcionar con flujos de trabajo de FPGA de código abierto, incluyendo:
-
-- Yosys (síntesis)
-- NextPNR / herramientas de Place & Route
-- Herramientas abiertas de programación de FPGA
-- Flujos HDL independientes del proveedor
+AZUKAR está pensada para integrarse de forma natural con flujos de trabajo de FPGA de código abierto. En la práctica, esto incluye poder sintetizar con herramientas como Yosys, hacer place & route con NextPNR y programar la placa con utilidades abiertas. La idea es mantener el flujo de HDL lo más independiente posible del proveedor, para que lo aprendido sea reutilizable y fácil de replicar.
 
 ---
 
 ## Uso educativo
 
-Esta placa está pensada para:
-
-- Cursos universitarios
-- Laboratorios de electrónica digital
-- Talleres introductorios de FPGA
-- Autoaprendizaje y experimentación
-- Prototipos de investigación
+Esta placa está pensada para usarse en entornos reales de aprendizaje: cursos universitarios, laboratorios de electrónica digital y talleres introductorios de FPGA. También es muy útil para el autoaprendizaje y la experimentación, y puede servir como base para prototipos de investigación donde suma contar con una plataforma abierta y reproducible.
 
 ---
 

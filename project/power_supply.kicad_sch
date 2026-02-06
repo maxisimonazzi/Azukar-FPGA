@@ -3876,7 +3876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1753d999-05a7-4f6c-8f72-3ab51f6dc580")
-		(property "Reference" "U"
+		(property "Reference" "U1"
 			(at 176.53 69.85 0)
 			(effects
 				(font
@@ -4000,7 +4000,14 @@
 		(pin "1"
 			(uuid "44406a4f-b52a-4283-bc77-8e48c4293530")
 		)
-		(instances)
+		(instances
+			(project "azukar-fpga"
+				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -5380,7 +5387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86b92102-1461-4ffc-8138-0952d4e4469a")
-		(property "Reference" "U"
+		(property "Reference" "U2"
 			(at 223.52 69.85 0)
 			(effects
 				(font
@@ -5504,7 +5511,14 @@
 		(pin "3"
 			(uuid "fee25206-b131-4024-8849-afb20d6f79ad")
 		)
-		(instances)
+		(instances
+			(project "azukar-fpga"
+				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -6157,7 +6171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7ccc47d-96c6-4609-af94-3020b2125615")
-		(property "Reference" "C"
+		(property "Reference" "C1"
 			(at 132.08 83.8199 0)
 			(effects
 				(font
@@ -6280,7 +6294,14 @@
 		(pin "2"
 			(uuid "04f83c2c-7b53-4bac-b0f3-9288a3766818")
 		)
-		(instances)
+		(instances
+			(project "azukar-fpga"
+				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -6628,7 +6649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4859400-d013-4345-986f-9d137df1bdfd")
-		(property "Reference" "Z"
+		(property "Reference" "Z1"
 			(at 107.95 83.5421 90)
 			(effects
 				(font
@@ -6770,7 +6791,14 @@
 		(pin "3"
 			(uuid "84b7b912-cad8-4eb8-bbb1-6c6b98d0414f")
 		)
-		(instances)
+		(instances
+			(project "azukar-fpga"
+				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
+					(reference "Z1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")

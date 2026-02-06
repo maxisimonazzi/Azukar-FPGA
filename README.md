@@ -5,8 +5,13 @@
 
 [English](#english) | [Español](#español)
 
+<<<<<<< Updated upstream
 ![GitHub Repo stars](https://img.shields.io/github/stars/maxisimonazzi/Azukar-FPGA?style=social)
 ![License](https://img.shields.io/badge/License-CERN--OHL--P--2.0-blue)
+=======
+![GitHub Repo stars](https://img.shields.io/github/stars/maxisimonazzi/Azukar-FPGA)
+![License](https://img.shields.io/github/license/maxisimonazzi/Azukar-FPGA)
+>>>>>>> Stashed changes
 ![Open Hardware](https://img.shields.io/badge/Open%20Hardware-OSHWA%20Compatible-success)
 ![KiCad](https://img.shields.io/badge/Designed%20with-KiCad%209-blue)
 ![FPGA](https://img.shields.io/badge/FPGA-Education-orange)

@@ -17,7 +17,7 @@
 	(lib_symbols)
 	(text "# English\n\nThis design is released under the CERN Open Hardware Licence v2 - Permissive (CERN-OHL-P-2.0).\n\nYou are free to copy, modify, manufacture, and distribute this design, provided that attribution\nto the original AZUKAR project is preserved.\n\nThis is an independent hardware design based on publicly available documentation of the Lattice\niCE40HX FPGA family. It is not affiliated with or endorsed by Lattice Semiconductor."
 		(exclude_from_sim no)
-		(at 38.862 132.334 0)
+		(at 38.862 137.414 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -28,7 +28,7 @@
 	)
 	(text "# Español\n\nEste diseño se publica bajo la licencia CERN Open Hardware Licence v2 - Permissive (CERN-OHL-P-2.0).\n\nSos libre de copiar, modificar, fabricar y distribuir este diseño, siempre que se mantenga la atribución\nal proyecto original AZUKAR.\n\nEste es un diseño de hardware independiente basado en documentación de acceso público de la familia de\nFPGA Lattice iCE40HX. No está afiliado a ni avalado por Lattice Semiconductor."
 		(exclude_from_sim no)
-		(at 38.1 73.152 0)
+		(at 38.608 65.786 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -37,17 +37,41 @@
 		)
 		(uuid "84b793b0-ae08-447f-99c3-44802af77f7a")
 	)
+	(text "Project name: AZUKAR FPGA\nOriginal author: Maximiliano Simonazzi, Valentin Gomez Espeche\nRepository link: https://github.com/maxisimonazzi/Azukar-FPGA\nWebsite link: https://www.azukar.com.ar/\nLicense: CERN-OHL-P-2.0"
+		(exclude_from_sim no)
+		(at 39.116 170.688 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "c4df852e-9b56-4cc1-a427-86c3bc86bce2")
+	)
 	(text "Licencia / License"
 		(exclude_from_sim no)
-		(at 80.01 30.734 0)
+		(at 79.248 28.194 0)
 		(effects
 			(font
 				(size 10.16 10.16)
 				(thickness 2.032)
 				(bold yes)
+				(color 132 0 0 1)
 			)
 			(justify left)
 		)
 		(uuid "c5d3987d-4e76-431c-a444-2b47c32a4bf3")
+	)
+	(text "Nombre del proyecto: AZUKAR FPGA\nAutor original: Maximiliano Simonazzi, Valentin Gomez Espeche\nEnlace al repositorio: https://github.com/maxisimonazzi/Azukar-FPGA\nEnlace al sitio web: https://www.azukar.com.ar/\nLicencia: CERN-OHL-P-2.0"
+		(exclude_from_sim no)
+		(at 38.354 98.806 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "e0e6d13c-cc88-4c87-aac7-6f4422980d8f")
 	)
 )

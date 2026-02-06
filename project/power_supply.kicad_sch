@@ -3714,7 +3714,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d38139a0-a75e-4ef5-a7e9-5c9638e32590")
+			(uuid "ce7d2cc8-22ab-42b1-9b96-c75533b4ea9a")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -3852,10 +3852,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e146694-a5e9-42e3-bf80-bd387486bb6e")
+			(uuid "f06a2c29-3485-463c-8ccc-b0666f8dce31")
 		)
 		(pin "2"
-			(uuid "60f6d97b-4d38-439e-9199-9156f11dbbc9")
+			(uuid "741552d6-79b8-45a7-ae52-8e1ba1bb8352")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -3876,7 +3876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1753d999-05a7-4f6c-8f72-3ab51f6dc580")
-		(property "Reference" "U1"
+		(property "Reference" "U"
 			(at 176.53 69.85 0)
 			(effects
 				(font
@@ -3992,22 +3992,15 @@
 			)
 		)
 		(pin "3"
-			(uuid "2eae03ab-a0d8-4dd3-98bd-2d4604130d05")
+			(uuid "e527415e-202a-4971-80ab-056d5d122154")
 		)
 		(pin "2"
-			(uuid "ccd2c67a-726f-4cdd-8c0a-fb660194bfe9")
+			(uuid "2fc33140-d38e-46e7-9374-561f1744ec69")
 		)
 		(pin "1"
-			(uuid "4c9e30d5-8d0e-4aab-848b-836072f4750e")
+			(uuid "44406a4f-b52a-4283-bc77-8e48c4293530")
 		)
-		(instances
-			(project ""
-				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -4063,7 +4056,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "af660419-365c-4a9a-84ef-f960973dd16f")
+			(uuid "230b5669-d899-4f40-a21e-e1a5081fee40")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -4202,10 +4195,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d26377f5-25f7-4868-b5cc-eafc549a2c2f")
+			(uuid "2f1e66e9-20e2-4c55-ab69-4fa7471af201")
 		)
 		(pin "2"
-			(uuid "effd12a9-87e2-4c90-a72e-5af765d0240b")
+			(uuid "309966f7-b8dd-4d67-a856-d3085b79e62f")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -4342,10 +4335,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "263c9a16-adde-4963-8b6d-621a6fefb211")
+			(uuid "f0fa5c02-4f2b-4435-8c39-6be490a3b633")
 		)
 		(pin "1"
-			(uuid "f7cd311b-78a1-4930-b123-4b575804cf8c")
+			(uuid "2356c9ef-b885-448d-9f3e-f96f9799f9c0")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -4482,55 +4475,55 @@
 			)
 		)
 		(pin "B5"
-			(uuid "cb5f0bf3-b6e7-4ab3-887c-c34c97e62bf4")
+			(uuid "79592153-a4f7-4269-b511-651cccf6e397")
 		)
 		(pin "B7"
-			(uuid "ea23bf99-d595-4808-a9fa-70c53cdfcc76")
+			(uuid "777bf92a-0b5e-4d67-9186-e918a995faba")
 		)
 		(pin "B4"
-			(uuid "938fb77a-7e76-41cb-8c5e-19d9cf609eec")
+			(uuid "059658ee-8651-4e35-adeb-7423edcb293d")
 		)
 		(pin "B6"
-			(uuid "fb737089-9bb0-40c9-b95c-fe48ec3808e9")
+			(uuid "ef0fe0bd-e89e-4000-89cb-7e072fa697ff")
 		)
 		(pin "A5"
-			(uuid "e5e6ad7a-1d73-4cc1-ae53-0e6800a93fd3")
+			(uuid "762e64ea-8490-4cf1-a308-96c84f5ce77e")
 		)
 		(pin "B8"
-			(uuid "890e170e-fc24-4758-bf37-5c262164601b")
+			(uuid "668fe6f3-aa56-40b2-9cc2-5ba11434f0b0")
 		)
 		(pin "S1"
-			(uuid "3630fc23-39cd-4add-801e-a5ec6e3b9ef4")
+			(uuid "1ad6c3dd-69d9-4950-8099-8976c8b57f5b")
 		)
 		(pin "A1"
-			(uuid "a0409df0-28fd-4e77-8929-02f2846b51bf")
+			(uuid "f5f6f920-fc5b-47c9-9899-716ede237bbf")
 		)
 		(pin "A8"
-			(uuid "8fa5ac90-d8ff-4123-9053-9e29edc13b0e")
+			(uuid "ec396c07-a809-4e04-9412-3a154d01e978")
 		)
 		(pin "A4"
-			(uuid "49363a1f-b66f-4027-9aff-6611d4cd407e")
+			(uuid "d3ab7c5a-06ed-4765-ad4f-3c91ca5b4500")
 		)
 		(pin "A7"
-			(uuid "d99e56a4-1026-4a4f-b672-40bc1309f10d")
+			(uuid "aa27537b-cf2b-48da-a3f2-a75055e5d275")
 		)
 		(pin "A6"
-			(uuid "6e75790a-f860-4242-bf30-40565fbec4d9")
+			(uuid "a5c1e73a-1b5d-488f-ad8b-f62919709139")
 		)
 		(pin "B1"
-			(uuid "1352b9af-e702-437b-bf4b-91fa7c7e7c09")
+			(uuid "6187e4c1-5856-4108-80b9-6005fbacad60")
 		)
 		(pin "A12"
-			(uuid "13dc9fc4-782a-4ac3-9eaa-c6e72c6bb8e6")
+			(uuid "69227fd0-3396-4b46-87a5-aa535a9c76c9")
 		)
 		(pin "A9"
-			(uuid "936f8e60-7d79-453e-a0c9-b3f53a084b89")
+			(uuid "ec47e4ab-e8f9-4dcb-b878-c0061aeaa5f0")
 		)
 		(pin "B12"
-			(uuid "720ebf49-ed17-43a1-98df-75ba2a92e6c5")
+			(uuid "9e1980ac-b1da-4ecd-92ef-aca5956312ac")
 		)
 		(pin "B9"
-			(uuid "908365cf-9c4f-4a55-9f2e-abd6cf204de4")
+			(uuid "2fa23828-80cb-4917-be2e-055c26004d86")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -4668,10 +4661,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c946fbd1-6981-41b5-ae71-dc05fbc46be8")
+			(uuid "25964c19-c61b-46a7-9105-5f9d74e79719")
 		)
 		(pin "2"
-			(uuid "cad5294d-3f8d-4465-975a-def08dcc0427")
+			(uuid "1355f576-e2f3-4267-b484-adb91413eedf")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -4810,10 +4803,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8bef522b-b37f-44cc-a873-2b63288b5b44")
+			(uuid "e4725520-30ee-4398-94b4-af90815b9c77")
 		)
 		(pin "2"
-			(uuid "1813be76-e2b8-4a13-9d74-a185d99bd2be")
+			(uuid "e15cce05-2955-4298-a035-0a3ad8f664e0")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -4878,7 +4871,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "508b437d-e530-46e8-a2f5-b7f6944c6faa")
+			(uuid "53acfced-3d79-4a0f-95df-5a786c96ed2f")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -4943,7 +4936,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "56188092-3b37-4777-bd74-4b49c9b1f3b2")
+			(uuid "d0946e8a-a13f-4798-beb3-ad1c422ccfac")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -5082,10 +5075,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6326151c-a992-41ff-8668-9bddd4d06797")
+			(uuid "50d2c4ce-c32f-40fc-b8e2-4837f7a23f0a")
 		)
 		(pin "2"
-			(uuid "45b95cd5-60f2-41d4-b1c6-8bb689568db1")
+			(uuid "526f980e-9a53-4cc1-9995-9d3d88393f97")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -5223,10 +5216,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b655a2e-8be1-4e9c-9c98-ef168adac056")
+			(uuid "f4466d3b-6dce-4085-b02c-3bc47ed4554f")
 		)
 		(pin "2"
-			(uuid "e0d5a9ad-fff7-4be8-aaec-4de7c9a0b043")
+			(uuid "3a53c627-6f2b-4fca-9116-2bbebf1dd305")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -5363,10 +5356,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "986deb97-831c-4757-8019-8be4e06faca2")
+			(uuid "de5af99e-fdce-4cc0-b00e-c511dee6583f")
 		)
 		(pin "1"
-			(uuid "7e5708d8-87e1-4202-ab9b-d6e940bc7495")
+			(uuid "e8c58a23-47bd-4938-a0de-a8c8e177615c")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -5387,7 +5380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86b92102-1461-4ffc-8138-0952d4e4469a")
-		(property "Reference" "U2"
+		(property "Reference" "U"
 			(at 223.52 69.85 0)
 			(effects
 				(font
@@ -5503,22 +5496,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9ba0e13-0472-476e-bf4e-41d90ad7f8a9")
+			(uuid "5fdbfe20-2cb4-4d14-bff4-85a8aa71a6ce")
 		)
 		(pin "2"
-			(uuid "b4219aa3-172e-43fe-8b14-270ee66948f5")
+			(uuid "3803606a-497b-47c3-8a22-45f4dc249d15")
 		)
 		(pin "3"
-			(uuid "cbaf9e57-acce-4571-aa1c-b4413cb3b890")
+			(uuid "fee25206-b131-4024-8849-afb20d6f79ad")
 		)
-		(instances
-			(project ""
-				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5648,10 +5634,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e937f864-fad1-4131-a82d-9ff113d55742")
+			(uuid "d338c5a6-0225-492b-a69b-f0caf316a5c4")
 		)
 		(pin "2"
-			(uuid "fd844c72-9e49-4624-9133-b03e3171f1ce")
+			(uuid "e7753782-29c9-417a-bfaf-df868df96a8c")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -5799,10 +5785,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "97a61552-8d8d-455c-be56-fa9446d76566")
+			(uuid "abed1fa1-0ada-406f-8668-f81ac086b4f3")
 		)
 		(pin "1"
-			(uuid "1ac6cf21-d33c-41d8-8c57-147da962cab0")
+			(uuid "b789a159-2a73-47a6-be66-efcce340d1d0")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -5941,10 +5927,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a2171ad-d40f-43fe-8461-86d8ebff7481")
+			(uuid "4276d34d-4358-41b1-ba61-f186c65e9d7e")
 		)
 		(pin "2"
-			(uuid "b3ff1352-ba61-4fef-a0dc-8287994d7144")
+			(uuid "75ec6de9-277e-4ed2-9cfd-a46c75c5e645")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -6009,7 +5995,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c29395b6-6212-48a6-8cd3-77bf1d4efb74")
+			(uuid "01faa66e-1f81-4b6f-a838-b534bc0fc0fd")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -6147,10 +6133,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "71f9f50b-26cc-471e-9629-63f38d8047e9")
+			(uuid "29f3526b-2682-4ee6-aed2-2f4976be11ec")
 		)
 		(pin "2"
-			(uuid "43bf49b9-f178-4a98-90c0-b1285dc1d940")
+			(uuid "d839fc26-fd3a-4352-8f86-c1074409204e")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -6171,7 +6157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7ccc47d-96c6-4609-af94-3020b2125615")
-		(property "Reference" "C1"
+		(property "Reference" "C"
 			(at 132.08 83.8199 0)
 			(effects
 				(font
@@ -6289,19 +6275,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "99b35a1f-c0e6-4fb0-9a43-9a2f5d93801d")
+			(uuid "28c05775-9769-48e0-a224-fba4f05da1b5")
 		)
 		(pin "2"
-			(uuid "aba6f5e2-55a5-481f-9974-a1e2cd1c47ad")
+			(uuid "04f83c2c-7b53-4bac-b0f3-9288a3766818")
 		)
-		(instances
-			(project ""
-				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -6357,7 +6336,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9eb15a8a-19d0-43b3-a3b8-681165753e7c")
+			(uuid "d82fcec9-bf77-45ff-9194-f59927ba8bb0")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -6495,10 +6474,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e71165b5-7aaa-47a3-bdbb-e175e5c22a2a")
+			(uuid "12e9beaa-ee5f-4f0a-876d-a15f7bc43600")
 		)
 		(pin "2"
-			(uuid "b5a35ab7-284e-40f4-83ee-8ee7a4a4d848")
+			(uuid "9ccd913e-ff82-414f-9157-e9b178763d70")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -6563,7 +6542,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "78871d7f-5c23-4f68-9c32-d924d3b48ce8")
+			(uuid "0c55dcde-9208-4455-88b1-bec48d09e2c6")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -6628,7 +6607,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc89a24c-00c5-433c-886a-db4a519d7dac")
+			(uuid "76bee14b-a89a-499e-a4a9-b274168cb4cd")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -6649,7 +6628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4859400-d013-4345-986f-9d137df1bdfd")
-		(property "Reference" "Z1"
+		(property "Reference" "Z"
 			(at 107.95 83.5421 90)
 			(effects
 				(font
@@ -6783,22 +6762,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4faef9bf-48ed-48c6-bb9f-4027763b75eb")
+			(uuid "c4228126-3b11-4aa0-886f-69070ad45300")
 		)
 		(pin "2"
-			(uuid "29b5e627-4486-411c-baa9-7c4fe0c36f41")
+			(uuid "d58569c0-084c-4ddf-bafa-7d1df89383f2")
 		)
 		(pin "3"
-			(uuid "b535281f-0630-43c4-b521-8bc8c2ed49e7")
+			(uuid "84b7b912-cad8-4eb8-bbb1-6c6b98d0414f")
 		)
-		(instances
-			(project ""
-				(path "/fadb8841-cd7a-4174-937d-7c393e857c90/addbb95a-5ecf-43db-ab5f-45b593a9e920"
-					(reference "Z1")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
@@ -6930,22 +6902,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "f190d9b4-364c-428f-946a-3031bceac87d")
+			(uuid "bef882cb-dac8-4084-8c25-43d000841f68")
 		)
 		(pin "1"
-			(uuid "b279df2a-23ba-4c43-be60-0b6a0edeed2a")
+			(uuid "a6512f27-1c67-442f-9c48-bbe55d8af3ec")
 		)
 		(pin "5"
-			(uuid "cbf11812-f68e-43f1-b3df-bae25c612a52")
+			(uuid "fd08231c-f227-4e36-983e-8676f8aed727")
 		)
 		(pin "6"
-			(uuid "e525e152-0729-4610-bf18-2df48b37ae76")
+			(uuid "3805f68c-7dd8-485c-9a5a-ff237781d718")
 		)
 		(pin "3"
-			(uuid "87477f01-943b-476c-80d9-d6699ee8c35d")
+			(uuid "bb860374-4e9f-45a6-88ad-c7e0900cc1e4")
 		)
 		(pin "2"
-			(uuid "d9e80f4b-0f59-47e0-839d-0d9c9373a4a9")
+			(uuid "c9192f5a-bbb2-4f8b-8154-3f093e13d15a")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -7010,7 +6982,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7aa64109-29ee-4ffc-88b7-85195e776132")
+			(uuid "db006f60-7d6e-48f8-a262-8d885c26b890")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -7147,10 +7119,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "bc2db778-7ef9-47b3-a556-0c4e90dfad3a")
+			(uuid "8c29bee0-f5c8-491d-b319-be0b1c7fe8d7")
 		)
 		(pin "1"
-			(uuid "29f5c045-8048-4c20-bed2-62aac5818bc4")
+			(uuid "96c09ff8-2a07-4f2c-b129-13fe590b4046")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -7215,7 +7187,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b0ca386-360b-4d6e-b4b9-7772a7a34eca")
+			(uuid "fb05db2d-0dc8-4247-afcc-f61a56291652")
 		)
 		(instances
 			(project "azukar-fpga"
@@ -7280,7 +7252,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "065cd235-66ce-4346-9324-cfb4eea02ffa")
+			(uuid "d3db8c62-8a31-45af-a71e-9cf60dc61b08")
 		)
 		(instances
 			(project "azukar-fpga"

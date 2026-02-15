@@ -43,7 +43,8 @@
 		(effects
 			(font
 				(size 2.54 2.54)
-				(thickness 0.3175)
+				(thickness 0.508)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -69,6 +70,8 @@
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 			(justify left)
 		)

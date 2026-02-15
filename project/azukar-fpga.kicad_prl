@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_55555555_d7555555",
+    "visible_layers": "00000000_00000000_55555555_d75755d7",
     "zone_display_mode": 0
   },
   "git": {
@@ -97,7 +97,7 @@
       108,
       107,
       91,
-      91
+      529
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -108,8 +108,8 @@
     "group_by_netclass": false,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
-    "sort_ascending": true,
-    "sorting_column": 0
+    "sort_ascending": false,
+    "sorting_column": 2
   },
   "open_jobsets": [],
   "project": {

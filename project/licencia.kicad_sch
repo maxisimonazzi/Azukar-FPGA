@@ -7,7 +7,7 @@
 	(title_block
 		(title "Azukar FPGA")
 		(date "2026-02-04")
-		(rev "1.4")
+		(rev "2.0")
 		(company "Maximiliano Simonazzi, Valentin Gomez Espeche")
 		(comment 1 "attribution to the original AZUKAR project is preserved.")
 		(comment 2 "This design may be copied, modified, manufactured, and distributed provided that")

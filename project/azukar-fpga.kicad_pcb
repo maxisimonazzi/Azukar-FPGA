@@ -46149,7 +46149,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "d01e0b26-f65b-4222-a574-31698b8c12b1")
-		(at 226.4 109.69)
+		(at 112.63 115.65)
 		(descr "Fiducial, circular marking, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "FFID1"
@@ -66023,6 +66023,14 @@
 		(uuid "421de3d7-19d2-4458-bd69-dba116357b3a")
 	)
 	(segment
+		(start 173.76 87.42)
+		(end 173.51 87.42)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "42b6938c-1dd1-481f-8739-1df300188c20")
+	)
+	(segment
 		(start 214.308 71.4964)
 		(end 214.008 71.4964)
 		(width 1)
@@ -67304,7 +67312,7 @@
 	)
 	(segment
 		(start 175.913824 87.42)
-		(end 173.736 87.42)
+		(end 173.76 87.42)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -67413,6 +67421,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "d4e5c1df-7089-4936-9848-37afd81c613e")
+	)
+	(segment
+		(start 173.76 86.265)
+		(end 173.76 87.42)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "d594701b-51c3-498c-baf7-e2e5f5d00dde")
 	)
 	(segment
 		(start 170.958 137.0634)

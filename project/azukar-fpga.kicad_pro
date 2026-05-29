@@ -255,7 +255,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "2.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -752,7 +752,7 @@
       {
         "filename": "azukar-fpga.kicad_sch",
         "name": "azukar-fpga",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "fadb8841-cd7a-4174-937d-7c393e857c90"
       }
     ],
     "used_designators": "",
@@ -761,7 +761,7 @@
   "sheets": [
     [
       "fadb8841-cd7a-4174-937d-7c393e857c90",
-      "Root"
+      "azukar-fpga"
     ],
     [
       "addbb95a-5ecf-43db-ab5f-45b593a9e920",

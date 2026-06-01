@@ -14,4 +14,9 @@ fp-info-cache
 
 # Backups
 /project/azukar-fpga-backups
+/project/fpga-utn-backups
 *.bak
+
+# Editor history
+.history/
+

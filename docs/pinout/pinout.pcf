@@ -1,0 +1,104 @@
+# -----------------------------------------------------------------------------
+#- Azukar v2 constraint file (.pcf)
+#- Oct - 2025
+#- CERN Open Hardware Licence Version 2 - Permissive
+#- Repo: https://github.com/maxisimonazzi/Azukar-FPGA - https://www.azukar.com.ar
+#- Pinout: https://github.com/maxisimonazzi/Azukar-FPGA/blob/main/docs/pinout/Pinout%20Azukar%20v2.png
+# -----------------------------------------------------------------------------
+
+# ------------ Buttons (active low)
+set_io -nowarn BTN0_ 118  # input
+set_io -nowarn BTN1_ 117  # input
+set_io -nowarn BTN2_ 116  # input
+set_io -nowarn BTN3_ 115  # input
+set_io -nowarn BTN4_ 114  # input
+set_io -nowarn BTN5_ 113  # input
+set_io -nowarn BTN6_ 112  # input
+set_io -nowarn BTN7_ 110  # input
+
+# ------------ User LEDs
+set_io -nowarn LED0 37  #-- output
+set_io -nowarn LED1 38  #-- output 
+set_io -nowarn LED2 39  #-- output
+set_io -nowarn LED3 41  #-- output 
+set_io -nowarn LED4 42  #-- output 
+set_io -nowarn LED5 43  #-- output
+set_io -nowarn LED6 44  #-- output 
+set_io -nowarn LED7 45  #-- output
+
+# ------------ SYSTEM CLOCK
+set_io -nowarn CLK12 49    # input
+set_io -nowarn CLK100 129  # input
+
+# ------------ FTDI (Virtual Serial port)
+set_io -nowarn RX  64  # input
+set_io -nowarn TX  63  # output
+set_io -nowarn RTS 62  # input
+set_io -nowarn CTS 61  # output
+set_io -nowarn DTR 60  # input
+set_io -nowarn DSR 56  # output
+set_io -nowarn DCD 55  # output
+
+# ------------ GPIO Bank 1
+set_io -nowarn GPIO0 74  # input/output
+set_io -nowarn GPIO1 76  # input/output
+set_io -nowarn GPIO2 79  # input/output
+set_io -nowarn GPIO3 81  # input/output
+set_io -nowarn GPIO4 83  # input/output
+set_io -nowarn GPIO5 85  # input/output
+set_io -nowarn GPIO6 88  # input/output
+set_io -nowarn GPIO7 73  # input/output
+set_io -nowarn GPIO8 75  # input/output
+set_io -nowarn GPIO9 78  # input/output
+set_io -nowarn GPIO10 80  # input/output
+set_io -nowarn GPIO11 82  # input/output
+set_io -nowarn GPIO12 84  # input/output
+set_io -nowarn GPIO13 87  # input/output
+
+# ------------ GPIO Bank 2
+set_io -nowarn GPIO14 91  # input/output
+set_io -nowarn GPIO15 94  # input/output
+set_io -nowarn GPIO16 96  # input/output
+set_io -nowarn GPIO17 98  # input/output
+set_io -nowarn GPIO18 101  # input/output
+set_io -nowarn GPIO19 104  # input/output
+set_io -nowarn GPIO20 106  # input/output
+set_io -nowarn GPIO21 93  # input/output
+set_io -nowarn GPIO22 95  # input/output
+set_io -nowarn GPIO23 97  # input/output
+set_io -nowarn GPIO24 99  # input/output
+set_io -nowarn GPIO25 102  # input/output
+set_io -nowarn GPIO26 105  # input/output
+set_io -nowarn GPIO27 107  # input/output
+
+# ------------ GPIO Bank 3
+set_io -nowarn GPIO28 33  # input/output
+set_io -nowarn GPIO29 31  # input/output
+set_io -nowarn GPIO30 28  # input/output
+set_io -nowarn GPIO31 25  # input/output
+set_io -nowarn GPIO32 23  # input/output
+set_io -nowarn GPIO33 21  # input/output
+set_io -nowarn GPIO34 19  # input/output
+set_io -nowarn GPIO35 34  # input/output
+set_io -nowarn GPIO36 32  # input/output
+set_io -nowarn GPIO37 29  # input/output
+set_io -nowarn GPIO38 26  # input/output
+set_io -nowarn GPIO39 24  # input/output
+set_io -nowarn GPIO40 22  # input/output
+set_io -nowarn GPIO41 20  # input/output
+
+# ------------ GPIO Bank 4
+set_io -nowarn GPIO42 17  # input/output
+set_io -nowarn GPIO43 15  # input/output
+set_io -nowarn GPIO44 11  # input/output
+set_io -nowarn GPIO45 9   # input/output
+set_io -nowarn GPIO46 7   # input/output
+set_io -nowarn GPIO47 3   # input/output
+set_io -nowarn GPIO48 1   # input/output
+set_io -nowarn GPIO49 18  # input/output
+set_io -nowarn GPIO50 16  # input/output
+set_io -nowarn GPIO51 12  # input/output
+set_io -nowarn GPIO52 10  # input/output
+set_io -nowarn GPIO53 8   # input/output
+set_io -nowarn GPIO54 4   # input/output
+set_io -nowarn GPIO55 2   # input/output

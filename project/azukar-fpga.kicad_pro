@@ -533,7 +533,9 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(255, 153, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -755,7 +757,7 @@
         "uuid": "fadb8841-cd7a-4174-937d-7c393e857c90"
       }
     ],
-    "used_designators": "U8-9",
+    "used_designators": "U8-9,JP3",
     "variants": []
   },
   "sheets": [

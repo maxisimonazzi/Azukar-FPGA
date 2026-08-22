@@ -6919,7 +6919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141RS73100.pdf"
 			(at 143.51 148.59 0)
 			(hide yes)
 			(show_name no)
